@@ -34,7 +34,7 @@ const Footer = () => {
                 </div>
                 {/* Kakao Service */}
                 <div>
-                    <h3 className="font-bold text-lg mb-4">Kakao Service</h3>
+                <h3 className="font-bold text-lg mb-4">&nbsp;&nbsp;&nbsp;</h3>
                     <ul className="space-y-2">
                         <li>Communication</li>
                         <li>Business</li>
