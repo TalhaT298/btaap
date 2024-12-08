@@ -4,10 +4,13 @@ const Footer = () => {
     return (
         <div>
            <div className="bg-gray-100 py-8 px-4" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}>
+            <div>
+            <h3 className="font-bold text-3xl mb-4">Today's Kakao</h3>
+            </div>
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8">
                 {/* Today's Kakao */}
                 <div>
-                    <h3 className="font-bold text-lg mb-4">Today's Kakao</h3>
+                     
                     <ul className="space-y-2">
                         <li>#Vaccination Certificate</li>
                         <li>#Certificate issuance</li>
