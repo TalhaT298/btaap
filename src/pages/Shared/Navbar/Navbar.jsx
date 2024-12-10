@@ -9,13 +9,19 @@ const Navbar = () => {
         </div>
         <ul className="flex items-center justify-between gap-6 text-slate-900">
           <li className="cursor-pointer  rounded-full  px-6 py-2 text-black hover:bg-[#97ce9b]">
-            Home
-          </li>
-          <li className="cursor-pointer  rounded-full px-6 py-2 text-black hover:bg-[#97ce9b]">
-            Services
-          </li>
-          <li className="cursor-pointer  rounded-full px-6 py-2 text-black hover:bg-[#97ce9b]">
             About
+          </li>
+          <li className="cursor-pointer  rounded-full px-6 py-2 text-black hover:bg-[#97ce9b]">
+            Tech & Service
+          </li>
+          <li className="cursor-pointer  rounded-full px-6 py-2 text-black hover:bg-[#97ce9b]">
+            Resposibility
+          </li>
+          <li className="cursor-pointer  rounded-full px-6 py-2 text-black hover:bg-[#97ce9b]">
+            News
+          </li>
+          <li className="cursor-pointer  rounded-full px-6 py-2 text-black hover:bg-[#97ce9b]">
+            IR
           </li>
         </ul>
         <div>
