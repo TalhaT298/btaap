@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
-import img1 from "../../../assets/banner.png"; // Replace with your actual image paths
+import img1 from "../../../assets/calender.png"; // Replace with your actual image paths
 import img2 from "../../../assets/b.png"; // Replace with your actual image paths
 import img3 from "../../../assets/banner.png"; // Replace with your actual image paths
+import calender from "../../../assets/calender.png";  
 
 const Banner = () => {
   const images = [img1, img2, img3]; // Array of images for the slider
@@ -29,12 +30,12 @@ const Banner = () => {
         {/* Right Side (20%) */}
         <div className="w-1/5 flex flex-col space-y-4 p-4">
           {/* First Box */}
-          <div className="bg-gray-600 flex items-center justify-center h-1/3 rounded-lg shadow-md">
-            <h2 className="text-white">First Box</h2>
+          <div className="bg-gray-600 flex items-center justify-center h-48 rounded-lg shadow-md">
+            <img className="h-full w-full object-cover rounded-lg" src={calender} alt="" />
           </div>
 
           {/* Second Box (Image Slider) */}
-          <div className="bg-gray-100 flex items-center justify-center h-1/3 rounded-lg shadow-md">
+          <div className="bg-gray-100 flex items-center justify-center h-48 rounded-lg shadow-md">
             <img
               src={images[currentImageIndex]}
               alt="Slider"
@@ -43,7 +44,7 @@ const Banner = () => {
           </div>
 
           {/* Third Box */}
-          <div className="bg-yellow-500 flex items-center justify-center h-1/3 rounded-lg shadow-md">
+          <div className="bg-yellow-500 flex items-center justify-center h-48 rounded-lg shadow-md">
             <h2 className="text-black">Third Box</h2>
           </div>
         </div>
