@@ -3,6 +3,7 @@ import img1 from "../../../assets/1.png"; // Replace with your actual image path
 import img2 from "../../../assets/2.png"; // Replace with your actual image paths
 import img3 from "../../../assets/3.png"; // Replace with your actual image paths
 import calender from "../../../assets/calender.png";  
+import world from "../../../assets/wo.gif";  
 
 const Banner = () => {
   const images = [img1, img2, img3]; // Array of images for the slider
@@ -45,7 +46,7 @@ const Banner = () => {
 
           {/* Third Box */}
           <div className="bg-yellow-500 flex items-center justify-center h-48 rounded-lg shadow-md">
-            <h2 className="text-black">Third Box</h2>
+          <img className="h-full w-full object-cover rounded-lg" src={world} alt="" />
           </div>
         </div>
       </div>
