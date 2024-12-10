@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import img1 from "../../../assets/calender.png"; // Replace with your actual image paths
-import img2 from "../../../assets/b.png"; // Replace with your actual image paths
-import img3 from "../../../assets/banner.png"; // Replace with your actual image paths
+import img1 from "../../../assets/1.png"; // Replace with your actual image paths
+import img2 from "../../../assets/2.png"; // Replace with your actual image paths
+import img3 from "../../../assets/3.png"; // Replace with your actual image paths
 import calender from "../../../assets/calender.png";  
 
 const Banner = () => {
