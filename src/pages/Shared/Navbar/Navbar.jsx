@@ -3,23 +3,23 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <nav className="flex items-center justify-between bg-[#393E46] px-4 py-2 text-white">
+      <nav className="flex items-center justify-between  px-4 py-2 text-white" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400}}>
         <div className="scale-100 rounded-2xl px-3 py-2 text-xl font-semibold text-white transition-all duration-200 hover:scale-110">
-          <h2>Logo</h2>
+          <h2 style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400,color: '#97ce9b' }}>Btaap</h2>
         </div>
         <ul className="flex items-center justify-between gap-6 text-slate-900">
-          <li className="cursor-pointer  rounded-full  px-6 py-2 text-white hover:bg-sky-600">
+          <li className="cursor-pointer  rounded-full  px-6 py-2 text-black hover:bg-sky-600">
             Home
           </li>
-          <li className="cursor-pointer  rounded-full px-6 py-2 text-white hover:bg-sky-600">
+          <li className="cursor-pointer  rounded-full px-6 py-2 text-black hover:bg-sky-600">
             Services
           </li>
-          <li className="cursor-pointer  rounded-full px-6 py-2 text-white hover:bg-sky-600">
+          <li className="cursor-pointer  rounded-full px-6 py-2 text-black hover:bg-sky-600">
             About
           </li>
         </ul>
         <div>
-          <li className="cursor-pointer flex gap-2 list-none rounded-full px-6 py-2 text-white hover:bg-sky-600">
+          <li className="cursor-pointer flex gap-2 list-none rounded-full px-6 py-2 text-black hover:bg-sky-600">
             <svg
               className="w-4"
               viewBox="0 0 15 15"
