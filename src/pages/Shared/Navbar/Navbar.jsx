@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className="flex items-center justify-between  px-4 py-2 text-white" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400}}>
-        <div className="scale-100 rounded-2xl px-3 py-2 text-xl font-semibold text-white transition-all duration-200 hover:scale-110">
+        <div className="scale-100 rounded-2xl px-3 py-2 text-xl font-semibold text-white transition-all  ">
           <h2 className="text-[#97ce9b] text-3xl font-bold" >Btaap</h2>
         </div>
         <ul className="flex items-center justify-between gap-6 text-slate-900">
@@ -27,7 +27,7 @@ const Navbar = () => {
           </li>
         </ul>
         <div>
-          <li className="cursor-pointer flex gap-2 list-none rounded-full px-6 py-2 text-black hover:bg-[#97ce9b]">
+          <li className="cursor-pointer flex gap-5 list-none rounded-full px-6 py-2 text-black ">
             
           <CiSearch className="w-7 h-7"/>
           <TbWorld className="w-7 h-7"/>
