@@ -4,7 +4,7 @@ import img2 from "../../../assets/2.png"; // Replace with your actual image path
 import img3 from "../../../assets/3.png"; // Replace with your actual image paths
 import calender from "../../../assets/calender.png";  
 import world from "../../../assets/wo.gif";  
-// import banner from "../../../assets/ba1.gif";  
+import banner from "../../../assets/ba1.gif";  
 
 const Banner = () => {
   const images = [img1, img2, img3]; // Array of images for the slider
@@ -25,7 +25,7 @@ const Banner = () => {
         {/* Left Side (80%) */}
         <div className="w-4/5 ">
           <h2 className="text-white text-center text-xl font-semibold">
-            {/* <img src={banner} alt="" /> */}
+            <img src={banner} alt="" />
           </h2>
         </div>
 
