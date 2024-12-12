@@ -14,7 +14,7 @@ const Moving = () => {
   return (
     <div className='pt-10'>
         ggggg
-        jjj
+        
     </div>
   );
 };
