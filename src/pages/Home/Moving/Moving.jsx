@@ -12,9 +12,8 @@ import React from 'react';
 
 const Moving = () => {
   return (
-    <div className='pt-10'>
-        ggggg
-        
+    <div>
+      
     </div>
   );
 };
