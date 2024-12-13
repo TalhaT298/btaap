@@ -17,6 +17,7 @@ import no4 from "../../../../src/assets/no3.png";
 import no5 from "../../../../src/assets/no5.png";
 import no6 from "../../../../src/assets/no6.png";
 import no7 from "../../../../src/assets/no7.png";
+import { GiPauseButton } from "react-icons/gi";
 const Moving = () => {
   const [paused, setPaused] = useState(false);
 
@@ -33,13 +34,13 @@ const Moving = () => {
             <div class="w-4 h-4 bg-gray-500"></div>
           </div>
 
-          <span class="text-lg font-medium text-black">
+          <span class="text-5xl font-extrabold text-black" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400}}>
             Btaap & Group Chronicles
           </span>
         </div>
 
         <div class="w-6 h-6 bg-black flex items-center justify-center rounded-full">
-          <div class="w-1 h-4 bg-white"></div>
+          <div class="w-1 h-4 bg-white"><GiPauseButton /></div>
           <div class="w-1 h-4 bg-white ml-1"></div>
         </div>
       </div>
