@@ -29,13 +29,13 @@ const Moving = () => {
     <div>
       <div className="py-8">
         <Marquee className="pt-16" direction="right"  pauseOnHover={true} speed={50}>
-          <img src={no1} alt="" className="mx-3" />
-          <img src={no2} alt="" className="mx-3" />
-          <img src={no4} alt="" className="mx-3" />
-          <img src={no3} alt="" className="mx-3" />
-          <img src={no5} alt="" className="mx-3" />
-          <img src={no6} alt="" className="mx-3" />
-          <img src={no7} alt="" className="mx-3" />
+          <img src={no1} alt="" className="mx-3 h-[450px] rounded-3xl" />
+          <img src={no2} alt="" className="mx-3 h-[450px] rounded-3xl" />
+          <img src={no4} alt="" className="mx-3 h-[450px] rounded-3xl" />
+          <img src={no3} alt="" className="mx-3 h-[450px] rounded-3xl" />
+          <img src={no5} alt="" className="mx-3 h-[450px] rounded-3xl" />
+          <img src={no6} alt="" className="mx-3 h-[450px] rounded-3xl" />
+          <img src={no7} alt="" className="mx-3 h-[450px] rounded-3xl" />
         </Marquee>
       </div>
     </div>
