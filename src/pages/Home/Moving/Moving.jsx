@@ -31,8 +31,8 @@ const Moving = () => {
     <div>
       <div className="flex items-center justify-between p-4">
         <div className="flex items-center space-x-2">
-          <div className="w-6 h-6 bg-gray-300 flex items-center justify-center rounded">
-            <div className="w-4 h-4 "> <img src={clip} alt="" /> </div>
+          <div className="w-10 h-10 flex items-center justify-center rounded">
+            <div className=" "> <img src={clip} alt="" /> </div>
           </div>
           <span
             className="text-5xl font-extrabold text-black"
