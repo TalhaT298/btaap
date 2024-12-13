@@ -8,7 +8,7 @@
 //   );
 // };
 // export default Moving;
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import Marquee from "react-fast-marquee";
 import no1 from "../../../../src/assets/no1.png";
 import no2 from "../../../../src/assets/no2.png";
@@ -27,8 +27,30 @@ const Moving = () => {
   };
   return (
     <div>
+      <div class="flex items-center justify-between p-4">
+        <div class="flex items-center space-x-2">
+          <div class="w-6 h-6 bg-gray-300 flex items-center justify-center rounded">
+            <div class="w-4 h-4 bg-gray-500"></div>
+          </div>
+
+          <span class="text-lg font-medium text-black">
+            Btaap & Group Chronicles
+          </span>
+        </div>
+
+        <div class="w-6 h-6 bg-black flex items-center justify-center rounded-full">
+          <div class="w-1 h-4 bg-white"></div>
+          <div class="w-1 h-4 bg-white ml-1"></div>
+        </div>
+      </div>
+
       <div className="py-8">
-        <Marquee className="pt-16" direction="right"  pauseOnHover={true} speed={50}>
+        <Marquee
+          className="pt-16"
+          direction="right"
+          pauseOnHover={true}
+          speed={50}
+        >
           <img src={no1} alt="" className="mx-3 h-[450px] rounded-3xl" />
           <img src={no2} alt="" className="mx-3 h-[450px] rounded-3xl" />
           <img src={no4} alt="" className="mx-3 h-[450px] rounded-3xl" />
