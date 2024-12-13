@@ -1,7 +1,7 @@
 import React from "react";
-import { CiSearch } from "react-icons/ci";
-import { TbWorld } from "react-icons/tb";
-import { LuMoon } from "react-icons/lu";
+// import { CiSearch } from "react-icons/ci";
+// import { TbWorld } from "react-icons/tb";
+// import { LuMoon } from "react-icons/lu";
 const Navbar = () => {
   return (
     <div>
@@ -29,9 +29,9 @@ const Navbar = () => {
         <div>
           <li className="cursor-pointer flex gap-5 list-none rounded-full px-6 py-2 text-black ">
             
-          <CiSearch className="w-7 h-7"/>
+          {/* <CiSearch className="w-7 h-7"/>
           <TbWorld className="w-7 h-7"/>
-          <LuMoon className="w-7 h-7"/>
+          <LuMoon className="w-7 h-7"/> */}
           </li>
         </div>
       </nav>
