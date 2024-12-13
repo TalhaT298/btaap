@@ -17,6 +17,7 @@ import no4 from "../../../../src/assets/no3.png";
 import no5 from "../../../../src/assets/no5.png";
 import no6 from "../../../../src/assets/no6.png";
 import no7 from "../../../../src/assets/no7.png";
+import clip from "../../../../src/assets/cli.gif";
 import { GiPauseButton, GiPlayButton } from "react-icons/gi";
 
 const Moving = () => {
@@ -31,7 +32,7 @@ const Moving = () => {
       <div className="flex items-center justify-between p-4">
         <div className="flex items-center space-x-2">
           <div className="w-6 h-6 bg-gray-300 flex items-center justify-center rounded">
-            <div className="w-4 h-4 bg-gray-500"></div>
+            <div className="w-4 h-4 "> <img src={clip} alt="" /> </div>
           </div>
           <span
             className="text-5xl font-extrabold text-black"
