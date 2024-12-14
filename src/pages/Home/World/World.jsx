@@ -63,7 +63,7 @@ const World = () => {
         </div>
 
         <div class="bg-gray-100 p-4 rounded-xl shadow flex h-36 pt-6">
-          <h2 class="font-extrabold text-4xl pt-6" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}>Life</h2>
+          <h2 class="font-extrabold text-4xl pt-6" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}>Life&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
           <div class="flex pt-2 px-4">
             <div class="p-1 rounded-full"><img className="rounded-2xl" src={map} alt="" /></div>
             <div class="p-1 rounded-full"><img className="rounded-2xl" src={qa} alt="" /></div>
@@ -73,7 +73,7 @@ const World = () => {
         </div>
 
         <div class="bg-gray-100 p-4 rounded-xl shadow flex h-36 pt-6">
-          <h2 class="font-extrabold text-4xl pt-6" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}>Shopping</h2>
+          <h2 class="font-extrabold text-4xl pt-6" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}>Shopping&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
           <div class="flex pt-2 px-4">
             <div class="p-1 rounded-full"><img className="rounded-2xl" src={aro} alt="" /></div>
             <div class="p-1 rounded-full"><img className="rounded-2xl" src={yello} alt="" /></div>
@@ -83,7 +83,7 @@ const World = () => {
         </div>
 
         <div class="bg-gray-100 p-4 rounded-xl shadow flex h-36 pt-6">
-          <h2 class="font-extrabold text-4xl pt-6" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}>Entertainment</h2>
+          <h2 class="font-extrabold text-4xl pt-6" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}>Entertainment&nbsp;&nbsp;&nbsp;</h2>
           <div class="flex pt-2 px-4">
             <div class="p-1 rounded-full"><img className="rounded-2xl" src={spo} alt="" /></div>
             <div class="p-1 rounded-full"><img className="rounded-2xl" src={net} alt="" /></div>
@@ -93,7 +93,7 @@ const World = () => {
         </div>
 
         <div class="bg-gray-100 p-4 rounded-xl shadow flex h-36 pt-6">
-          <h2 class="font-extrabold text-4xl pt-6" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}>Social Impact</h2>
+          <h2 class="font-extrabold text-4xl pt-6" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}>Social Impact&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
           <div class="flex pt-2 px-4">
             <div class="p-1 rounded-full"><img className="rounded-2xl" src={love} alt="" /></div>
             <div class="p-1 rounded-full"><img className="rounded-2xl" src={plus} alt="" /></div>
