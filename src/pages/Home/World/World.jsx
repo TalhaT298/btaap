@@ -1,10 +1,14 @@
 import React from "react";
 import bulb from "../../../../src/assets/bulb.png";
+import btap from "../../../../src/assets/B.svg";
+import facebook from "../../../../src/assets/facebook.svg";
+import insta from "../../../../src/assets/insta.svg";
+import plus from "../../../../src/assets/plus.svg";
 const World = () => {
   return (
-    <div>
+    <div className="py-8">
       {/* title add */}
-      <div className="flex items-center justify-between ">
+      <div className="flex items-center justify-between py-4">
         <div className="flex items-center space-x-2">
           <div
             className="w-16 h-12
@@ -24,16 +28,14 @@ const World = () => {
         </div>
       </div>
       {/* title end */}
-      <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2 pt-2">
-        <div class="bg-gray-100 p-4 rounded-3xl shadow flex h-36">
-          <h2 class="font-semibold text-lg mb-3">Communication</h2>
-          <div class="flex space-x-3">
-            <div class="bg-yellow-300 p-2 rounded-full"></div>
-            <div class="bg-blue-300 p-2 rounded-full"></div>
-            <div class="bg-green-300 p-2 rounded-full"></div>
-            <div class="bg-gray-400 p-2 rounded-full flex items-center justify-center">
-              +
-            </div>
+      <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2 pt-4 ">
+        <div class="bg-gray-100 p-4 rounded-xl shadow flex h-36 pt-6">
+          <h2 class="font-extrabold text-4xl pt-6" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}>Communication</h2>
+          <div class="flex pt-2 px-4">
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={btap} alt="" /></div>
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={facebook} alt="" /></div>
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={insta} alt="" /></div>
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={plus} alt="" /></div>
           </div>
         </div>
 
