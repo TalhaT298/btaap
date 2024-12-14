@@ -4,26 +4,19 @@ const World = () => {
   return (
     <div>
       {/* title add */}
-        <div className="flex items-center justify-between p-4">
+        <div className="flex items-center justify-between ">
               <div className="flex items-center space-x-2">
-                <div className="w-10 h-10
-                 flex items-center justify-center rounded">
-                  <div className=" "> <img src={bulb} alt="" /> </div>
+                <div className="w-16 h-12
+                 flex items-center justify-center rounded-lg ">
+                  <div className=" "> <img className='rounded-xl ' src={bulb} alt="" /> </div>
                 </div>
                 <span
-                  className="text-5xl font-extrabold text-black"
+                  className="text-5xl font-extrabold text-black px-6"
                   style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
                 >
                   Btaap creates a better world
                 </span>
               </div>
-      
-              <button
-                className="w-12 h-12 bg-black flex items-center justify-center rounded-full text-white"
-                onClick={handleTogglePause}
-              >
-                {paused ? <GiPlayButton size={24} /> : <GiPauseButton size={24} />}
-              </button>
             </div>
     </div>
   )
