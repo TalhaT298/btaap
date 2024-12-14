@@ -41,59 +41,51 @@ const World = () => {
 
         <div class="bg-gray-100 p-4 rounded-3xl shadow flex h-36">
           <h2 class="font-semibold text-lg mb-3">Business</h2>
-          <div class="flex space-x-3">
-            <div class="bg-yellow-300 p-2 rounded-full"></div>
-            <div class="bg-blue-700 p-2 rounded-full"></div>
-            <div class="bg-blue-400 p-2 rounded-full"></div>
-            <div class="bg-gray-400 p-2 rounded-full flex items-center justify-center">
-              +
-            </div>
+          <div class="flex pt-2 px-4">
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={btap} alt="" /></div>
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={facebook} alt="" /></div>
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={insta} alt="" /></div>
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={plus} alt="" /></div>
           </div>
         </div>
 
         <div class="bg-gray-100 p-4 rounded-3xl shadow flex h-36">
           <h2 class="font-semibold text-lg mb-3">Life</h2>
-          <div class="flex space-x-3">
-            <div class="bg-yellow-300 p-2 rounded-full"></div>
-            <div class="bg-blue-800 p-2 rounded-full"></div>
-            <div class="bg-yellow-400 p-2 rounded-full"></div>
-            <div class="bg-gray-400 p-2 rounded-full flex items-center justify-center">
-              +
-            </div>
+          <div class="flex pt-2 px-4">
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={btap} alt="" /></div>
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={facebook} alt="" /></div>
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={insta} alt="" /></div>
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={plus} alt="" /></div>
           </div>
         </div>
 
         <div class="bg-gray-100 p-4 rounded-3xl shadow flex h-36">
           <h2 class="font-semibold text-lg mb-3">Shopping</h2>
-          <div class="flex space-x-3">
-            <div class="bg-red-400 p-2 rounded-full"></div>
-            <div class="bg-yellow-400 p-2 rounded-full"></div>
-            <div class="bg-pink-400 p-2 rounded-full"></div>
-            <div class="bg-gray-400 p-2 rounded-full flex items-center justify-center">
-              +
-            </div>
+          <div class="flex pt-2 px-4">
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={btap} alt="" /></div>
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={facebook} alt="" /></div>
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={insta} alt="" /></div>
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={plus} alt="" /></div>
           </div>
         </div>
 
         <div class="bg-gray-100 p-4 rounded-3xl shadow flex h-36">
           <h2 class="font-semibold text-lg mb-3">Entertainment</h2>
-          <div class="flex space-x-3">
-            <div class="bg-yellow-800 p-2 rounded-full"></div>
-            <div class="bg-gray-100 p-2 rounded-full"></div>
-            <div class="bg-green-400 p-2 rounded-full"></div>
-            <div class="bg-gray-400 p-2 rounded-full flex items-center justify-center">
-              +
-            </div>
+          <div class="flex pt-2 px-4">
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={btap} alt="" /></div>
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={facebook} alt="" /></div>
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={insta} alt="" /></div>
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={plus} alt="" /></div>
           </div>
         </div>
 
         <div class="bg-gray-100 p-4 rounded-3xl shadow flex h-36">
           <h2 class="font-semibold text-lg mb-3">Social Impact</h2>
-          <div class="flex space-x-3">
-            <div class="bg-red-500 p-2 rounded-full"></div>
-            <div class="bg-gray-400 p-2 rounded-full flex items-center justify-center">
-              +
-            </div>
+          <div class="flex pt-2 px-4">
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={btap} alt="" /></div>
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={facebook} alt="" /></div>
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={insta} alt="" /></div>
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={plus} alt="" /></div>
           </div>
         </div>
       </div>
