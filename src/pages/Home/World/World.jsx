@@ -1,5 +1,5 @@
 import React from 'react'
-import clip from "../../../../src/assets/cli.gif";
+import bulb from "../../../../src/assets/bulb.png";
 const World = () => {
   return (
     <div>
@@ -8,7 +8,7 @@ const World = () => {
               <div className="flex items-center space-x-2">
                 <div className="w-10 h-10
                  flex items-center justify-center rounded">
-                  <div className=" "> <img src={clip} alt="" /> </div>
+                  <div className=" "> <img src={bulb} alt="" /> </div>
                 </div>
                 <span
                   className="text-5xl font-extrabold text-black"
