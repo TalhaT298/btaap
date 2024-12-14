@@ -3,6 +3,7 @@ import Banner from '../Banner/Banner';
 import Group from '../Group/Group';
 import Moving from '../Moving/Moving';
 import World from '../World/World';
+import News from '../News/News';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Group></Group>
             <Moving></Moving>
             <World></World>
+            <News></News>
         </div>
     );
 };
