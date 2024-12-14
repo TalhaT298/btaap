@@ -5,7 +5,7 @@ import facebook from "../../../../src/assets/facebook.svg";
 import insta from "../../../../src/assets/insta.svg";
 import plus from "../../../../src/assets/plus.svg";
 import ev from "../../../../src/assets/evaly.svg";
-import dr from "../../../../src/assets/draz.svg";
+import dr from "../../../../src/assets/daraz.svg";
 import am from "../../../../src/assets/amazone.svg";
 import map from "../../../../src/assets/map.svg";
 import qa from "../../../../src/assets/qatar.svg";
@@ -14,6 +14,9 @@ import aro from "../../../../src/assets/arong.svg";
 import yello from "../../../../src/assets/yellow.svg";
 import tag from "../../../../src/assets/taga.svg";
 import love from "../../../../src/assets/love.svg";
+import spo from "../../../../src/assets/spotify.svg";
+import net from "../../../../src/assets/netflix.svg";
+import sport from "../../../../src/assets/sports.svg";
 const World = () => {
   return (
     <div className="py-8">
@@ -82,9 +85,9 @@ const World = () => {
         <div class="bg-gray-100 p-4 rounded-xl shadow flex h-36 pt-6">
           <h2 class="font-extrabold text-4xl pt-6" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}>Entertainment</h2>
           <div class="flex pt-2 px-4">
-            <div class="p-1 rounded-full"><img className="rounded-2xl" src={btap} alt="" /></div>
-            <div class="p-1 rounded-full"><img className="rounded-2xl" src={facebook} alt="" /></div>
-            <div class="p-1 rounded-full"><img className="rounded-2xl" src={insta} alt="" /></div>
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={spo} alt="" /></div>
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={net} alt="" /></div>
+            <div class="p-1 rounded-full"><img className="rounded-2xl" src={sport} alt="" /></div>
             <div class="p-1 rounded-full"><img className="rounded-2xl" src={plus} alt="" /></div>
           </div>
         </div>
