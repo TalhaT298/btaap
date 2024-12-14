@@ -17,6 +17,7 @@ import love from "../../../../src/assets/love.svg";
 import spo from "../../../../src/assets/spotify.svg";
 import net from "../../../../src/assets/netflix.svg";
 import sport from "../../../../src/assets/sports.svg";
+import { FaArrowCircleRight } from "react-icons/fa";
 const World = () => {
   return (
     <div className="py-8">
@@ -99,6 +100,10 @@ const World = () => {
             <div class="p-1 rounded-full"><img className="rounded-2xl" src={plus} alt="" /></div>
           </div>
         </div>
+      </div>
+      {/* button start */}
+      <div className="flex justify-center items-center pt-8 px-16">
+      <button className="btn h-10 bg-gray-100 rounded-3xl text-2xl" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}>&nbsp;&nbsp;Go to the service<FaArrowCircleRight />&nbsp;&nbsp;</button>
       </div>
     </div>
   );
