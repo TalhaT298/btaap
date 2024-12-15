@@ -1,5 +1,5 @@
 import React from 'react'
-
+import calender from "../../../../src/assets/calender.gif";
 const Responsibility = () => {
   return (
     <div>

@@ -4,6 +4,7 @@ import Group from '../Group/Group';
 import Moving from '../Moving/Moving';
 import World from '../World/World';
 import News from '../News/News';
+import Responsibility from '../Responsibility/Responsibility';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Moving></Moving>
             <World></World>
             <News></News>
+            <Responsibility></Responsibility>
         </div>
     );
 };
