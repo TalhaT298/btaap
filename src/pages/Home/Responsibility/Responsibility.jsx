@@ -19,7 +19,7 @@ const Responsibility = () => {
                   className="text-5xl font-extrabold text-black px-6"
                   style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
                 >
-                  Today's News
+                  Promise and Responsibility
                 </span>
               </div>
             </div>
