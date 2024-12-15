@@ -67,18 +67,20 @@ const News = () => {
               <span class="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
                 Press release
               </span>
-              <span class="text-sm text-gray-500">2024.12.13</span>
+              <span class="text-sm text-gray-500">2024.12.12</span>
               <span className="text-xl px-2">⫶</span>
             </div>
 
             <h2 class="text-4xl font-semibold mt-2 py-10">
-              Btaap to hold '2024 Kakao Business Best Awards' ceremony
+            Kakao Together Value, Various Sharing
+            Activities to Meet the End of the Year
             </h2>
 
             <div class="mt-12 flex flex-wrap gap-2 text-sm text-gray-600">
-              <span>#Symbiosis</span>
+              <span>#ESG</span>
+              <span>#TogetherValues</span>
               <span>#Btaap</span>
-              <span>#BtaapBusiness</span>
+             
             </div>
           </div>
 
@@ -99,18 +101,18 @@ const News = () => {
               <span class="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
                 Press release
               </span>
-              <span class="text-sm text-gray-500">2024.12.13</span>
+              <span class="text-sm text-gray-500">2024.12.11</span>
               <span className="text-xl px-2">⫶</span>
             </div>
 
             <h2 class="text-4xl font-semibold mt-2 py-10">
-              Btaap to hold '2024 Kakao Business Best Awards' ceremony
+            Kakao Wins '2024 Korea Mutual Growth Award' Selected by the Mutual Growth Committee
             </h2>
 
             <div class="mt-12 flex flex-wrap gap-2 text-sm text-gray-600">
-              <span>#Symbiosis</span>
-              <span>#Btaap</span>
-              <span>#BtaapBusiness</span>
+              <span>#Joint Growth Target</span>
+              <span>#Digital Transformatio...</span>
+              
             </div>
           </div>
 
