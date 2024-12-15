@@ -1,5 +1,8 @@
 import React from "react";
 import promise from "../../../../src/assets/promise.gif";
+import sc from "../../../../src/assets/sc.gif";
+import tree from "../../../../src/assets/tree.gif";
+import coin from "../../../../src/assets/coin.gif";
 const Responsibility = () => {
   return (
     <div>
@@ -25,11 +28,10 @@ const Responsibility = () => {
       </div>
       {/* title end */}
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        <img src="image1.jpg" alt="Image 1" class="w-full h-auto" />
-        <img src="image2.jpg" alt="Image 2" class="w-full h-auto" />
-        <img src="image3.jpg" alt="Image 3" class="w-full h-auto" />
-        <img src="image4.jpg" alt="Image 4" class="w-full h-auto" />
-        <img src="image5.jpg" alt="Image 5" class="w-full h-auto" />
+        <img src={sc} alt="Image 1" class="w-full h-auto" />
+        <img src={tree} alt="Image 2" class="w-full h-auto" />
+        <img src={coin} alt="Image 3" class="w-full h-auto" />
+        
       </div>
     </div>
   );
