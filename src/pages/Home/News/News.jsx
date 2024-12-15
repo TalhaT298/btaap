@@ -4,6 +4,7 @@ import ba1 from "../../../../src/assets/ba1.png";
 import ba2 from "../../../../src/assets/ba2.png";
 import ba3 from "../../../../src/assets/ba3.png";
 import { AiTwotoneSound } from "react-icons/ai";
+import { IoArrowForwardCircleSharp } from "react-icons/io5";
 const News = () => {
   return (
     <div className="py-10">
@@ -164,9 +165,10 @@ const News = () => {
             class="font-medium text-3xl pt-6"
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
           >
-            Press release
+            Press release&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </h2>
-          <div class="flex pt-2 px-4">
+          <div class="flex pt-6 px-4">
+          <IoArrowForwardCircleSharp className="w-10 h-10" />
             {/* <div class="p-1 rounded-full"><img className="rounded-2xl" src={btap} alt="" /></div>
                     <div class="p-1 rounded-full"><img className="rounded-2xl" src={facebook} alt="" /></div>
                     <div class="p-1 rounded-full"><img className="rounded-2xl" src={insta} alt="" /></div>
@@ -179,9 +181,10 @@ const News = () => {
             class="font-medium text-3xl pt-6"
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
           >
-            Media Materials
+            Media Materials&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </h2>
-          <div class="flex pt-2 px-4">
+          <div class="flex pt-6 px-4">
+          <IoArrowForwardCircleSharp className="w-10 h-10" />
             {/* <div class="p-1 rounded-full"><img className="rounded-2xl" src={btap} alt="" /></div>
                             <div class="p-1 rounded-full"><img className="rounded-2xl" src={facebook} alt="" /></div>
                             <div class="p-1 rounded-full"><img className="rounded-2xl" src={insta} alt="" /></div>
