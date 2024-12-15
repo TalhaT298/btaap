@@ -1,5 +1,8 @@
 import React from "react";
 import calender from "../../../../src/assets/calender.gif";
+import ba1 from "../../../../src/assets/ba1.png";
+import ba2 from "../../../../src/assets/ba2.png";
+import ba3 from "../../../../src/assets/ba3.png";
 import { AiTwotoneSound } from "react-icons/ai";
 const News = () => {
   return (
@@ -49,7 +52,7 @@ const News = () => {
             </div>
           </div>
           <img
-            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            src={ba1}
             alt="Btaap Business Best Awards"
             className="w-full h-56 object-cover"
           />
@@ -79,7 +82,7 @@ const News = () => {
             </div>
           </div>
           <img
-            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            src={ba2}
             alt="Kakao Together Value"
             className="w-full h-56 object-cover"
           />
@@ -108,7 +111,7 @@ const News = () => {
             </div>
           </div>
           <img
-            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            src={ba3}
             alt="Kakao Mutual Growth"
             className="w-full h-56 object-cover"
           />
