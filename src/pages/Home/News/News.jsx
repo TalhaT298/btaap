@@ -57,30 +57,68 @@ const News = () => {
           />
         </div>
 
-        <div className="card bg-base-100 w-96 shadow-xl">
-          <div className="card-body">
-            <h2 className="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+        {/* 2nd start */}
+        <div class="max-w-md mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
+          <div class="p-4">
+            <div class="flex items-center space-x-2">
+              <div class="flex items-center text-[#97ce9b]">
+              <AiTwotoneSound className="text-[#97ce9b] w-8 h-8"/>
+              </div>
+              <span class="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
+                Press release
+              </span>
+              <span class="text-sm text-gray-500">2024.12.13</span>
+              <span className="text-xl px-2">⫶</span>
+            </div>
+
+            <h2 class="text-4xl font-semibold mt-2 py-10">
+              Btaap to hold '2024 Kakao Business Best Awards' ceremony
+            </h2>
+
+            <div class="mt-12 flex flex-wrap gap-2 text-sm text-gray-600">
+              <span>#Symbiosis</span>
+              <span>#Btaap</span>
+              <span>#BtaapBusiness</span>
+            </div>
           </div>
-          <figure>
-            <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-              alt="Shoes"
-            />
-          </figure>
+
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            alt="Btaap Business Best Awards"
+            class="w-full h-56 object-cover"
+          />
         </div>
 
-        <div className="card bg-base-100 w-96 shadow-xl">
-          <div className="card-body">
-            <h2 className="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+        {/* 3rd add */}
+        <div class="max-w-md mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
+          <div class="p-4">
+            <div class="flex items-center space-x-2">
+              <div class="flex items-center text-[#97ce9b]">
+              <AiTwotoneSound className="text-[#97ce9b] w-8 h-8"/>
+              </div>
+              <span class="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
+                Press release
+              </span>
+              <span class="text-sm text-gray-500">2024.12.13</span>
+              <span className="text-xl px-2">⫶</span>
+            </div>
+
+            <h2 class="text-4xl font-semibold mt-2 py-10">
+              Btaap to hold '2024 Kakao Business Best Awards' ceremony
+            </h2>
+
+            <div class="mt-12 flex flex-wrap gap-2 text-sm text-gray-600">
+              <span>#Symbiosis</span>
+              <span>#Btaap</span>
+              <span>#BtaapBusiness</span>
+            </div>
           </div>
-          <figure>
-            <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-              alt="Shoes"
-            />
-          </figure>
+
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            alt="Btaap Business Best Awards"
+            class="w-full h-56 object-cover"
+          />
         </div>
       </div>
     </div>
