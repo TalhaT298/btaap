@@ -26,7 +26,7 @@ const News = () => {
       </div>
       {/* title end */}
       <div className="flex flex-wrap justify-center gap-4">
-        <div class="max-w-md mx-auto bg-gray-100 rounded-xl shadow-md overflow-hidden">
+        <div class="max-w-md mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
           <div class="p-4">
             <div class="flex items-center space-x-2">
               <div class="flex items-center text-[#97ce9b]">
@@ -40,19 +40,19 @@ const News = () => {
             </div>
 
             <h2 class="text-4xl font-semibold mt-2 py-10">
-              Kakao to hold '2024 Kakao Business Best Awards' ceremony
+              Btaap to hold '2024 Kakao Business Best Awards' ceremony
             </h2>
 
             <div class="mt-12 flex flex-wrap gap-2 text-sm text-gray-600">
               <span>#Symbiosis</span>
-              <span>#Kakao</span>
-              <span>#KakaoBusiness</span>
+              <span>#Btaap</span>
+              <span>#BtaapBusiness</span>
             </div>
           </div>
 
           <img
             src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-            alt="Kakao Business Best Awards"
+            alt="Btaap Business Best Awards"
             class="w-full h-56 object-cover"
           />
         </div>
