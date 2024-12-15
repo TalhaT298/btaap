@@ -42,7 +42,7 @@ const News = () => {
               <span className="text-sm text-gray-500">2024.12.13</span>
               <span className="text-xl px-2">⫶</span>
             </div>
-            <h2 className="text-4xl font-semibold mt-2 py-10">
+            <h2 className="text-4xl font-semibold mt-2 py-10" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}>
               Btaap to hold '2024 Kakao Business Best Awards' ceremony
             </h2>
             <div className="mt-24 flex flex-wrap gap-2 text-sm text-gray-600">
@@ -71,7 +71,7 @@ const News = () => {
               <span className="text-sm text-gray-500">2024.12.12</span>
               <span className="text-xl px-2">⫶</span>
             </div>
-            <h2 className="text-4xl font-semibold mt-2 pt-10">
+            <h2 className="text-4xl font-semibold mt-2 pt-10" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}>
               Btaap Together Value, Various Sharing Activities to Meet the End
               of the Year
             </h2>
@@ -101,7 +101,7 @@ const News = () => {
               <span className="text-sm text-gray-500">2024.12.11</span>
               <span className="text-xl px-2">⫶</span>
             </div>
-            <h2 className="text-4xl font-semibold mt-2 pt-10">
+            <h2 className="text-4xl font-semibold mt-2 pt-10" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}>
               Btaap Wins '2024 Korea Mutual Growth Award' Selected by the Mutual
               Growth Committee
             </h2>
@@ -132,7 +132,7 @@ const News = () => {
               <span className="text-sm text-gray-500">2024.12.13</span>
               <span className="text-xl px-2">⫶</span>
             </div>
-            <h2 className="text-3xl font-medium mt-2 py-7">
+            <h2 className="text-3xl font-medium mt-2 py-7" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}>
               Btaap , Btaap Tech Campus 2nd Graduation Ceremony Held
             </h2>
           </div>
@@ -151,7 +151,7 @@ const News = () => {
               <span className="text-sm text-gray-500">2024.12.12</span>
               <span className="text-xl px-2">⫶</span>
             </div>
-            <h2 className="text-3xl font-medium mt-2 pt-7">
+            <h2 className="text-3xl font-medium mt-2 pt-7" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}>
               Btaap Shopping Tab Reorganization, Strengthening Customized
               Shopping...
             </h2>
@@ -161,10 +161,10 @@ const News = () => {
         {/* Card 3 */}
         <div class="bg-gray-100 p-4 rounded-xl shadow-md flex h-36 pt-6">
           <h2
-            class="font-extrabold text-4xl pt-6"
-            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+            class="font-medium text-3xl pt-6"
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
           >
-            Communication
+            Press release
           </h2>
           <div class="flex pt-2 px-4">
             {/* <div class="p-1 rounded-full"><img className="rounded-2xl" src={btap} alt="" /></div>
@@ -176,10 +176,10 @@ const News = () => {
               {/* card 4 add */}
         <div class="bg-gray-100 p-4 rounded-xl shadow-md flex h-36 pt-6">
           <h2
-            class="font-extrabold text-4xl pt-6"
-            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+            class="font-medium text-3xl pt-6"
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
           >
-            Communication
+            Media Materials
           </h2>
           <div class="flex pt-2 px-4">
             {/* <div class="p-1 rounded-full"><img className="rounded-2xl" src={btap} alt="" /></div>
