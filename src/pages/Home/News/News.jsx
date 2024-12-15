@@ -39,7 +39,7 @@ const News = () => {
               <span className="text-xl px-2">⫶</span>
             </div>
 
-            <h2 class="text-4xl font-bold mt-2 py-10">
+            <h2 class="text-4xl font-semibold mt-2 py-10">
               Kakao to hold '2024 Kakao Business Best Awards' ceremony
             </h2>
 
