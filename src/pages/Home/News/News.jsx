@@ -120,7 +120,7 @@ const News = () => {
       {/* last part start */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center p-4">
         {/* Card 1 */}
-        <div className="max-w-md mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
+        <div className=" mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
           <div className="p-4">
             <div className="flex items-center space-x-2">
               <div className="flex items-center text-[#97ce9b]">
@@ -132,19 +132,14 @@ const News = () => {
               <span className="text-sm text-gray-500">2024.12.13</span>
               <span className="text-xl px-2">⫶</span>
             </div>
-            <h2 className="text-4xl font-semibold mt-2 py-10">
-              Btaap to hold '2024 Kakao Business Best Awards' ceremony
+            <h2 className="text-3xl font-medium mt-2 py-7">
+              Btaap , Btaap Tech Campus 2nd Graduation Ceremony Held
             </h2>
-            <div className="mt-24 flex flex-wrap gap-2 text-sm text-gray-600">
-              <span>#Symbiosis</span>
-              <span>#Btaap</span>
-              <span>#BtaapBusiness</span>
-            </div>
           </div>
         </div>
 
         {/* Card 2 */}
-        <div className="max-w-md mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
+        <div className="mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
           <div className="p-4">
             <div className="flex items-center space-x-2">
               <div className="flex items-center text-[#97ce9b]">
@@ -156,15 +151,9 @@ const News = () => {
               <span className="text-sm text-gray-500">2024.12.12</span>
               <span className="text-xl px-2">⫶</span>
             </div>
-            <h2 className="text-4xl font-semibold mt-2 pt-10">
-              Btaap Together Value, Various Sharing Activities to Meet the End
-              of the Year
+            <h2 className="text-3xl font-medium mt-2 pt-7">
+              Btaap Shopping Tab Reorganization, Strengthening Customized Shopping...
             </h2>
-            <div className="mt-24 flex flex-wrap gap-2 text-sm text-gray-600">
-              <span>#ESG</span>
-              <span>#TogetherValues</span>
-              <span>#Btaap</span>
-            </div>
           </div>
           
         </div>
