@@ -3,7 +3,27 @@ import React from 'react'
 const Responsibility = () => {
   return (
     <div>
-      
+      {/* title add */}
+            <div className="flex items-center justify-between py-6">
+              <div className="flex items-center space-x-2">
+                <div
+                  className="w-16 h-16
+                             flex items-center justify-center rounded-lg "
+                >
+                  <div className=" ">
+                    {" "}
+                    <img className="rounded-xl " src={calender} alt="" />{" "}
+                  </div>
+                </div>
+                <span
+                  className="text-5xl font-extrabold text-black px-6"
+                  style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
+                >
+                  Today's News
+                </span>
+              </div>
+            </div>
+            {/* title end */}
     </div>
   )
 }
