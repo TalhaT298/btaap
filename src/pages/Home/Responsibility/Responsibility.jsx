@@ -1,5 +1,5 @@
 import React from 'react'
-import calender from "../../../../src/assets/calender.gif";
+import promise from "../../../../src/assets/promise.gif";
 const Responsibility = () => {
   return (
     <div>
@@ -12,7 +12,7 @@ const Responsibility = () => {
                 >
                   <div className=" ">
                     {" "}
-                    <img className="rounded-xl " src={calender} alt="" />{" "}
+                    <img className="rounded-xl " src={promise} alt="" />{" "}
                   </div>
                 </div>
                 <span
