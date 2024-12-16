@@ -11,11 +11,12 @@ import { FaFacebook } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaDiscord } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import { IoArrowForwardCircleSharp } from "react-icons/io5";
 const Help = () => {
   return (
     <div className="py-8">
       {/* title add */}
-      <div className="flex items-center justify-between py-8">
+      <div className="flex items-center justify-between pt-8">
         <div className="flex items-center space-x-2">
           <div
             className="w-16 h-16
@@ -79,7 +80,7 @@ const Help = () => {
                 </p>
               </div>
               <div class="w-16 h-16 rounded-full  flex items-center justify-center">
-              <img src={cofe} alt="" />
+                <img src={cofe} alt="" />
               </div>
             </div>
 
@@ -172,6 +173,42 @@ const Help = () => {
             </div>
           </div>
           <img src={map3} alt="" className="w-full h-56 object-cover m-0 p-0" />
+        </div>
+      </div>
+      {/* last section */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center p-4">
+        <div class="bg-gray-100 p-4 rounded-xl shadow-md flex h-36 pt-6">
+          <h2
+            class="font-medium text-3xl pt-6"
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
+          >
+            Press
+            release&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </h2>
+          <div class="flex pt-6 px-4">
+            <IoArrowForwardCircleSharp className="w-10 h-10" />
+            {/* <div class="p-1 rounded-full"><img className="rounded-2xl" src={btap} alt="" /></div>
+                            <div class="p-1 rounded-full"><img className="rounded-2xl" src={facebook} alt="" /></div>
+                            <div class="p-1 rounded-full"><img className="rounded-2xl" src={insta} alt="" /></div>
+                            <div class="p-1 rounded-full"><img className="rounded-2xl" src={plus} alt="" /></div> */}
+          </div>
+        </div>
+        {/* card 4 add */}
+        <div class="bg-gray-100 p-4 rounded-xl shadow-md flex h-36 pt-6">
+          <h2
+            class="font-medium text-3xl pt-6"
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
+          >
+            Media
+            Materials&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </h2>
+          <div class="flex pt-6 px-4">
+            <IoArrowForwardCircleSharp className="w-10 h-10" />
+            {/* <div class="p-1 rounded-full"><img className="rounded-2xl" src={btap} alt="" /></div>
+                                    <div class="p-1 rounded-full"><img className="rounded-2xl" src={facebook} alt="" /></div>
+                                    <div class="p-1 rounded-full"><img className="rounded-2xl" src={insta} alt="" /></div>
+                                    <div class="p-1 rounded-full"><img className="rounded-2xl" src={plus} alt="" /></div> */}
+          </div>
         </div>
       </div>
     </div>
