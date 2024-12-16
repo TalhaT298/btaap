@@ -4,7 +4,7 @@ import ba1 from "../../../../src/assets/ba1.png";
 import ba2 from "../../../../src/assets/ba2.png";
 import ba3 from "../../../../src/assets/ba3.png";
 import { AiTwotoneSound } from "react-icons/ai";
-import { IoArrowForwardCircleSharp } from "react-icons/io5";
+import { AiOutlineCheckCircle } from "react-icons/ai";
 const Help = () => {
   return (
     <div className="py-8">
@@ -94,7 +94,7 @@ const Help = () => {
               {/* Card 3 */}
               <div className="max-w-md mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
                 <div className="p-4">
-                  <div className="flex items-center space-x-2">
+                  {/* <div className="flex items-center space-x-2">
                     <div className="flex items-center text-[#97ce9b]">
                       <AiTwotoneSound className="text-[#97ce9b] w-8 h-8" />
                     </div>
@@ -103,14 +103,13 @@ const Help = () => {
                     </span>
                     <span className="text-sm text-gray-500">2024.12.11</span>
                     <span className="text-xl px-2">⫶</span>
-                  </div>
+                  </div> */}
                   <h2 className="text-4xl font-semibold mt-2 pt-10" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}>
-                    Btaap Wins '2024 Korea Mutual Growth Award' Selected by the Mutual
-                    Growth Committee
+                  If you are interested in everything in the world,
+                  you are already a member of the Btaap crew.
                   </h2>
-                  <div className="mt-[56px] flex flex-wrap gap-2 text-sm text-gray-600">
-                    <span>#Joint Growth Target</span>
-                    <span>#Digital Transformation</span>
+                  <div className="mt-[56px] flex flex-wrap gap-2 text-xl text-gray-600">
+                  Recruitment news <AiOutlineCheckCircle className="w-7 h-7"/>
                   </div>
                 </div>
                 <img
