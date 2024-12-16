@@ -87,11 +87,18 @@ const Help = () => {
                     <span>#TogetherValues</span>
                     <span>#Btaap</span> */}
                     <p>Go to official social media</p>
-                    <IoLogoInstagram />
-                    <FaFacebook />
-                    <FaLinkedinIn />
-                    <FaDiscord />
-                    <FaYoutube />
+                   
+                  </div>
+                  <div className="mt-12 flex flex-wrap gap-2 justify-center items-center">
+                    {/* <span>#ESG</span>
+                    <span>#TogetherValues</span>
+                    <span>#Btaap</span> */}
+                   
+                    <IoLogoInstagram className=" w-10 h-10 text-sm text-white"/>
+                    <FaFacebook className=" w-10 h-10 text-sm text-white"/>
+                    <FaLinkedinIn className=" w-10 h-10 text-sm text-white"/>
+                    <FaDiscord className=" w-10 h-10 text-sm text-white"/>
+                    <FaYoutube className=" w-10 h-10 text-sm text-white"/>
                   </div>
                 </div>
                 <img
