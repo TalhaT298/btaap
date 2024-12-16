@@ -1,5 +1,5 @@
 import React from 'react'
-import promise from "../../../../src/assets/promise.gif";
+import robot from "../../../../src/assets/robot.gif";
 const Help = () => {
   return (
     <div className='py-8'>
@@ -19,7 +19,7 @@ const Help = () => {
                   className="text-5xl font-extrabold text-black px-6"
                   style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
                 >
-                  Promise and Responsibility
+                  How may I help you?
                 </span>
               </div>
             </div>
