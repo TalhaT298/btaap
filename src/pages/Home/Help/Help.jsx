@@ -57,7 +57,7 @@ const Help = () => {
                   </span>
                 </p>
               </div>
-              <div class="w-14 h-14 rounded-full bg-yellow-400 flex items-center justify-center">
+              <div class="w-16 h-16 rounded-full bg-yellow-400 flex items-center justify-center">
                 <img src={mail12} alt="" />
               </div>
             </div>
@@ -78,7 +78,7 @@ const Help = () => {
                   </span>
                 </p>
               </div>
-              <div class="w-14 h-14 rounded-full border-4 border-red-500 flex items-center justify-center">
+              <div class="w-16 h-16 rounded-full  flex items-center justify-center">
               <img src={cofe} alt="" />
               </div>
             </div>
