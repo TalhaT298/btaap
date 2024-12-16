@@ -3,6 +3,7 @@ import robot from "../../../../src/assets/robot.gif";
 import ba1 from "../../../../src/assets/ba1.png";
 import ba2 from "../../../../src/assets/ba2.png";
 import map3 from "../../../../src/assets/map.webp";
+import robot2 from "../../../../src/assets/robot2.webp";
 import { AiTwotoneSound } from "react-icons/ai";
 import { AiOutlineCheckCircle } from "react-icons/ai";
 import { IoLogoInstagram } from "react-icons/io5";
@@ -79,10 +80,10 @@ const Help = () => {
                     <span className="text-sm text-gray-500">2024.12.12</span>
                     <span className="text-xl px-2">⫶</span>
                   </div> */}
-                  <h2 className="text-4xl font-semibold mt-2 pt-10" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}>
+                  <h2 className="text-4xl text-white font-semibold mt-2 pt-10" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}>
                   Subscribe to various news from Btaap!
                   </h2>
-                  <div className="mt-24 flex flex-wrap gap-2 text-sm text-gray-600">
+                  <div className="mt-12 flex flex-wrap gap-2 text-xl text-white">
                     {/* <span>#ESG</span>
                     <span>#TogetherValues</span>
                     <span>#Btaap</span> */}
@@ -102,7 +103,7 @@ const Help = () => {
                   </div>
                 </div>
                 <img
-                  src={ba2}
+                  src={robot2}
                   alt="Kakao Together Value"
                   className="w-full h-56 object-cover"
                 />
