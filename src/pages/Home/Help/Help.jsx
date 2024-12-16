@@ -40,17 +40,20 @@ const Help = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 justify-center p-4">
         {/* Card 1 */}
         <div>
-          <div class="flex flex-col space-y-6   min-h-screen">
+          <div class="flex flex-col space-y-10   min-h-screen">
             {/* <!-- Card 1 --> */}
             <div class="flex items-center justify-between p-4 h-40 bg-gray-100 shadow-md rounded-2xl ">
               <div>
-                <h2 class="text-3xl font-semibold text-black"  style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}>
+                <h2
+                  class="text-3xl font-semibold text-black"
+                  style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
+                >
                   Btaap Customer Cen
                 </h2>
                 <p class="text-lg text-gray-600 flex items-center pt-4">
                   Shortcut
                   <span class="text-black ">
-                  <FaArrowCircleRight className="w-6 h-6 ml-4"/>
+                    <FaArrowCircleRight className="w-6 h-6 ml-4" />
                   </span>
                 </p>
               </div>
@@ -62,13 +65,16 @@ const Help = () => {
             {/* <!-- Card 2 --> */}
             <div class="flex items-center justify-between p-4 h-40 bg-gray-100 rounded-2xl shadow-md">
               <div>
-                <h2 class="text-3xl font-semibold text-black"  style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}>
+                <h2
+                  class="text-3xl font-semibold text-black"
+                  style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
+                >
                   Next Customer Cent
                 </h2>
                 <p class="text-lg text-gray-600 flex items-center pt-4">
                   Shortcut
                   <span class="text-black ">
-                  <FaArrowCircleRight className="w-6 h-6 ml-4"/>
+                    <FaArrowCircleRight className="w-6 h-6 ml-4" />
                   </span>
                 </p>
               </div>
@@ -80,13 +86,16 @@ const Help = () => {
             {/* <!-- Card 3 --> */}
             <div class="flex items-center justify-between p-4 h-40 bg-gray-100 rounded-2xl shadow-md">
               <div>
-                <h2 class="text-3xl font-semibold text-black"  style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}>
+                <h2
+                  class="text-3xl font-semibold text-black"
+                  style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
+                >
                   Commerce Custome Center
                 </h2>
                 <p class="text-lg text-gray-600 flex items-center pt-4">
                   Shortcut
                   <span class="text-black ">
-                  <FaArrowCircleRight className="w-6 h-6 ml-4"/>
+                    <FaArrowCircleRight className="w-6 h-6 ml-4" />
                   </span>
                 </p>
               </div>
@@ -103,7 +112,7 @@ const Help = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="max-w-md mx-auto bg-[#97ce9b] rounded-2xl shadow-md overflow-hidden">
+        <div className="max-w-md h-[550px] mx-auto bg-[#97ce9b] rounded-2xl shadow-md overflow-hidden">
           <div className="p-4">
             {/* <div className="flex items-center space-x-2">
                     <div className="flex items-center text-[#97ce9b]">
@@ -147,18 +156,10 @@ const Help = () => {
         </div>
 
         {/* Card 3 */}
-        <div className="max-w-md mx-auto bg-[#5a461b] rounded-2xl shadow-md overflow-hidden">
-          <div className="p-4">
-            {/* <div className="flex items-center space-x-2">
-                    <div className="flex items-center text-[#97ce9b]">
-                      <AiTwotoneSound className="text-[#97ce9b] w-8 h-8" />
-                    </div>
-                    <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
-                      Press release
-                    </span>
-                    <span className="text-sm text-gray-500">2024.12.11</span>
-                    <span className="text-xl px-2">⫶</span>
-                  </div> */}
+        <div className="max-w-md mx-auto h-[550px] bg-[#5a461b] rounded-2xl shadow-md overflow-hidden">
+          <div className="p-4 pb-0">
+            {" "}
+            {/* Set bottom padding to 0 */}
             <h2
               className="text-4xl text-white font-semibold mt-2 pt-10"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
@@ -170,7 +171,7 @@ const Help = () => {
               Recruitment news <AiOutlineCheckCircle className="w-7 h-7" />
             </div>
           </div>
-          <img src={map3} alt="" className="w-full h-56 object-cover" />
+          <img src={map3} alt="" className="w-full h-56 object-cover m-0 p-0" />
         </div>
       </div>
     </div>
