@@ -2,7 +2,7 @@ import React from "react";
 import robot from "../../../../src/assets/robot.gif";
 import ba1 from "../../../../src/assets/ba1.png";
 import ba2 from "../../../../src/assets/ba2.png";
-import ba3 from "../../../../src/assets/ba3.png";
+import map3 from "../../../../src/assets/map.webp";
 import { AiTwotoneSound } from "react-icons/ai";
 import { AiOutlineCheckCircle } from "react-icons/ai";
 const Help = () => {
@@ -62,7 +62,7 @@ const Help = () => {
               </div>
       
               {/* Card 2 */}
-              <div className="max-w-md mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
+              <div className="max-w-md mx-auto bg-[#97ce9b] rounded-2xl shadow-md overflow-hidden">
                 <div className="p-4">
                   <div className="flex items-center space-x-2">
                     <div className="flex items-center text-[#97ce9b]">
@@ -92,7 +92,7 @@ const Help = () => {
               </div>
       
               {/* Card 3 */}
-              <div className="max-w-md mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
+              <div className="max-w-md mx-auto bg-[#5a461b] rounded-2xl shadow-md overflow-hidden">
                 <div className="p-4">
                   {/* <div className="flex items-center space-x-2">
                     <div className="flex items-center text-[#97ce9b]">
@@ -104,17 +104,17 @@ const Help = () => {
                     <span className="text-sm text-gray-500">2024.12.11</span>
                     <span className="text-xl px-2">⫶</span>
                   </div> */}
-                  <h2 className="text-4xl font-semibold mt-2 pt-10" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}>
+                  <h2 className="text-4xl text-white font-semibold mt-2 pt-10" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}>
                   If you are interested in everything in the world,
                   you are already a member of the Btaap crew.
                   </h2>
-                  <div className="mt-[56px] flex flex-wrap gap-2 text-xl text-gray-600">
+                  <div className="mt-[56px] flex flex-wrap gap-2 text-xl text-white">
                   Recruitment news <AiOutlineCheckCircle className="w-7 h-7"/>
                   </div>
                 </div>
                 <img
-                  src={ba3}
-                  alt="Kakao Mutual Growth"
+                  src={map3}
+                  alt=""
                   className="w-full h-56 object-cover"
                 />
               </div>
