@@ -12,7 +12,7 @@ const Help = () => {
                 >
                   <div className=" ">
                     {" "}
-                    <img className="rounded-xl " src={promise} alt="" />{" "}
+                    <img className="rounded-xl " src={robot} alt="" />{" "}
                   </div>
                 </div>
                 <span
