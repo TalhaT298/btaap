@@ -1,7 +1,7 @@
 import React from "react";
 import robot from "../../../../src/assets/robot.gif";
-import ba1 from "../../../../src/assets/ba1.png";
-import ba2 from "../../../../src/assets/ba2.png";
+import mail12 from "../../../../src/assets/mail12.gif";
+import cofe from "../../../../src/assets/cofee.png";
 import map3 from "../../../../src/assets/map.webp";
 import robot2 from "../../../../src/assets/robot2.webp";
 import { FaArrowCircleRight } from "react-icons/fa";
@@ -58,7 +58,7 @@ const Help = () => {
                 </p>
               </div>
               <div class="w-14 h-14 rounded-full bg-yellow-400 flex items-center justify-center">
-                <span class="font-bold text-black">TALK</span>
+                <img src={mail12} alt="" />
               </div>
             </div>
 
@@ -79,7 +79,7 @@ const Help = () => {
                 </p>
               </div>
               <div class="w-14 h-14 rounded-full border-4 border-red-500 flex items-center justify-center">
-                <span class="font-bold text-red-500">cafe</span>
+              <img src={cofe} alt="" />
               </div>
             </div>
 
