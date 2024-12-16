@@ -40,7 +40,7 @@ const Help = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 justify-center p-4">
         {/* Card 1 */}
         <div>
-          <div class="flex flex-col space-y-10   min-h-screen">
+          <div class="flex flex-col space-y-9  min-h-screen">
             {/* <!-- Card 1 --> */}
             <div class="flex items-center justify-between p-4 h-40 bg-gray-100 shadow-md rounded-2xl ">
               <div>
