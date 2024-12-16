@@ -5,6 +5,11 @@ import ba2 from "../../../../src/assets/ba2.png";
 import map3 from "../../../../src/assets/map.webp";
 import { AiTwotoneSound } from "react-icons/ai";
 import { AiOutlineCheckCircle } from "react-icons/ai";
+import { IoLogoInstagram } from "react-icons/io5";
+import { FaFacebook } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { FaDiscord } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 const Help = () => {
   return (
     <div className="py-8">
@@ -64,7 +69,7 @@ const Help = () => {
               {/* Card 2 */}
               <div className="max-w-md mx-auto bg-[#97ce9b] rounded-2xl shadow-md overflow-hidden">
                 <div className="p-4">
-                  <div className="flex items-center space-x-2">
+                  {/* <div className="flex items-center space-x-2">
                     <div className="flex items-center text-[#97ce9b]">
                       <AiTwotoneSound className="text-[#97ce9b] w-8 h-8" />
                     </div>
@@ -73,15 +78,20 @@ const Help = () => {
                     </span>
                     <span className="text-sm text-gray-500">2024.12.12</span>
                     <span className="text-xl px-2">⫶</span>
-                  </div>
+                  </div> */}
                   <h2 className="text-4xl font-semibold mt-2 pt-10" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}>
-                    Btaap Together Value, Various Sharing Activities to Meet the End
-                    of the Year
+                  Subscribe to various news from Btaap!
                   </h2>
                   <div className="mt-24 flex flex-wrap gap-2 text-sm text-gray-600">
-                    <span>#ESG</span>
+                    {/* <span>#ESG</span>
                     <span>#TogetherValues</span>
-                    <span>#Btaap</span>
+                    <span>#Btaap</span> */}
+                    <p>Go to official social media</p>
+                    <IoLogoInstagram />
+                    <FaFacebook />
+                    <FaLinkedinIn />
+                    <FaDiscord />
+                    <FaYoutube />
                   </div>
                 </div>
                 <img
