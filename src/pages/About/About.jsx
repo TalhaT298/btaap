@@ -3,19 +3,19 @@ import React from 'react';
 const About = () => {
   return (
     <div>
-        <div className="flex justify-center items-center min-h-screen bg-gray-50">
+        <div className="flex justify-center items-center " >
       {/* Main Container */}
       <div className="text-center space-y-4 p-4">
         {/* News Date */}
-        <p className="text-gray-500 text-sm font-medium">
+        <p className="text-gray-500 text-sm font-medium" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}>
           News | August 08, 2024
         </p>
 
         {/* Main Heading */}
-        <h1 className="text-4xl font-bold leading-tight tracking-tight text-black">
-          Kakao Records <span className="line-through">₩</span>2.0049T
+        <h1 className="text-5xl font-bold leading-tight tracking-tight text-black" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}>
+          Btaap Records <span className="line-through">৳</span>2.0049C
           <br />
-          Consolidated Sales and <span className="line-through">₩</span>134B
+          Consolidated Sales and <span className="line-through">৳</span>134B
           <br />
           Operating Profit in Q2
         </h1>
