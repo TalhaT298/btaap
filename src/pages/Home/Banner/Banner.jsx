@@ -20,7 +20,7 @@ const Banner = () => {
   }, [images.length]);
 
   return (
-    <div>
+    <React.Fragment>
       <div className="flex w-full">
         {/* Left Side (80%) */}
         <div className="w-4/5 relative">
@@ -60,7 +60,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-    </div>
+    </React.Fragment>
   );
 };
 
