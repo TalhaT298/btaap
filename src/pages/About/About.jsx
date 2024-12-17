@@ -1,9 +1,13 @@
 import React from 'react';
-
+import { IoLogoInstagram } from "react-icons/io5";
+import { FaFacebook } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { FaDiscord } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 const About = () => {
   return (
     <div>
-        <div className="flex justify-center items-center " >
+        <div className="flex justify-center items-center min-h-96" >
       {/* Main Container */}
       <div className="text-center space-y-4 p-4">
         {/* News Date */}
@@ -23,13 +27,19 @@ const About = () => {
         {/* Social Media Icons */}
         <div className="flex justify-center items-center space-x-4 mt-4">
           <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
-            💬
+            <FaFacebook/>
           </div>
           <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
-            🔗
+            <IoLogoInstagram/>
           </div>
           <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
-            🐦
+          <FaLinkedinIn/>
+          </div>
+          <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+          <FaDiscord/>
+          </div>
+          <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+          <FaYoutube/>
           </div>
         </div>
       </div>
