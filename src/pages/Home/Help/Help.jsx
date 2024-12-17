@@ -14,9 +14,9 @@ import { FaYoutube } from "react-icons/fa";
 import { IoArrowForwardCircleSharp } from "react-icons/io5";
 const Help = () => {
   return (
-    <div className="py-8">
+    <div className="pt-8">
       {/* title add */}
-      <div className="flex items-center justify-between pt-8">
+      <div className="flex items-center justify-between py-8">
         <div className="flex items-center space-x-2">
           <div
             className="w-16 h-16
@@ -41,69 +41,69 @@ const Help = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 justify-center p-4">
         {/* Card 1 */}
         <div>
-          <div class="flex flex-col space-y-9  min-h-screen">
-            {/* <!-- Card 1 --> */}
-            <div class="flex items-center justify-between p-4 h-40 bg-gray-100 shadow-md rounded-2xl ">
+          <div className="flex flex-col space-y-6 md:space-y-9 min-h-screen">
+            {/* Card 1 */}
+            <div className="flex flex-col md:flex-row items-center justify-between p-4 h-40 bg-gray-100 shadow-md rounded-2xl">
               <div>
                 <h2
-                  class="text-3xl font-semibold text-black"
+                  className="text-2xl md:text-3xl font-semibold text-black"
                   style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
                 >
                   Btaap Customer Cen
                 </h2>
-                <p class="text-lg text-gray-600 flex items-center pt-4">
+                <p className="text-base md:text-lg text-gray-600 flex items-center pt-4">
                   Shortcut
-                  <span class="text-black ">
-                    <FaArrowCircleRight className="w-6 h-6 ml-4" />
+                  <span className="text-black">
+                    <FaArrowCircleRight className="w-6 h-6 ml-2 md:ml-4" />
                   </span>
                 </p>
               </div>
-              <div class="w-16 h-16 rounded-full bg-yellow-400 flex items-center justify-center">
-                <img src={mail12} alt="" />
+              <div className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-yellow-400 flex items-center justify-center mt-4 md:mt-0">
+                <img src={mail12} alt="icon" />
               </div>
             </div>
 
-            {/* <!-- Card 2 --> */}
-            <div class="flex items-center justify-between p-4 h-40 bg-gray-100 rounded-2xl shadow-md">
+            {/* Card 2 */}
+            <div className="flex flex-col md:flex-row items-center justify-between p-4 h-40 bg-gray-100 rounded-2xl shadow-md">
               <div>
                 <h2
-                  class="text-3xl font-semibold text-black"
+                  className="text-2xl md:text-3xl font-semibold text-black"
                   style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
                 >
                   Next Customer Cent
                 </h2>
-                <p class="text-lg text-gray-600 flex items-center pt-4">
+                <p className="text-base md:text-lg text-gray-600 flex items-center pt-4">
                   Shortcut
-                  <span class="text-black ">
-                    <FaArrowCircleRight className="w-6 h-6 ml-4" />
+                  <span className="text-black">
+                    <FaArrowCircleRight className="w-6 h-6 ml-2 md:ml-4" />
                   </span>
                 </p>
               </div>
-              <div class="w-16 h-16 rounded-full  flex items-center justify-center">
-                <img src={cofe} alt="" />
+              <div className="w-12 h-12 md:w-16 md:h-16 rounded-full flex items-center justify-center mt-4 md:mt-0">
+                <img src={cofe} alt="icon" />
               </div>
             </div>
 
-            {/* <!-- Card 3 --> */}
-            <div class="flex items-center justify-between p-4 h-40 bg-gray-100 rounded-2xl shadow-md">
+            {/* Card 3 */}
+            <div className="flex flex-col md:flex-row items-center justify-between p-4 h-40 bg-gray-100 rounded-2xl shadow-md">
               <div>
                 <h2
-                  class="text-3xl font-semibold text-black"
+                  className="text-2xl md:text-3xl font-semibold text-black"
                   style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
                 >
-                  Commerce Custome Center
+                  Commerce Customer Center
                 </h2>
-                <p class="text-lg text-gray-600 flex items-center pt-4">
+                <p className="text-base md:text-lg text-gray-600 flex items-center pt-4">
                   Shortcut
-                  <span class="text-black ">
-                    <FaArrowCircleRight className="w-6 h-6 ml-4" />
+                  <span className="text-black">
+                    <FaArrowCircleRight className="w-6 h-6 ml-2 md:ml-4" />
                   </span>
                 </p>
               </div>
-              <div class="w-14 h-14 rounded-full bg-yellow-400 flex items-center justify-center">
-                <div class="relative">
-                  <div class="w-6 h-6 bg-white border border-black rounded"></div>
-                  <div class="absolute top-[-8px] left-1/2 -translate-x-1/2 text-red-500">
+              <div className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-yellow-400 flex items-center justify-center mt-4 md:mt-0">
+                <div className="relative">
+                  <div className="w-6 h-6 bg-white border border-black rounded"></div>
+                  <div className="absolute top-[-8px] left-1/2 -translate-x-1/2 text-red-500">
                     ❤️
                   </div>
                 </div>
@@ -113,103 +113,61 @@ const Help = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="max-w-md h-[550px] mx-auto bg-[#97ce9b] rounded-2xl shadow-md overflow-hidden">
+        <div className="max-w-full md:max-w-md h-auto md:h-[550px] mx-auto bg-[#97ce9b] rounded-2xl shadow-md overflow-hidden">
           <div className="p-4">
-            {/* <div className="flex items-center space-x-2">
-                    <div className="flex items-center text-[#97ce9b]">
-                      <AiTwotoneSound className="text-[#97ce9b] w-8 h-8" />
-                    </div>
-                    <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
-                      Press release
-                    </span>
-                    <span className="text-sm text-gray-500">2024.12.12</span>
-                    <span className="text-xl px-2">⫶</span>
-                  </div> */}
             <h2
-              className="text-4xl text-white font-semibold mt-2 pt-10"
+              className="text-3xl md:text-4xl text-white font-semibold mt-2 pt-6 md:pt-10"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
             >
               Subscribe to various news from Btaap!
             </h2>
-            <div className="mt-12 flex flex-wrap gap-2 text-xl text-white">
-              {/* <span>#ESG</span>
-                    <span>#TogetherValues</span>
-                    <span>#Btaap</span> */}
+            <div className="mt-6 md:mt-12 text-lg md:text-xl text-white">
               <p>Go to official social media</p>
             </div>
-            <div className="mt-12 flex flex-wrap gap-2 justify-center items-center">
-              {/* <span>#ESG</span>
-                    <span>#TogetherValues</span>
-                    <span>#Btaap</span> */}
-
-              <IoLogoInstagram className=" w-10 h-10 text-sm text-white" />
-              <FaFacebook className=" w-10 h-10 text-sm text-white" />
-              <FaLinkedinIn className=" w-10 h-10 text-sm text-white" />
-              <FaDiscord className=" w-10 h-10 text-sm text-white" />
-              <FaYoutube className=" w-10 h-10 text-sm text-white" />
+            <div className="mt-6 md:mt-12 flex flex-wrap gap-4 justify-center items-center">
+              <IoLogoInstagram className="w-8 h-8 md:w-10 md:h-10 text-white" />
+              <FaFacebook className="w-8 h-8 md:w-10 md:h-10 text-white" />
+              <FaLinkedinIn className="w-8 h-8 md:w-10 md:h-10 text-white" />
+              <FaDiscord className="w-8 h-8 md:w-10 md:h-10 text-white" />
+              <FaYoutube className="w-8 h-8 md:w-10 md:h-10 text-white" />
             </div>
           </div>
           <img
             src={robot2}
             alt="Kakao Together Value"
-            className="w-full h-56 object-cover"
+            className="w-full h-48 md:h-56 object-cover"
           />
         </div>
 
         {/* Card 3 */}
-        <div className="max-w-md mx-auto h-[550px] bg-[#5a461b] rounded-2xl shadow-md overflow-hidden">
+        <div className="max-w-full md:max-w-md h-auto md:h-[550px] bg-[#5a461b] rounded-2xl shadow-md overflow-hidden">
           <div className="p-4 pb-0">
-            {" "}
-            {/* Set bottom padding to 0 */}
             <h2
-              className="text-4xl text-white font-semibold mt-2 pt-10"
+              className="text-3xl md:text-4xl text-white font-semibold mt-2 pt-6 md:pt-10"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
             >
               If you are interested in everything in the world, you are already
               a member of the Btaap crew.
             </h2>
-            <div className="mt-[56px] flex flex-wrap gap-2 text-xl text-white">
-              Recruitment news <AiOutlineCheckCircle className="w-7 h-7" />
+            <div className="mt-6 md:mt-[56px] flex flex-wrap gap-2 text-lg md:text-xl text-white">
+              Recruitment news{" "}
+              <AiOutlineCheckCircle className="w-5 h-5 md:w-7 md:h-7" />
             </div>
           </div>
-          <img src={map3} alt="" className="w-full h-56 object-cover m-0 p-0" />
+          <img src={map3} alt="" className="w-full h-48 md:h-56 object-cover" />
         </div>
       </div>
+
       {/* last section */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center p-4">
-        <div class="bg-gray-100 p-4 rounded-xl shadow-md flex h-36 pt-6">
-          <h2
-            class="font-medium text-3xl pt-6"
-            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
-          >
-            Press
-            release&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </h2>
-          <div class="flex pt-6 px-4">
-            <IoArrowForwardCircleSharp className="w-10 h-10" />
-            {/* <div class="p-1 rounded-full"><img className="rounded-2xl" src={btap} alt="" /></div>
-                            <div class="p-1 rounded-full"><img className="rounded-2xl" src={facebook} alt="" /></div>
-                            <div class="p-1 rounded-full"><img className="rounded-2xl" src={insta} alt="" /></div>
-                            <div class="p-1 rounded-full"><img className="rounded-2xl" src={plus} alt="" /></div> */}
-          </div>
-        </div>
-        {/* card 4 add */}
-        <div class="bg-gray-100 p-4 rounded-xl shadow-md flex h-36 pt-6">
-          <h2
-            class="font-medium text-3xl pt-6"
-            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
-          >
-            Media
-            Materials&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </h2>
-          <div class="flex pt-6 px-4">
-            <IoArrowForwardCircleSharp className="w-10 h-10" />
-            {/* <div class="p-1 rounded-full"><img className="rounded-2xl" src={btap} alt="" /></div>
-                                    <div class="p-1 rounded-full"><img className="rounded-2xl" src={facebook} alt="" /></div>
-                                    <div class="p-1 rounded-full"><img className="rounded-2xl" src={insta} alt="" /></div>
-                                    <div class="p-1 rounded-full"><img className="rounded-2xl" src={plus} alt="" /></div> */}
-          </div>
-        </div>
+      <div className="flex justify-center items-center pt-8 px-16">
+        <button
+          className="btn h-10 bg-gray-100 rounded-3xl text-2xl"
+          style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
+        >
+          &nbsp;&nbsp;Go to the service
+          <FaArrowCircleRight />
+          &nbsp;&nbsp;
+        </button>
       </div>
     </div>
   );
