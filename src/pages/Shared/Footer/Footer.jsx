@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
+    <React.Fragment>
       <div
         className=" py-8 px-4 border-t border-black"
         style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
@@ -130,7 +130,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div>
+    </React.Fragment>
   );
 };
 
