@@ -38,10 +38,10 @@ const Help = () => {
       {/* title end */}
 
       {/* section add  */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 justify-center p-4">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 justify-center">
         {/* Card 1 */}
         <div>
-          <div className="flex flex-col space-y-6 md:space-y-9 min-h-screen">
+          <div className="flex flex-col space-y-6 md:space-y-9 ">
             {/* Card 1 */}
             <div className="flex flex-col md:flex-row items-center justify-between p-4 h-40 bg-gray-100 shadow-md rounded-2xl">
               <div>
@@ -159,7 +159,7 @@ const Help = () => {
       </div>
 
       {/* last section */}
-      <div className="flex justify-center items-center pt-8 px-16">
+      <div className="flex justify-center items-center py-10">
         <button
           className="btn h-10 bg-gray-100 rounded-3xl text-2xl"
           style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
