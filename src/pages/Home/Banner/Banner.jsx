@@ -4,7 +4,7 @@ import img2 from "../../../../src/assets/2.png"; // Replace with your actual ima
 import img3 from "../../../../src/assets/3.png"; // Replace with your actual image paths
 import calender from "../../../../src/assets/calender.png";
 import world from "../../../../src/assets/wo.gif";
-// import banner from "../../../assets/ba1.gif";
+// import banner from "../../../assets/banner.gif";
 
 const Banner = () => {
   const images = [img1, img2, img3]; // Array of images for the slider
