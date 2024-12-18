@@ -6,7 +6,10 @@ import { FaDiscord } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import abou1 from "../../../src/assets/about1.webp";
 import "./About.css";
+import { Col, Row, Statistic } from 'antd';
+import CountUp from 'react-countup';
 const About = () => {
+  const formatter = (value) => <CountUp end={value} separator="," />;
   return (
     <React.Fragment>
       <div className="flex justify-center items-center min-h-96">
@@ -159,8 +162,12 @@ const About = () => {
           <br />
         </p>
       </div>
+      {/* 4th section */}
+      
     </React.Fragment>
   );
 };
 
 export default About;
+
+
