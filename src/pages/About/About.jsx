@@ -68,7 +68,7 @@ const About = () => {
 
           {/* Centered Text */}
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-            <p className="text-white text-5xl font-bold px-4 py-2">Btaap</p>
+            <p className="text-white text-7xl font-bold px-4 py-2" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}>Btaap</p>
           </div>
         </div>
       </div>
