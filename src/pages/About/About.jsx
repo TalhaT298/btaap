@@ -163,7 +163,16 @@ const About = () => {
         </p>
       </div>
       {/* 4th section */}
-      
+      <div className="bg-gray-100 p-6 rounded-lg shadow-lg max-w-md mx-auto">
+            <Row gutter={16}>
+                <Col span={12}>
+                    <Statistic title="Active Users" value={112893} formatter={formatter} />
+                </Col>
+                <Col span={12}>
+                    <Statistic title="Account Balance (CNY)" value={112893} precision={2} formatter={formatter} />
+                </Col>
+            </Row>
+        </div>
     </React.Fragment>
   );
 };
