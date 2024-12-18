@@ -78,7 +78,7 @@ const About = () => {
         </div>
       </div>
       {/* 3rd section */}
-      <div className="flex items-center text-center justify-center">
+      <div className="flex items-center text-center justify-center py-8">
         <p className="font-thin w-4/5">
           Btaap Ltd is the company behind BtaapTalk, which serves as its main
           platform and flagship application. It was founded in 2024 by [Founder
