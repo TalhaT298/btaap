@@ -8,7 +8,7 @@ import abou1 from "../../../src/assets/about1.webp";
 import "./About.css";
 const About = () => {
   return (
-    <div>
+    <React.Fragment>
       <div className="flex justify-center items-center min-h-96">
         {/* Main Container */}
         <div className="text-center space-y-4 p-4">
@@ -57,7 +57,7 @@ const About = () => {
         <div className="relative h-screen overflow-hidden">
           {/* Scrolling Image */}
           <div
-            className="absolute inset-0 h-full overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-600 scrollbar-track-gray-300"
+             className="absolute inset-0 h-full overflow-y-scroll scrollbar-thin scrollbar-thumb-black scrollbar-track-gray-300 hover:scrollbar-thumb-[#97ce9b]"
             style={{
               msOverflowStyle: "auto", // Ensure scrollbars are visible in Internet Explorer
               scrollbarWidth: "thin", // Make the scrollbar thinner in Firefox
@@ -72,7 +72,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </React.Fragment>
   );
 };
 
