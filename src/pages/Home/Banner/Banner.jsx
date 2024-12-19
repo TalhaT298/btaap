@@ -16,7 +16,7 @@ const Banner = () => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
     }, 3000);
 
-    return () => clearInterval(interval); // Cleanup on component unmount
+    return () => clearInterval(interval); // Cleanup on component unmoun
   }, [images.length]);
 
   return (
