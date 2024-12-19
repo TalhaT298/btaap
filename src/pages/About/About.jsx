@@ -6,7 +6,7 @@ import { FaDiscord } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import abou1 from "../../../src/assets/about1.webp";
 import "./About.css";
-
+import Countdown from "react-countdown";
 const About = () => {
   return (
     <React.Fragment>
@@ -164,11 +164,17 @@ const About = () => {
       <div className="stats shadow flex text-center justify-center items-center">
         <div className="stat">
           <div className="stat-title">Total Page Views</div>
-          <div className="stat-value">89,400</div>
+          <div className="stat-value">
+            <Countdown
+              date={Date.now() + 10000}
+              intervalDelay={0}
+              precision={3}
+              renderer={(props) => <div>{props.total}</div>}
+            />
+          </div>
           <div className="stat-desc">21% more than last month</div>
         </div>
       </div>
-      
     </React.Fragment>
   );
 };
