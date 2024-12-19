@@ -168,6 +168,7 @@ const About = () => {
           <div className="stat-desc">21% more than last month</div>
         </div>
       </div>
+      
     </React.Fragment>
   );
 };
