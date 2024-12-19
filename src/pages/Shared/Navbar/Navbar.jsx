@@ -65,6 +65,7 @@ import { CiSearch } from "react-icons/ci";
 import { TbWorld } from "react-icons/tb";
 import { LuMoon } from "react-icons/lu";
 import { FiMenu, FiX } from "react-icons/fi"; // For hamburger and close icons
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false); // State to toggle menu
@@ -77,7 +78,7 @@ const Navbar = () => {
       >
         {/* Logo */}
         <div className="scale-100 rounded-2xl px-3 py-2 text-xl font-semibold text-white transition-all">
-          <h2 className="text-[#97ce9b] text-3xl font-bold">Btaap</h2>
+          <h2 className="text-[#97ce9b] text-3xl font-bold"><Link to="/">Btaap</Link></h2>
         </div>
 
         {/* Hamburger Menu */}
@@ -93,9 +94,10 @@ const Navbar = () => {
             isOpen ? "block" : "hidden"
           } md:flex`}
         >
-          <li className="cursor-pointer rounded-full px-6 py-2 text-black hover:bg-[#97ce9b]">
+          <Link to='/about'><li className="cursor-pointer rounded-full px-6 py-2 text-black hover:bg-[#97ce9b]">
             About
           </li>
+          </Link>
           <li className="cursor-pointer rounded-full px-6 py-2 text-black hover:bg-[#97ce9b]">
             Tech & Service
           </li>

@@ -7,9 +7,11 @@ import { FaYoutube } from "react-icons/fa";
 import abou1 from "../../../src/assets/about1.webp";
 import "./About.css";
 import Countdown from "react-countdown";
+import { Link } from "react-router-dom";
 const About = () => {
   return (
     <React.Fragment>
+      <Link to="/about"></Link>
       <div className="flex justify-center items-center min-h-96">
         {/* Main Container */}
         <div className="text-center space-y-4 p-4">
