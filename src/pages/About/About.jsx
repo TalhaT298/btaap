@@ -6,10 +6,8 @@ import { FaDiscord } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import abou1 from "../../../src/assets/about1.webp";
 import "./About.css";
-import { Col, Row, Statistic } from 'antd';
-import CountUp from 'react-countup';
+
 const About = () => {
-  const formatter = (value) => <CountUp end={value} separator="," />;
   return (
     <React.Fragment>
       <div className="flex justify-center items-center min-h-96">
@@ -163,20 +161,15 @@ const About = () => {
         </p>
       </div>
       {/* 4th section */}
-      <div className="bg-gray-100 p-6 rounded-lg shadow-lg max-w-md mx-auto">
-            <Row gutter={16}>
-                <Col span={12}>
-                    <Statistic title="Active Users" value={112893} formatter={formatter} />
-                </Col>
-                <Col span={12}>
-                    <Statistic title="Account Balance (CNY)" value={112893} precision={2} formatter={formatter} />
-                </Col>
-            </Row>
+      <div className="stats shadow flex text-center justify-center items-center">
+        <div className="stat">
+          <div className="stat-title">Total Page Views</div>
+          <div className="stat-value">89,400</div>
+          <div className="stat-desc">21% more than last month</div>
         </div>
+      </div>
     </React.Fragment>
   );
 };
 
 export default About;
-
-
