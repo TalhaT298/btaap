@@ -78,13 +78,19 @@ const Navbar = () => {
       >
         {/* Logo */}
         <div className="scale-100 rounded-2xl px-3 py-2 text-xl font-semibold text-white transition-all">
-          <h2 className="text-[#97ce9b] text-3xl font-bold"><Link to="/">Btaap</Link></h2>
+          <h2 className="text-[#97ce9b] text-3xl font-bold">
+            <Link to="/">Btaap</Link>
+          </h2>
         </div>
 
         {/* Hamburger Menu */}
         <div className="md:hidden">
           <button onClick={() => setIsOpen(!isOpen)} className="text-black">
-            {isOpen ? <FiX className="w-7 h-7" /> : <FiMenu className="w-7 h-7" />}
+            {isOpen ? (
+              <FiX className="w-7 h-7" />
+            ) : (
+              <FiMenu className="w-7 h-7" />
+            )}
           </button>
         </div>
 
@@ -94,12 +100,47 @@ const Navbar = () => {
             isOpen ? "block" : "hidden"
           } md:flex`}
         >
-          <Link to='/about'><li className="cursor-pointer rounded-full px-6 py-2 text-black hover:bg-[#97ce9b]">
-            About
-          </li>
+          <Link to="/about">
+            <li className="cursor-pointer rounded-full px-6 py-2 text-black hover:bg-[#97ce9b]">
+              About
+            </li>
           </Link>
-          <li className="cursor-pointer rounded-full px-6 py-2 text-black hover:bg-[#97ce9b]">
-            Tech & Service
+          <li>
+            <div className="dropdown">
+              <label
+                tabIndex={0}
+                className="cursor-pointer rounded-full px-6 py-2 text-black hover:bg-[#97ce9b]"
+              >
+                Tech & Service
+              </label>
+              <ul
+                tabIndex={0}
+                className="dropdown-content menu rounded-box mt-2 w-52 bg-white p-2 shadow-lg"
+              >
+                <li>
+                  <Link to="/">
+                  <a href="/" className="hover:bg-[#97ce9b]">
+                    Tech
+                  </a>
+                  </Link>
+                </li>
+                <li>
+                  <a href="#service" className="hover:bg-[#97ce9b]">
+                    Service
+                  </a>
+                </li>
+                <li>
+                  <a href="#life" className="hover:bg-[#97ce9b]">
+                    Life
+                  </a>
+                </li>
+                <li>
+                  <a href="#business" className="hover:bg-[#97ce9b]">
+                    Business
+                  </a>
+                </li>
+              </ul>
+            </div>
           </li>
           <li className="cursor-pointer rounded-full px-6 py-2 text-black hover:bg-[#97ce9b]">
             Responsibility
