@@ -11,18 +11,35 @@ const Service = () => {
     <React.Fragment>
       <Link to="/service"></Link>
       {/* 1st section  start*/}
-      <div className="navbar bg-base-100 " style={{ borderBottom: "1px solid #a6a6a6" ,borderTop: "1px solid #a6a6a6" ,}}>
-        <div className="flex-1">
-          <a className="pl-5 text-xl" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}>Btaap</a>
-        </div>
-        <div className="flex-none">
-          <ul className="menu menu-horizontal px-1">
-            <li>
-              <a className="text-xl ">Download<MdDownloadForOffline /></a>
-            </li>
-          </ul>
-        </div>
-      </div>
+      <div
+  className="navbar bg-base-100"
+  style={{
+    borderBottom: "1px solid #a6a6a6",
+    borderTop: "1px solid #a6a6a6",
+    position: "sticky",
+    top: 0,
+    zIndex: 1000, // Ensures it stays above other content
+  }}
+>
+  <div className="flex-1">
+    <a
+      className="pl-5 text-xl"
+      style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+    >
+      Btaap
+    </a>
+  </div>
+  <div className="flex-none">
+    <ul className="menu menu-horizontal px-1">
+      <li>
+        <a className="text-xl">
+          Download <MdDownloadForOffline className="w-6 h-6" />
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
       {/* 1st section  end*/}
       {/* 2nd section  start*/}
       <div className="flex justify-center items-center min-h-96">
