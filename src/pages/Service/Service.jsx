@@ -6,6 +6,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { FaDiscord } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { MdDownloadForOffline } from "react-icons/md";
+import aboutb from "../../../src/assets/aboutbanner.webp";
 const Service = () => {
   return (
     <React.Fragment>
@@ -29,11 +30,11 @@ const Service = () => {
       Btaap
     </a>
   </div>
-  <div className="flex-none">
-    <ul className="menu menu-horizontal px-1">
+  <div className="flex">
+    <ul className=" px-1">
       <li>
-        <a className="text-xl">
-          Download <MdDownloadForOffline className="w-6 h-6" />
+        <a className="text-xl flex">
+          Download <MdDownloadForOffline className="w-7 h-7" />
         </a>
       </li>
     </ul>
@@ -47,7 +48,7 @@ const Service = () => {
         <div className="text-center space-y-4 p-4">
           {/* News Date */}
           <p
-            className="text-gray-500 text-sm font-medium"
+            className="text-gray-500 text-base font-medium"
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
           >
             Communication
@@ -85,6 +86,11 @@ const Service = () => {
         </div>
       </div>
       {/* 2nd section  end*/}
+      {/* 3rd section start */}
+      <div>
+        <img src={aboutb} alt="" />
+      </div>
+      {/* 3rd section end */}
     </React.Fragment>
   );
 };
