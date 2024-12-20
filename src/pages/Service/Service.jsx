@@ -91,6 +91,45 @@ const Service = () => {
         <img src={aboutb} alt="" />
       </div>
       {/* 3rd section end */}
+      {/* 4th section start */}
+      <div>
+      <div className="flex justify-center items-center min-h-96">
+        {/* Main Container */}
+        <div className="text-center space-y-4 p-4">
+          {/* News Date */}
+          <p
+            className="text-gray-500 text-base font-medium"
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+          >
+            Communication
+          </p>
+
+          {/* Main Heading */}
+          <h1
+            className="text-5xl font-bold leading-tight tracking-tight text-black"
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+          >
+           Connecting people,
+            <br />
+            the world and more with Btaap
+            <br />
+            Leading messenger service
+            <br />
+            with goals of becoming the world protocol
+            <br />
+            Enjoy Btaap, anytime, anywhere,
+            <br />
+            in real-time, for free
+          </h1>
+
+          {/* Social Media Icons */}
+          <div className="flex justify-center items-center space-x-4 mt-4">
+            
+          </div>
+        </div>
+      </div>
+      </div>
+      {/* 4th section end */}
     </React.Fragment>
   );
 };
