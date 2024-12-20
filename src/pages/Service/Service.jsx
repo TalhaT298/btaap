@@ -11,14 +11,14 @@ const Service = () => {
     <React.Fragment>
       <Link to="/service"></Link>
       {/* 1st section  start*/}
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-base-100 " style={{ borderBottom: "1px solid #a6a6a6" ,borderTop: "1px solid #a6a6a6" ,}}>
         <div className="flex-1">
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <a className="pl-5 text-xl" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}>Btaap</a>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Link<MdDownloadForOffline /></a>
+              <a className="text-xl ">Download<MdDownloadForOffline /></a>
             </li>
           </ul>
         </div>
