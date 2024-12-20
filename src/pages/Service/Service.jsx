@@ -127,12 +127,12 @@ const Service = () => {
       </div>
       {/* 4th section end */}
       {/* 5th section start */}
-      <div className="py-8">
+      <div className="py-6">
         <div className="flex flex-col justify-center items-center text-center w-2/4 h-full mx-auto">
-          <p className="font-bold text-lg mb-2">Free Chats</p>
-          <p>
+          <p className="mb-2 text-5xl font-bold" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}>Free Chats</p>
+          <p className="text-lg py-4">
             Btaap is free of charge with internet connection, wherever you are
-            in the world. Engage in lively chat with friends with KakaoTalk's
+            in the world. Engage in lively chat with friends with Btaap's
             1:1 and group chats. Send and receive chat and multimedia messages
             such as photos, videos, and more.
           </p>
