@@ -7,40 +7,40 @@ import { FaDiscord } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { MdDownloadForOffline } from "react-icons/md";
 import aboutb from "../../../src/assets/aboutbanner.webp";
-import log from "../../../src/assets/c.png"
+import log from "../../../src/assets/c.png";
 const Service = () => {
   return (
     <React.Fragment>
       <Link to="/service"></Link>
       {/* 1st section  start*/}
       <div
-  className="navbar bg-base-100"
-  style={{
-    borderBottom: "1px solid #a6a6a6",
-    borderTop: "1px solid #a6a6a6",
-    position: "sticky",
-    top: 0,
-    zIndex: 1000, // Ensures it stays above other content
-  }}
->
-  <div className="flex-1">
-    <a
-      className="pl-5 text-xl"
-      style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
-    >
-      Btaap
-    </a>
-  </div>
-  <div className="flex">
-    <ul className=" px-1">
-      <li>
-        <a className="text-xl flex">
-          Download <MdDownloadForOffline className="w-7 h-7" />
-        </a>
-      </li>
-    </ul>
-  </div>
-</div>
+        className="navbar bg-base-100"
+        style={{
+          borderBottom: "1px solid #a6a6a6",
+          borderTop: "1px solid #a6a6a6",
+          position: "sticky",
+          top: 0,
+          zIndex: 1000, // Ensures it stays above other content
+        }}
+      >
+        <div className="flex-1">
+          <a
+            className="pl-5 text-xl"
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+          >
+            Btaap
+          </a>
+        </div>
+        <div className="flex">
+          <ul className=" px-1">
+            <li>
+              <a className="text-xl flex">
+                Download <MdDownloadForOffline className="w-7 h-7" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
 
       {/* 1st section  end*/}
       {/* 2nd section  start*/}
@@ -95,40 +95,50 @@ const Service = () => {
       {/* 4th section start */}
       <div className="py-16">
         <div className="flex justify-center items-center">
-        <img className="w-20 h-20 rounded-2xl" src={log} alt="" />
+          <img className="w-20 h-20 rounded-2xl" src={log} alt="" />
         </div>
-      <div className="flex justify-center items-center min-h-96">
-        {/* Main Container */}
-        <div className="text-center space-y-4 p-4">
-          {/* News Date */}
-         
+        <div className="flex justify-center items-center min-h-96">
+          {/* Main Container */}
+          <div className="text-center space-y-4 p-4">
+            {/* News Date */}
 
-          {/* Main Heading */}
-          <h1
-            className="text-5xl font-bold leading-tight tracking-tight text-black"
-            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
-          >
-           Connecting people,
-            <br />
-            the world and more with Btaap
-            <br />
-            Leading messenger service
-            <br />
-            with goals of becoming the world protocol
-            <br />
-            Enjoy Btaap, anytime, anywhere,
-            <br />
-            in real-time, for free
-          </h1>
+            {/* Main Heading */}
+            <h1
+              className="text-5xl font-bold leading-tight tracking-tight text-black"
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+            >
+              Connecting people,
+              <br />
+              the world and more with Btaap
+              <br />
+              Leading messenger service
+              <br />
+              with goals of becoming the world protocol
+              <br />
+              Enjoy Btaap, anytime, anywhere,
+              <br />
+              in real-time, for free
+            </h1>
 
-          {/* Social Media Icons */}
-          <div className="flex justify-center items-center space-x-4 mt-4">
-            
+            {/* Social Media Icons */}
+            <div className="flex justify-center items-center space-x-4 mt-4"></div>
           </div>
         </div>
       </div>
-      </div>
       {/* 4th section end */}
+      {/* 5th section start */}
+      <div className="py-8">
+        <div className="flex flex-col justify-center items-center text-center w-2/4 h-full mx-auto">
+          <p className="font-bold text-lg mb-2">Free Chats</p>
+          <p>
+            Btaap is free of charge with internet connection, wherever you are
+            in the world. Engage in lively chat with friends with KakaoTalk's
+            1:1 and group chats. Send and receive chat and multimedia messages
+            such as photos, videos, and more.
+          </p>
+        </div>
+      </div>
+      {/* 5th section end */}
     </React.Fragment>
   );
 };
