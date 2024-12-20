@@ -8,7 +8,16 @@ import { FaYoutube } from "react-icons/fa";
 import { MdDownloadForOffline } from "react-icons/md";
 import aboutb from "../../../src/assets/aboutbanner.webp";
 import log from "../../../src/assets/c.png";
+import { Carousel } from 'antd';
+
 const Service = () => {
+    const contentStyle = {
+        height: '360px',
+        color: '#fff',
+        lineHeight: '160px',
+        textAlign: 'center',
+        background: '#364d79',
+    };
   return (
     <React.Fragment>
       <Link to="/service"></Link>
@@ -136,6 +145,22 @@ const Service = () => {
             1:1 and group chats. Send and receive chat and multimedia messages
             such as photos, videos, and more.
           </p>
+        </div>
+        <div>
+        <Carousel autoplay>
+                <div>
+                    <h3 style={contentStyle}>1</h3>
+                </div>
+                <div>
+                    <h3 style={contentStyle}>2</h3>
+                </div>
+                <div>
+                    <h3 style={contentStyle}>3</h3>
+                </div>
+                <div>
+                    <h3 style={contentStyle}>4</h3>
+                </div>
+            </Carousel>
         </div>
       </div>
       {/* 5th section end */}
