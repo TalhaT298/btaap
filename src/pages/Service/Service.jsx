@@ -25,11 +25,10 @@ const Service = () => {
                   className="text-5xl font-bold leading-tight tracking-tight text-black"
                   style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
                 >
-                  Btaap Records <span className="line-through">৳</span>2.0049C
+                  Btaap Records, where people and the
                   <br />
-                  Consolidated Sales and <span className="line-through">৳</span>134B
+                  world come to get connected
                   <br />
-                  Operating Profit in Q2
                 </h1>
       
                 {/* Social Media Icons */}
