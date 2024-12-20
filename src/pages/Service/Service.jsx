@@ -7,6 +7,7 @@ import { FaDiscord } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { MdDownloadForOffline } from "react-icons/md";
 import aboutb from "../../../src/assets/aboutbanner.webp";
+import log from "../../../src/assets/c.png"
 const Service = () => {
   return (
     <React.Fragment>
@@ -92,17 +93,15 @@ const Service = () => {
       </div>
       {/* 3rd section end */}
       {/* 4th section start */}
-      <div>
+      <div className="py-16">
+        <div className="flex justify-center items-center">
+        <img className="w-20 h-20 rounded-2xl" src={log} alt="" />
+        </div>
       <div className="flex justify-center items-center min-h-96">
         {/* Main Container */}
         <div className="text-center space-y-4 p-4">
           {/* News Date */}
-          <p
-            className="text-gray-500 text-base font-medium"
-            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
-          >
-            Communication
-          </p>
+         
 
           {/* Main Heading */}
           <h1
