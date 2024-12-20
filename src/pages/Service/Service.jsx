@@ -1,5 +1,10 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
+import { IoLogoInstagram } from "react-icons/io5";
+import { FaFacebook } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { FaDiscord } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 const Service = () => {
   return (
     <React.Fragment>
@@ -12,7 +17,7 @@ const Service = () => {
                   className="text-gray-500 text-sm font-medium"
                   style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
                 >
-                  News | August 08, 2024
+                  Communication
                 </p>
       
                 {/* Main Heading */}

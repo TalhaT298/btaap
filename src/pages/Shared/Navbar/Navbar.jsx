@@ -125,8 +125,8 @@ const Navbar = () => {
                     </a>
                   </li>
                   </Link>
-                  <Link>
-                  <li to="/service">
+                  <Link to="/service">
+                  <li >
                     <a href="#service" className="hover:bg-[#97ce9b]">
                       Service
                     </a>
