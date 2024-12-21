@@ -16,8 +16,11 @@ import slide5 from "../../../src/assets/slide5.png";
 import slide6 from "../../../src/assets/slide6.png";
 import slide7 from "../../../src/assets/slide7.png";
 import gif1 from "../../../src/assets/gif1.png";
+import gif2 from "../../../src/assets/gif2.png";
 import { MdArrowOutward } from "react-icons/md";
 import log from "../../../src/assets/c.png";
+import log1 from "../../../src/assets/emotion.png";
+
 import { Carousel } from "antd";
 import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
@@ -253,8 +256,8 @@ const Service = () => {
       </div>
       {/* 6th section end */}
       {/* 7th section start */}
-      <div className="flex">
-        <div className="w-1/2 pt-16 pl-44">
+      <div className="flex py-24">
+        <div className="w-1/2 pt-32 pl-44">
           <h1
             className="text-4xl font-bold py-4 "
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
@@ -275,21 +278,46 @@ const Service = () => {
             with emoticons.
           </p>
           
-          <div className="">
+          <div className="pt-10">
             <button
               className="btn h- bg-gray-100 rounded-3xl text-sm"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
             >
-              &nbsp;&nbsp;Go to the service
+              Go to the service
               <MdArrowOutward />
               &nbsp;&nbsp;
             </button>
           </div>
         </div>
 
-        <div className="1/2"><img src={gif1} alt="" /></div>
+        <div className="1/2"><img src={log1} alt="" /></div>
       </div>
       {/* 7th section end */}
+      {/* 8th section start */}
+      <div className="flex py-32">
+        <div className="w-1/2 pt-40 pl-44">
+          <h1
+            className="text-4xl font-bold py-4 "
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+          >
+           Btaap Shopping
+          </h1>
+          <p className="pt-2">
+          Shop today through BtaapTalkQuickly and
+            <br />
+            easily look through products offered on
+            <br />
+            Btaap's fourth tab, Kakao Shopping.
+            <br />
+            
+          </p>
+          
+          
+        </div>
+
+        <div className="1/2"><img src={gif2} alt="" /></div>
+      </div>
+      {/* 8th section end */}
     </React.Fragment>
   );
 };
