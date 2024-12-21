@@ -17,6 +17,8 @@ import slide6 from "../../../src/assets/slide6.png";
 import slide7 from "../../../src/assets/slide7.png";
 import gif1 from "../../../src/assets/gif1.png";
 import gif2 from "../../../src/assets/gif2.png";
+import gif3 from "../../../src/assets/mailvai.png";
+import gif4 from "../../../src/assets/tect.png";
 import { MdArrowOutward } from "react-icons/md";
 import log from "../../../src/assets/c.png";
 import log1 from "../../../src/assets/emotion.png";
@@ -357,7 +359,7 @@ const Service = () => {
         </div>
 
         <div className="1/2">
-          <img src={log1} alt="" />
+          <img src={gif3} alt="" />
         </div>
       </div>
       {/* 9th section end */}
@@ -397,7 +399,7 @@ const Service = () => {
         </div>
 
         <div className="1/2">
-          <img src={log1} alt="" />
+          <img src={gif4} alt="" />
         </div>
       </div>
       {/* 10th section end */}
