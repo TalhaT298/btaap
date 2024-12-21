@@ -468,15 +468,18 @@ const Service = () => {
             className="text-4xl font-bold py-4 "
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
           >
-            Btaap Shopping
+            Btaap Lab
           </h1>
           <p className="pt-2">
-            Shop today through BtaapTalkQuickly and
+          New features are tested by users in the
             <br />
-            easily look through products offered on
+            Lab before it is officially added to
             <br />
-            Btaap's fourth tab, Kakao Shopping.
+            Btaap.
             <br />
+            The Kakao Team continues to strive to
+            <br />
+            provide only the best services.
           </p>
         </div>
 
