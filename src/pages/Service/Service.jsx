@@ -188,6 +188,21 @@ const Service = () => {
 
       </div>
       {/* 5th section end */}
+      {/* 6th section start */}
+      <div className="flex">
+        <div className="w-1/2">
+        <h1 className="text-5xl font-bold" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}>PC Version</h1>
+        <p>Use Btaap on your personal computer.
+          <br />Btaap for PC offers chat and other
+          <br />useful features.
+          <br />Available on Windows and macOS.
+        </p>
+        </div>
+        <div className="1/2"></div>
+      </div>
+      {/* 6th section end */}
+      {/* 7th section start */}
+      {/* 7th section end */}
     </React.Fragment>
   );
 };
