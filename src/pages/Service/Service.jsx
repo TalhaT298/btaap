@@ -8,6 +8,12 @@ import { FaYoutube } from "react-icons/fa";
 import { MdDownloadForOffline } from "react-icons/md";
 import aboutb from "../../../src/assets/aboutbanner.webp";
 import slide1 from "../../../src/assets/slide1.png";
+import slide2 from "../../../src/assets/slide2.png";
+import slide3 from "../../../src/assets/slide3.png";
+import slide4 from "../../../src/assets/slide4.png";
+import slide5 from "../../../src/assets/slide5.png";
+import slide6 from "../../../src/assets/slide6.png";
+import slide7 from "../../../src/assets/slide7.png";
 import log from "../../../src/assets/c.png";
 import { Carousel } from 'antd';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -159,7 +165,22 @@ const Service = () => {
         <h3><img src={slide1} alt="" /></h3>
       </div>
       <div>
-        <h3>2</h3>
+      <h3><img src={slide2} alt="" /></h3>
+      </div>
+      <div>
+      <h3><img src={slide3} alt="" /></h3>
+      </div>
+      <div>
+      <h3><img src={slide4} alt="" /></h3>
+      </div>
+      <div>
+      <h3><img src={slide5} alt="" /></h3>
+      </div>
+      <div>
+      <h3><img src={slide6} alt="" /></h3>
+      </div>
+      <div>
+      <h3><img src={slide7} alt="" /></h3>
       </div>
     </Carousel>
   </div>
