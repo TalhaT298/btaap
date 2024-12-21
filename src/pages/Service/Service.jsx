@@ -211,14 +211,14 @@ const Service = () => {
       {/* 5th section end */}
       {/* 6th section start */}
       <div className="flex">
-        <div className="w-1/2 pt-16">
+        <div className="w-1/2 pt-16 pl-44">
           <h1
-            className="text-4xl font-bold"
+            className="text-4xl font-bold py-4 "
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
           >
             PC Version
           </h1>
-          <p>
+          <p className="pt-2">
             Use Btaap on your personal computer.
             <br />
             Btaap for PC offers chat and other
@@ -227,9 +227,9 @@ const Service = () => {
             <br />
             Available on Windows and macOS.
           </p>
-          <div className="">
+          <div className="py-4">
             <button
-              className="btn h-10 bg-gray-100 rounded-3xl text-sm"
+              className="btn h- bg-gray-100 rounded-3xl text-sm"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
             >
               &nbsp;&nbsp;For Windows 10 and later
@@ -239,7 +239,7 @@ const Service = () => {
           </div>
           <div className="">
             <button
-              className="btn h-10 bg-gray-100 rounded-3xl text-sm"
+              className="btn h- bg-gray-100 rounded-3xl text-sm"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
             >
               &nbsp;&nbsp;For Windows 7,8,8.1
