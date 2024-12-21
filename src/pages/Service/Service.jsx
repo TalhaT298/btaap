@@ -211,10 +211,10 @@ const Service = () => {
       {/* 5th section end */}
       {/* 6th section start */}
       <div className="flex">
-        <div className="w-1/2">
+        <div className="w-1/2 pt-16">
           <h1
-            className="text-5xl font-bold"
-            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+            className="text-4xl font-bold"
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
           >
             PC Version
           </h1>
