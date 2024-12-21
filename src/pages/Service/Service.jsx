@@ -252,7 +252,9 @@ const Service = () => {
           </div>
         </div>
 
-        <div className="1/2"><img src={gif1} alt="" /></div>
+        <div className="1/2">
+          <img src={gif1} alt="" />
+        </div>
       </div>
       {/* 6th section end */}
       {/* 7th section start */}
@@ -262,10 +264,10 @@ const Service = () => {
             className="text-4xl font-bold py-4 "
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
           >
-           Emoticons
+            Emoticons
           </h1>
           <p className="pt-2">
-          Sometimes it’s difficult to express your
+            Sometimes it’s difficult to express your
             <br />
             feelings with words alone.
             <br />
@@ -277,7 +279,7 @@ const Service = () => {
             <br />
             with emoticons.
           </p>
-          
+
           <div className="pt-10">
             <button
               className="btn h- bg-gray-100 rounded-3xl text-sm"
@@ -290,7 +292,9 @@ const Service = () => {
           </div>
         </div>
 
-        <div className="1/2"><img src={log1} alt="" /></div>
+        <div className="1/2">
+          <img src={log1} alt="" />
+        </div>
       </div>
       {/* 7th section end */}
       {/* 8th section start */}
@@ -300,24 +304,105 @@ const Service = () => {
             className="text-4xl font-bold py-4 "
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
           >
-           Btaap Shopping
+            Btaap Shopping
           </h1>
           <p className="pt-2">
-          Shop today through BtaapTalkQuickly and
+            Shop today through BtaapTalkQuickly and
             <br />
             easily look through products offered on
             <br />
             Btaap's fourth tab, Kakao Shopping.
             <br />
-            
           </p>
-          
-          
         </div>
 
-        <div className="1/2"><img src={gif2} alt="" /></div>
+        <div className="1/2">
+          <img src={gif2} alt="" />
+        </div>
       </div>
       {/* 8th section end */}
+      {/* 9th section start */}
+      <div className="flex py-24">
+        <div className="w-1/2 pt-32 pl-44">
+          <h1
+            className="text-4xl font-bold py-4 "
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+          >
+            Emoticons
+          </h1>
+          <p className="pt-2">
+            Sometimes it’s difficult to express your
+            <br />
+            feelings with words alone.
+            <br />
+            Emoticons (emojis) can help express
+            <br />
+            yourself to the fullest! Share your
+            <br />
+            thoughts and emotions more accurately
+            <br />
+            with emoticons.
+          </p>
+
+          <div className="pt-10">
+            <button
+              className="btn h- bg-gray-100 rounded-3xl text-sm"
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+            >
+              Go to the service
+              <MdArrowOutward />
+              &nbsp;&nbsp;
+            </button>
+          </div>
+        </div>
+
+        <div className="1/2">
+          <img src={log1} alt="" />
+        </div>
+      </div>
+      {/* 9th section end */}
+      {/* 10th section start */}
+      <div className="flex py-24">
+        <div className="w-1/2 pt-32 pl-44">
+          <h1
+            className="text-4xl font-bold py-4 "
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+          >
+            Emoticons
+          </h1>
+          <p className="pt-2">
+            Sometimes it’s difficult to express your
+            <br />
+            feelings with words alone.
+            <br />
+            Emoticons (emojis) can help express
+            <br />
+            yourself to the fullest! Share your
+            <br />
+            thoughts and emotions more accurately
+            <br />
+            with emoticons.
+          </p>
+
+          <div className="pt-10">
+            <button
+              className="btn h- bg-gray-100 rounded-3xl text-sm"
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+            >
+              Go to the service
+              <MdArrowOutward />
+              &nbsp;&nbsp;
+            </button>
+          </div>
+        </div>
+
+        <div className="1/2">
+          <img src={log1} alt="" />
+        </div>
+      </div>
+      {/* 10th section end */}
+      {/* 11th section start */}
+      {/* 11th section end */}
     </React.Fragment>
   );
 };
