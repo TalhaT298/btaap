@@ -253,6 +253,47 @@ const Service = () => {
       </div>
       {/* 6th section end */}
       {/* 7th section start */}
+      <div className="flex">
+        <div className="w-1/2 pt-16 pl-44">
+          <h1
+            className="text-4xl font-bold py-4 "
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+          >
+           Emoticons
+          </h1>
+          <p className="pt-2">
+          Sometimes it’s difficult to express your
+            <br />
+            feelings with words alone.
+            <br />
+            useful features.
+            <br />
+            Available on Windows and macOS.
+          </p>
+          <div className="py-4">
+            <button
+              className="btn h- bg-gray-100 rounded-3xl text-sm"
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+            >
+              &nbsp;&nbsp;For Windows 10 and later
+              <MdArrowOutward />
+              &nbsp;&nbsp;
+            </button>
+          </div>
+          <div className="">
+            <button
+              className="btn h- bg-gray-100 rounded-3xl text-sm"
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+            >
+              &nbsp;&nbsp;For Windows 7,8,8.1
+              <MdArrowOutward />
+              &nbsp;&nbsp;
+            </button>
+          </div>
+        </div>
+
+        <div className="1/2"><img src={gif1} alt="" /></div>
+      </div>
       {/* 7th section end */}
     </React.Fragment>
   );
