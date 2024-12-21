@@ -164,7 +164,7 @@ const Help = () => {
           className="btn h-10 bg-gray-100 rounded-3xl text-2xl"
           style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
         >
-          &nbsp;&nbsp;Go to the service
+          &nbsp;&nbsp;View all Btaap news
           <FaArrowCircleRight />
           &nbsp;&nbsp;
         </button>
