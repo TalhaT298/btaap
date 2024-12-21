@@ -368,20 +368,20 @@ const Service = () => {
             className="text-4xl font-bold py-4 "
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
           >
-            Emoticons
+            Btaap Mail
           </h1>
           <p className="pt-2">
-            Sometimes it’s difficult to express your
+            Btaap's all you need!
             <br />
-            feelings with words alone.
+            You can also access email from
             <br />
-            Emoticons (emojis) can help express
+            Btaap.Exchange emails more
             <br />
-            yourself to the fullest! Share your
+            conveniently with Btaap Mail, where you
             <br />
-            thoughts and emotions more accurately
+            can getemail notifications and have Jordy
             <br />
-            with emoticons.
+            help you with simple replies.
           </p>
 
           <div className="pt-10">
