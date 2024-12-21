@@ -15,23 +15,24 @@ import slide4 from "../../../src/assets/slide4.png";
 import slide5 from "../../../src/assets/slide5.png";
 import slide6 from "../../../src/assets/slide6.png";
 import slide7 from "../../../src/assets/slide7.png";
+import gif1 from "../../../src/assets/gif1.png";
 import { MdArrowOutward } from "react-icons/md";
 import log from "../../../src/assets/c.png";
-import { Carousel } from 'antd';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Carousel } from "antd";
+import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
-import { Navigation } from 'swiper/modules';
+import { Navigation } from "swiper/modules";
 
 const Service = () => {
-    // const contentStyle = {
-    //   display: 'flex',
-    //   justifyContent: 'center',
-    //   alignItems: 'center',
-    //   height: '50vh', // Full viewport height
-    //   backgroundColor: '#f0f0f0',
-    //   textAlign: 'center',
-     
-    // };
+  // const contentStyle = {
+  //   display: 'flex',
+  //   justifyContent: 'center',
+  //   alignItems: 'center',
+  //   height: '50vh', // Full viewport height
+  //   backgroundColor: '#f0f0f0',
+  //   textAlign: 'center',
+
+  // };
   return (
     <React.Fragment>
       <Link to="/service"></Link>
@@ -152,76 +153,103 @@ const Service = () => {
       {/* 5th section start */}
       <div className="py-6">
         <div className="flex flex-col justify-center items-center text-center w-2/4 h-full mx-auto">
-          <p className="mb-2 text-5xl font-bold" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}>Free Chats</p>
+          <p
+            className="mb-2 text-5xl font-bold"
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+          >
+            Free Chats
+          </p>
           <p className="text-lg py-4">
             Btaap is free of charge with internet connection, wherever you are
-            in the world. Engage in lively chat with friends with Btaap's
-            1:1 and group chats. Send and receive chat and multimedia messages
-            such as photos, videos, and more.
+            in the world. Engage in lively chat with friends with Btaap's 1:1
+            and group chats. Send and receive chat and multimedia messages such
+            as photos, videos, and more.
           </p>
         </div>
         <div className="flex items-center justify-center h-screen">
-  <div className="w-4/6">
-    <Carousel autoplay>
-      <div>
-        <h3><img src={slide1} alt="" /></h3>
-      </div>
-      <div>
-      <h3><img src={slide2} alt="" /></h3>
-      </div>
-      <div>
-      <h3><img src={slide3} alt="" /></h3>
-      </div>
-      <div>
-      <h3><img src={slide4} alt="" /></h3>
-      </div>
-      <div>
-      <h3><img src={slide5} alt="" /></h3>
-      </div>
-      <div>
-      <h3><img src={slide6} alt="" /></h3>
-      </div>
-      <div>
-      <h3><img src={slide7} alt="" /></h3>
-      </div>
-    </Carousel>
-  </div>
-</div>
-
+          <div className="w-4/6">
+            <Carousel autoplay>
+              <div>
+                <h3>
+                  <img src={slide1} alt="" />
+                </h3>
+              </div>
+              <div>
+                <h3>
+                  <img src={slide2} alt="" />
+                </h3>
+              </div>
+              <div>
+                <h3>
+                  <img src={slide3} alt="" />
+                </h3>
+              </div>
+              <div>
+                <h3>
+                  <img src={slide4} alt="" />
+                </h3>
+              </div>
+              <div>
+                <h3>
+                  <img src={slide5} alt="" />
+                </h3>
+              </div>
+              <div>
+                <h3>
+                  <img src={slide6} alt="" />
+                </h3>
+              </div>
+              <div>
+                <h3>
+                  <img src={slide7} alt="" />
+                </h3>
+              </div>
+            </Carousel>
+          </div>
+        </div>
       </div>
       {/* 5th section end */}
       {/* 6th section start */}
       <div className="flex">
         <div className="w-1/2">
-        <h1 className="text-5xl font-bold" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}>PC Version</h1>
-        <p>Use Btaap on your personal computer.
-          <br />Btaap for PC offers chat and other
-          <br />useful features.
-          <br />Available on Windows and macOS.
-        </p>
-        <div className="">
-                <button
-                  className="btn h-10 bg-gray-100 rounded-3xl text-sm"
-                  style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
-                >
-                  &nbsp;&nbsp;For Windows 10 and later
-                  <MdArrowOutward />
-                  &nbsp;&nbsp;
-                </button>
-              </div>
-        <div className="">
-                <button
-                  className="btn h-10 bg-gray-100 rounded-3xl text-sm"
-                  style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
-                >
-                  &nbsp;&nbsp;For Windows 7,8,8.1
-                  <MdArrowOutward />
-                  &nbsp;&nbsp;
-                </button>
-              </div>
+          <h1
+            className="text-5xl font-bold"
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+          >
+            PC Version
+          </h1>
+          <p>
+            Use Btaap on your personal computer.
+            <br />
+            Btaap for PC offers chat and other
+            <br />
+            useful features.
+            <br />
+            Available on Windows and macOS.
+          </p>
+          <div className="">
+            <button
+              className="btn h-10 bg-gray-100 rounded-3xl text-sm"
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+            >
+              &nbsp;&nbsp;For Windows 10 and later
+              <MdArrowOutward />
+              &nbsp;&nbsp;
+            </button>
+          </div>
+          <div className="">
+            <button
+              className="btn h-10 bg-gray-100 rounded-3xl text-sm"
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+            >
+              &nbsp;&nbsp;For Windows 7,8,8.1
+              <MdArrowOutward />
+              &nbsp;&nbsp;
+            </button>
+          </div>
         </div>
-        
-        <div className="1/2"></div>
+
+        <div className="1/2"><img src={gif1} alt="" /></div>
       </div>
       {/* 6th section end */}
       {/* 7th section start */}
