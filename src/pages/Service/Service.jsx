@@ -266,26 +266,21 @@ const Service = () => {
             <br />
             feelings with words alone.
             <br />
-            useful features.
+            Emoticons (emojis) can help express
             <br />
-            Available on Windows and macOS.
+            yourself to the fullest! Share your
+            <br />
+            thoughts and emotions more accurately
+            <br />
+            with emoticons.
           </p>
-          <div className="py-4">
-            <button
-              className="btn h- bg-gray-100 rounded-3xl text-sm"
-              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
-            >
-              &nbsp;&nbsp;For Windows 10 and later
-              <MdArrowOutward />
-              &nbsp;&nbsp;
-            </button>
-          </div>
+          
           <div className="">
             <button
               className="btn h- bg-gray-100 rounded-3xl text-sm"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
             >
-              &nbsp;&nbsp;For Windows 7,8,8.1
+              &nbsp;&nbsp;Go to the service
               <MdArrowOutward />
               &nbsp;&nbsp;
             </button>
