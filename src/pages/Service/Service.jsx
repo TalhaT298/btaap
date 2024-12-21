@@ -6,6 +6,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { FaDiscord } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { MdDownloadForOffline } from "react-icons/md";
+import { FaArrowCircleRight } from "react-icons/fa";
 import aboutb from "../../../src/assets/aboutbanner.webp";
 import slide1 from "../../../src/assets/slide1.png";
 import slide2 from "../../../src/assets/slide2.png";
@@ -14,6 +15,7 @@ import slide4 from "../../../src/assets/slide4.png";
 import slide5 from "../../../src/assets/slide5.png";
 import slide6 from "../../../src/assets/slide6.png";
 import slide7 from "../../../src/assets/slide7.png";
+import { MdArrowOutward } from "react-icons/md";
 import log from "../../../src/assets/c.png";
 import { Carousel } from 'antd';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -197,7 +199,28 @@ const Service = () => {
           <br />useful features.
           <br />Available on Windows and macOS.
         </p>
+        <div className="">
+                <button
+                  className="btn h-10 bg-gray-100 rounded-3xl text-sm"
+                  style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+                >
+                  &nbsp;&nbsp;For Windows 10 and later
+                  <MdArrowOutward />
+                  &nbsp;&nbsp;
+                </button>
+              </div>
+        <div className="">
+                <button
+                  className="btn h-10 bg-gray-100 rounded-3xl text-sm"
+                  style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+                >
+                  &nbsp;&nbsp;For Windows 7,8,8.1
+                  <MdArrowOutward />
+                  &nbsp;&nbsp;
+                </button>
+              </div>
         </div>
+        
         <div className="1/2"></div>
       </div>
       {/* 6th section end */}
