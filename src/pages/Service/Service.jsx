@@ -437,15 +437,22 @@ const Service = () => {
             className="text-4xl font-bold py-4 "
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
           >
-            Btaap Shopping
+           Wallet
           </h1>
           <p className="pt-2">
-            Shop today through BtaapTalkQuickly and
+          Btaap Wallet, Your Safe Haven for
             <br />
-            easily look through products offered on
+            Valuable Assets!
             <br />
-            Btaap's fourth tab, Kakao Shopping.
+            Experience seamless online and offline
             <br />
+            authentication while managing your
+            <br />
+            financial assets, digital documents, and
+            <br />
+            bills effortlessly, all conveniently stored in
+            <br />
+            your wallet.
           </p>
         </div>
 
