@@ -328,20 +328,20 @@ const Service = () => {
             className="text-4xl font-bold py-4 "
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
           >
-            Emoticons
+            Btaap Channel
           </h1>
           <p className="pt-2">
-            Sometimes it’s difficult to express your
+          Business platform anyone can create for
             <br />
-            feelings with words alone.
+            free.
             <br />
-            Emoticons (emojis) can help express
+            Showcase your products or services in the
             <br />
-            yourself to the fullest! Share your
+            Btaap Showcase your products or services in the
             <br />
-            thoughts and emotions more accurately
+            Btaap
             <br />
-            with emoticons.
+            
           </p>
 
           <div className="pt-10">
