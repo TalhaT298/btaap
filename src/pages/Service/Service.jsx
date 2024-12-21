@@ -7,17 +7,23 @@ import { FaDiscord } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { MdDownloadForOffline } from "react-icons/md";
 import aboutb from "../../../src/assets/aboutbanner.webp";
+import slide1 from "../../../src/assets/slide1.png";
 import log from "../../../src/assets/c.png";
 import { Carousel } from 'antd';
+import { Swiper, SwiperSlide } from 'swiper/react';
+// import required modules
+import { Navigation } from 'swiper/modules';
 
 const Service = () => {
-    const contentStyle = {
-        height: '360px',
-        color: '#fff',
-        lineHeight: '160px',
-        textAlign: 'center',
-        background: '#364d79',
-    };
+    // const contentStyle = {
+    //   display: 'flex',
+    //   justifyContent: 'center',
+    //   alignItems: 'center',
+    //   height: '50vh', // Full viewport height
+    //   backgroundColor: '#f0f0f0',
+    //   textAlign: 'center',
+     
+    // };
   return (
     <React.Fragment>
       <Link to="/service"></Link>
@@ -146,22 +152,19 @@ const Service = () => {
             such as photos, videos, and more.
           </p>
         </div>
-        <div>
-        <Carousel autoplay>
-                <div>
-                    <h3 style={contentStyle}>1</h3>
-                </div>
-                <div>
-                    <h3 style={contentStyle}>2</h3>
-                </div>
-                <div>
-                    <h3 style={contentStyle}>3</h3>
-                </div>
-                <div>
-                    <h3 style={contentStyle}>4</h3>
-                </div>
-            </Carousel>
-        </div>
+        <div className="flex items-center justify-center h-screen">
+  <div className="w-4/6">
+    <Carousel autoplay>
+      <div>
+        <h3><img src={slide1} alt="" /></h3>
+      </div>
+      <div>
+        <h3>2</h3>
+      </div>
+    </Carousel>
+  </div>
+</div>
+
       </div>
       {/* 5th section end */}
     </React.Fragment>
