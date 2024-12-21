@@ -359,7 +359,7 @@ const Service = () => {
         </div>
 
         <div className="1/2">
-          <img src={gif3} alt="" />
+          <img src={gif4} alt="" />
         </div>
       </div>
       {/* 9th section end */}
@@ -399,12 +399,82 @@ const Service = () => {
         </div>
 
         <div className="1/2">
-          <img src={gif4} alt="" />
+          <img src={gif3} alt="" />
         </div>
       </div>
       {/* 10th section end */}
       {/* 11th section start */}
+      <div className="flex py-32">
+        <div className="w-1/2 pt-40 pl-44">
+          <h1
+            className="text-4xl font-bold py-4 "
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+          >
+            Btaap Shopping
+          </h1>
+          <p className="pt-2">
+            Shop today through BtaapTalkQuickly and
+            <br />
+            easily look through products offered on
+            <br />
+            Btaap's fourth tab, Kakao Shopping.
+            <br />
+          </p>
+        </div>
+
+        <div className="1/2">
+          <img src={gif2} alt="" />
+        </div>
+      </div>
       {/* 11th section end */}
+      {/* 12th section start */}
+      <div className="flex py-32">
+        <div className="w-1/2 pt-40 pl-44">
+          <h1
+            className="text-4xl font-bold py-4 "
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+          >
+            Btaap Shopping
+          </h1>
+          <p className="pt-2">
+            Shop today through BtaapTalkQuickly and
+            <br />
+            easily look through products offered on
+            <br />
+            Btaap's fourth tab, Kakao Shopping.
+            <br />
+          </p>
+        </div>
+
+        <div className="1/2">
+          <img src={gif2} alt="" />
+        </div>
+      </div>
+      {/* 12th section end */}
+      {/* 13th section start */}
+      <div className="flex py-32">
+        <div className="w-1/2 pt-40 pl-44">
+          <h1
+            className="text-4xl font-bold py-4 "
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+          >
+            Btaap Shopping
+          </h1>
+          <p className="pt-2">
+            Shop today through BtaapTalkQuickly and
+            <br />
+            easily look through products offered on
+            <br />
+            Btaap's fourth tab, Kakao Shopping.
+            <br />
+          </p>
+        </div>
+
+        <div className="1/2">
+          <img src={gif2} alt="" />
+        </div>
+      </div>
+      {/* 13th section end */}
     </React.Fragment>
   );
 };
