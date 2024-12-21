@@ -410,15 +410,18 @@ const Service = () => {
             className="text-4xl font-bold py-4 "
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
           >
-            Btaap Shopping
+            Theme
           </h1>
           <p className="pt-2">
-            Shop today through BtaapTalkQuickly and
+          There are ways to spruce up your
             <br />
-            easily look through products offered on
+            Btaap, which you use daily.Include your
             <br />
-            Btaap's fourth tab, Kakao Shopping.
+            favorite photo and characters to create a
             <br />
+            customized theme and share it with
+            <br />
+            friends.
           </p>
         </div>
 
