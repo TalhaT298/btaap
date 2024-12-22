@@ -25,6 +25,7 @@ import gif7 from "../../../src/assets/lab.jpg";
 import { MdArrowOutward } from "react-icons/md";
 import log from "../../../src/assets/c.png";
 import log1 from "../../../src/assets/emotion.png";
+import { IoIosLink } from "react-icons/io";
 
 import { Carousel } from "antd";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -113,7 +114,7 @@ const Service = () => {
               <FaDiscord />
             </div>
             <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
-              <FaYoutube />
+              <IoIosLink />
             </div>
           </div>
         </div>
@@ -491,7 +492,25 @@ const Service = () => {
         </div>
       </div>
       {/* 13th section end */}
-      
+      {/* 14th section start */}
+      <div className="flex justify-center items-center space-x-4 mt-4">
+            <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+              <FaFacebook />
+            </div>
+            <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+              <IoLogoInstagram />
+            </div>
+            <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+              <FaLinkedinIn />
+            </div>
+            <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+              <FaDiscord />
+            </div>
+            <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+              <IoIosLink />
+            </div>
+          </div>
+      {/* 14th section end */}
     </React.Fragment>
   );
 };
