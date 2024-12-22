@@ -337,7 +337,7 @@ const Service = () => {
             Btaap Channel
           </h1>
           <p className="pt-2">
-          Business platform anyone can create for
+            Business platform anyone can create for
             <br />
             free.
             <br />
@@ -347,7 +347,6 @@ const Service = () => {
             <br />
             Btaap
             <br />
-            
           </p>
 
           <div className="pt-10">
@@ -417,7 +416,7 @@ const Service = () => {
             Theme
           </h1>
           <p className="pt-2">
-          There are ways to spruce up your
+            There are ways to spruce up your
             <br />
             Btaap, which you use daily.Include your
             <br />
@@ -441,10 +440,10 @@ const Service = () => {
             className="text-4xl font-bold py-4 "
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
           >
-           Wallet
+            Wallet
           </h1>
           <p className="pt-2">
-          Btaap Wallet, Your Safe Haven for
+            Btaap Wallet, Your Safe Haven for
             <br />
             Valuable Assets!
             <br />
@@ -475,7 +474,7 @@ const Service = () => {
             Btaap Lab
           </h1>
           <p className="pt-2">
-          New features are tested by users in the
+            New features are tested by users in the
             <br />
             Lab before it is officially added to
             <br />
@@ -494,22 +493,36 @@ const Service = () => {
       {/* 13th section end */}
       {/* 14th section start */}
       <div className="flex justify-center items-center space-x-4 mt-4">
-            <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
-              <FaFacebook />
-            </div>
-            <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
-              <IoLogoInstagram />
-            </div>
-            <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
-              <FaLinkedinIn />
-            </div>
-            <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
-              <FaDiscord />
-            </div>
-            <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
-              <IoIosLink />
-            </div>
-          </div>
+        <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+          <FaFacebook />
+        </div>
+        <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+          <IoLogoInstagram />
+        </div>
+        <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+          <FaLinkedinIn />
+        </div>
+        <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+          <FaDiscord />
+        </div>
+        <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+          <IoIosLink />
+        </div>
+      </div>
+      <div className="flex justify-center items-center space-x-4 mt-4">
+        <div className="w-24 h-8 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+          #btaaptalk
+        </div>
+        <div className="w-16 h-8 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+          #life
+        </div>
+        <div className="w-28 h-8 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+          #messenger
+        </div>
+        <div className="w-24 h-8 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+          #platform
+        </div>
+      </div>
       {/* 14th section end */}
     </React.Fragment>
   );
