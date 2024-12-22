@@ -525,7 +525,7 @@ const Service = () => {
       </div>
       {/* 14th section end */}
       {/* 15th section start */}
-      <div className="py-10">
+      <div className="pt-10 pb-6">
         <div className="py-16 bg-gray-100">
           <div className="flex justify-center items-center">
             <img className="w-20 h-20 rounded-2xl" src={log} alt="" />
@@ -560,6 +560,18 @@ const Service = () => {
         </div>
       </div>
       {/* 15th section end */}
+      {/* 16th section start */}
+      <div className="py-1">
+        <div className="flex justify-center items-center py-10">
+          <button
+            className="btn h-10 bg-gray-100 text-black hover:bg-black hover:text-gray-100 rounded-3xl text-lg"
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+          >
+            &nbsp;&nbsp;list view &nbsp;&nbsp;
+          </button>
+        </div>
+      </div>
+      {/* 16th section end */}
     </React.Fragment>
   );
 };
