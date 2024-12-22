@@ -429,12 +429,12 @@ const Service = () => {
         </div>
 
         <div className="1/2">
-          <img src={gif2} alt="" />
+          <img src={gif5} alt="" />
         </div>
       </div>
       {/* 11th section end */}
       {/* 12th section start */}
-      <div className="flex py-32">
+      <div className="flex py-20">
         <div className="w-1/2 pt-40 pl-44">
           <h1
             className="text-4xl font-bold py-4 "
@@ -460,12 +460,12 @@ const Service = () => {
         </div>
 
         <div className="1/2">
-          <img src={gif2} alt="" />
+          <img src={gif6} alt="" />
         </div>
       </div>
       {/* 12th section end */}
       {/* 13th section start */}
-      <div className="flex py-32">
+      <div className="flex py-20">
         <div className="w-1/2 pt-40 pl-44">
           <h1
             className="text-4xl font-bold py-4 "
@@ -487,10 +487,11 @@ const Service = () => {
         </div>
 
         <div className="1/2">
-          <img src={gif2} alt="" />
+          <img src={gif7} alt="" />
         </div>
       </div>
       {/* 13th section end */}
+      
     </React.Fragment>
   );
 };
