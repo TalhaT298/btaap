@@ -524,6 +524,35 @@ const Service = () => {
         </div>
       </div>
       {/* 14th section end */}
+      {/* 15th section start */}
+      <div className="py-10">
+        <div className="py-16 bg-gray-100">
+        <div className="flex justify-center items-center">
+          <img className="w-20 h-20 rounded-2xl" src={log} alt="" />
+        </div>
+        <div className="flex justify-center items-center min-h-60">
+          {/* Main Container */}
+          <div className="text-center space-y-4 p-4">
+            {/* News Date */}
+
+            {/* Main Heading */}
+            <h1
+              className="text-5xl font-bold leading-tight tracking-tight text-black"
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+            >
+              Btaap, where people and the world come
+              <br />
+              to get connected
+              <br />
+  
+            </h1>
+
+            
+          </div>
+        </div>
+      </div>
+      </div>
+      {/* 15th section end */}
     </React.Fragment>
   );
 };
