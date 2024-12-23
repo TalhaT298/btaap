@@ -20,8 +20,8 @@ import gif2 from "../../../src/assets/gif2.png";
 import gif3 from "../../../src/assets/mailvai.png";
 import gif4 from "../../../src/assets/tect.png";
 import gif5 from "../../../src/assets/themee.jpg";
-import ba1 from "../../../src/assets/ba1.png";
-import ba2 from "../../../src/assets/ba2.png";
+import baa1 from "../../../src/assets/ai.jpg";
+import baa2 from "../../../src/assets/future.jpg";
 import ba3 from "../../../src/assets/ba3.png";
 import { AiTwotoneSound } from "react-icons/ai";
 import gif6 from "../../../src/assets/walet.jpg";
@@ -626,7 +626,7 @@ const Service = () => {
                         </div>
                       </div>
                       <img
-                        src={ba1}
+                        src={baa1}
                         alt="Btaap Business Best Awards"
                         className="w-full h-56 object-cover"
                       />
@@ -651,14 +651,14 @@ const Service = () => {
                         >
                           Lowering the barrier to the future
                         </h2>
-                        <div className="mt-24 flex flex-wrap gap-2 text-sm text-gray-600">
+                        <div className="mt-[135px] flex flex-wrap gap-2 text-sm text-gray-600">
                           <span>#developer</span>
                           <span>#engineering</span>
                           <span>#tech</span>
                         </div>
                       </div>
                       <img
-                        src={ba2}
+                        src={baa2}
                         alt="Kakao Together Value"
                         className="w-full h-56 object-cover"
                       />
