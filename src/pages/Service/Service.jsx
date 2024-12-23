@@ -223,15 +223,15 @@ const Service = () => {
       </div>
       {/* 5th section end */}
       {/* 6th section start */}
-      <div className="flex">
-        <div className="w-1/2 pt-16 pl-44">
+      <div className="flex flex-col md:flex-row">
+        <div className="w-full md:w-1/2 pt-8 md:pt-16 px-6 md:pl-44 text-center md:text-left">
           <h1
-            className="text-4xl font-bold py-4 "
+            className="text-3xl md:text-4xl font-bold py-4"
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
           >
             PC Version
           </h1>
-          <p className="pt-2">
+          <p className="pt-2 text-sm md:text-base">
             Use Btaap on your personal computer.
             <br />
             Btaap for PC offers chat and other
@@ -242,30 +242,33 @@ const Service = () => {
           </p>
           <div className="py-4">
             <button
-              className="btn h- bg-gray-100 rounded-3xl text-sm"
+              className="btn h-auto bg-gray-100 rounded-3xl text-sm px-4 py-2 w-full md:w-auto flex items-center justify-center gap-2"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
             >
-              &nbsp;&nbsp;For Windows 10 and later
+              For Windows 10 and later
               <MdArrowOutward />
-              &nbsp;&nbsp;
             </button>
           </div>
-          <div className="">
+          <div>
             <button
-              className="btn h- bg-gray-100 rounded-3xl text-sm"
+              className="btn h-auto bg-gray-100 rounded-3xl text-sm px-4 py-2 w-full md:w-auto flex items-center justify-center gap-2"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
             >
-              &nbsp;&nbsp;For Windows 7,8,8.1
+              For Windows 7, 8, 8.1
               <MdArrowOutward />
-              &nbsp;&nbsp;
             </button>
           </div>
         </div>
 
-        <div className="1/2">
-          <img src={gif1} alt="" />
+        <div className="w-full md:w-1/2 flex justify-center md:justify-end mt-8 md:mt-0">
+          <img
+            src={gif1}
+            alt="PC Version"
+            className="w-full max-w-md md:max-w-none"
+          />
         </div>
       </div>
+
       {/* 6th section end */}
       {/* 7th section start */}
       <div className="flex py-24">
@@ -587,85 +590,85 @@ const Service = () => {
         }}
       ></div>
       {/* title add */}
-            <div className="flex items-center justify-between py-6">
-              <div className="flex items-center space-x-2">
-                <span
-                  className="text-4xl font-extrabold text-black px-6"
-                  style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
-                >
-                  Recommended Contents
-                </span>
+      <div className="flex items-center justify-between py-6">
+        <div className="flex items-center space-x-2">
+          <span
+            className="text-4xl font-extrabold text-black px-6"
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
+          >
+            Recommended Contents
+          </span>
+        </div>
+      </div>
+      {/* title end */}
+      {/* card part */}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 justify-center p-4">
+        {/* Card 1 */}
+        <div className="max-w-md mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
+          <div className="p-4">
+            <div className="flex items-center space-x-2">
+              <div className="flex items-center text-[#1e40af]">
+                <FaFlag className="text-[#1e40af] w-8 h-8" />
               </div>
+              <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
+                Tech Ethics
+              </span>
+              <span className="text-sm text-gray-500">2024.12.13</span>
+              <span className="text-xl px-2">⫶</span>
             </div>
-            {/* title end */}
-            {/* card part */}
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 justify-center p-4">
-                    {/* Card 1 */}
-                    <div className="max-w-md mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
-                      <div className="p-4">
-                        <div className="flex items-center space-x-2">
-                          <div className="flex items-center text-[#1e40af]">
-                            <FaFlag className="text-[#1e40af] w-8 h-8" />
-                          </div>
-                          <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
-                            Tech Ethics
-                          </span>
-                          <span className="text-sm text-gray-500">2024.12.13</span>
-                          <span className="text-xl px-2">⫶</span>
-                        </div>
-                        <h2
-                          className="text-4xl font-semibold mt-2 py-10"
-                          style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
-                        >
-                          Discover News Tastes With "AI Gift Explorer"
-                        </h2>
-                        <div className="mt-24 flex flex-wrap gap-2 text-sm text-gray-600">
-                          <span>#Btaaptalka</span>
-                          <span>#GiftSErvice</span>
-                          <span>#AllRecomend</span>
-                        </div>
-                      </div>
-                      <img
-                        src={baa1}
-                        alt="Btaap Business Best Awards"
-                        className="w-full h-56 object-cover"
-                      />
-                    </div>
-            
-                    {/* Card 2 */}
-                    <div className="max-w-md mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
-                      <div className="p-4">
-                        <div className="flex items-center space-x-2">
-                          <div className="flex items-center text-[#1e40af]">
-                            <IoSettingsSharp className="text-[#1e40af] w-8 h-8" />
-                          </div>
-                          <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
-                            Btaap Tech
-                          </span>
-                          <span className="text-sm text-gray-500">2024.12.12</span>
-                          <span className="text-xl px-2">⫶</span>
-                        </div>
-                        <h2
-                          className="text-4xl font-semibold mt-2 pt-10"
-                          style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
-                        >
-                          Lowering the barrier to the future
-                        </h2>
-                        <div className="mt-[135px] flex flex-wrap gap-2 text-sm text-gray-600">
-                          <span>#developer</span>
-                          <span>#engineering</span>
-                          <span>#tech</span>
-                        </div>
-                      </div>
-                      <img
-                        src={baa2}
-                        alt="Kakao Together Value"
-                        className="w-full h-56 object-cover"
-                      />
-                    </div>
-            
-                    {/* Card 3 */}
-                    {/* <div className="max-w-md mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
+            <h2
+              className="text-4xl font-semibold mt-2 py-10"
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
+            >
+              Discover News Tastes With "AI Gift Explorer"
+            </h2>
+            <div className="mt-24 flex flex-wrap gap-2 text-sm text-gray-600">
+              <span>#Btaaptalka</span>
+              <span>#GiftSErvice</span>
+              <span>#AllRecomend</span>
+            </div>
+          </div>
+          <img
+            src={baa1}
+            alt="Btaap Business Best Awards"
+            className="w-full h-56 object-cover"
+          />
+        </div>
+
+        {/* Card 2 */}
+        <div className="max-w-md mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
+          <div className="p-4">
+            <div className="flex items-center space-x-2">
+              <div className="flex items-center text-[#1e40af]">
+                <IoSettingsSharp className="text-[#1e40af] w-8 h-8" />
+              </div>
+              <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
+                Btaap Tech
+              </span>
+              <span className="text-sm text-gray-500">2024.12.12</span>
+              <span className="text-xl px-2">⫶</span>
+            </div>
+            <h2
+              className="text-4xl font-semibold mt-2 pt-10"
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
+            >
+              Lowering the barrier to the future
+            </h2>
+            <div className="mt-[135px] flex flex-wrap gap-2 text-sm text-gray-600">
+              <span>#developer</span>
+              <span>#engineering</span>
+              <span>#tech</span>
+            </div>
+          </div>
+          <img
+            src={baa2}
+            alt="Kakao Together Value"
+            className="w-full h-56 object-cover"
+          />
+        </div>
+
+        {/* Card 3 */}
+        {/* <div className="max-w-md mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
                       <div className="p-4">
                         <div className="flex items-center space-x-2">
                           <div className="flex items-center text-[#97ce9b]">
@@ -695,7 +698,7 @@ const Service = () => {
                         className="w-full h-56 object-cover"
                       />
                     </div> */}
-                  </div>
+      </div>
       {/* 17th section end*/}
     </React.Fragment>
   );
