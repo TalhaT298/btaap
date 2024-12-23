@@ -4,7 +4,7 @@ import { IoLogoInstagram } from "react-icons/io5";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaDiscord } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
+import { FaFlag } from "react-icons/fa";
 import { MdDownloadForOffline } from "react-icons/md";
 import { FaArrowCircleRight } from "react-icons/fa";
 import aboutb from "../../../src/assets/aboutbanner.webp";
@@ -30,7 +30,7 @@ import { MdArrowOutward } from "react-icons/md";
 import log from "../../../src/assets/c.png";
 import log1 from "../../../src/assets/emotion.png";
 import { IoIosLink } from "react-icons/io";
-
+import { IoSettingsSharp } from "react-icons/io5";
 import { Carousel } from "antd";
 import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
@@ -604,11 +604,11 @@ const Service = () => {
                     <div className="max-w-md mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
                       <div className="p-4">
                         <div className="flex items-center space-x-2">
-                          <div className="flex items-center text-[#97ce9b]">
-                            <AiTwotoneSound className="text-[#97ce9b] w-8 h-8" />
+                          <div className="flex items-center text-[#1e40af]">
+                            <FaFlag className="text-[#1e40af] w-8 h-8" />
                           </div>
                           <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
-                            Press release
+                            Tech Ethics
                           </span>
                           <span className="text-sm text-gray-500">2024.12.13</span>
                           <span className="text-xl px-2">⫶</span>
@@ -617,12 +617,12 @@ const Service = () => {
                           className="text-4xl font-semibold mt-2 py-10"
                           style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
                         >
-                          Btaap to hold '2024 Kakao Business Best Awards' ceremony
+                          Discover News Tastes With "AI Gift Explorer"
                         </h2>
                         <div className="mt-24 flex flex-wrap gap-2 text-sm text-gray-600">
-                          <span>#Symbiosis</span>
-                          <span>#Btaap</span>
-                          <span>#BtaapBusiness</span>
+                          <span>#Btaaptalka</span>
+                          <span>#GiftSErvice</span>
+                          <span>#AllRecomend</span>
                         </div>
                       </div>
                       <img
@@ -636,11 +636,11 @@ const Service = () => {
                     <div className="max-w-md mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
                       <div className="p-4">
                         <div className="flex items-center space-x-2">
-                          <div className="flex items-center text-[#97ce9b]">
-                            <AiTwotoneSound className="text-[#97ce9b] w-8 h-8" />
+                          <div className="flex items-center text-[#1e40af]">
+                            <IoSettingsSharp className="text-[#1e40af] w-8 h-8" />
                           </div>
                           <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
-                            Press release
+                            Btaap Tech
                           </span>
                           <span className="text-sm text-gray-500">2024.12.12</span>
                           <span className="text-xl px-2">⫶</span>
@@ -649,13 +649,12 @@ const Service = () => {
                           className="text-4xl font-semibold mt-2 pt-10"
                           style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
                         >
-                          Btaap Together Value, Various Sharing Activities to Meet the End
-                          of the Year
+                          Lowering the barrier to the future
                         </h2>
                         <div className="mt-24 flex flex-wrap gap-2 text-sm text-gray-600">
-                          <span>#ESG</span>
-                          <span>#TogetherValues</span>
-                          <span>#Btaap</span>
+                          <span>#developer</span>
+                          <span>#engineering</span>
+                          <span>#tech</span>
                         </div>
                       </div>
                       <img
@@ -666,7 +665,7 @@ const Service = () => {
                     </div>
             
                     {/* Card 3 */}
-                    <div className="max-w-md mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
+                    {/* <div className="max-w-md mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
                       <div className="p-4">
                         <div className="flex items-center space-x-2">
                           <div className="flex items-center text-[#97ce9b]">
@@ -695,7 +694,7 @@ const Service = () => {
                         alt="Kakao Mutual Growth"
                         className="w-full h-56 object-cover"
                       />
-                    </div>
+                    </div> */}
                   </div>
       {/* 17th section end*/}
     </React.Fragment>
