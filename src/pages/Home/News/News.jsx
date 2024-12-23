@@ -133,21 +133,23 @@ const News = () => {
         {/* Card 1 */}
         <div className="max-w-full mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
           <div className="p-4">
-            <div className="flex items-center space-x-2">
+            <div className="flex flex-wrap items-center space-x-2">
               <div className="flex items-center text-[#97ce9b]">
-                <AiTwotoneSound className="text-[#97ce9b] w-8 h-8" />
+                <AiTwotoneSound className="text-[#97ce9b] w-6 h-6 sm:w-8 sm:h-8" />
               </div>
-              <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
+              <span className="text-xs sm:text-sm font-extralight bg-white text-black px-3 sm:px-5 py-1 sm:py-2 rounded-lg">
                 Press release
               </span>
-              <span className="text-sm text-gray-500">2024.12.13</span>
-              <span className="text-xl px-2">⫶</span>
+              <span className="text-xs sm:text-sm text-gray-500">
+                2024.12.13
+              </span>
+              <span className="text-lg sm:text-xl px-2">⫶</span>
             </div>
             <h2
-              className="text-2xl sm:text-3xl font-medium mt-2 py-7"
+              className="text-lg sm:text-2xl md:text-3xl font-medium mt-2 py-4 sm:py-7"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
             >
-              Btaap , Btaap Tech Campus 2nd Graduation Ceremony Held
+              Btaap, Btaap Tech Campus 2nd Graduation Ceremony Held
             </h2>
           </div>
         </div>
@@ -155,18 +157,20 @@ const News = () => {
         {/* Card 2 */}
         <div className="max-w-full mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
           <div className="p-4">
-            <div className="flex items-center space-x-2">
+            <div className="flex flex-wrap items-center space-x-2">
               <div className="flex items-center text-[#97ce9b]">
-                <AiTwotoneSound className="text-[#97ce9b] w-8 h-8" />
+                <AiTwotoneSound className="text-[#97ce9b] w-6 h-6 sm:w-8 sm:h-8" />
               </div>
-              <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
+              <span className="text-xs sm:text-sm font-extralight bg-white text-black px-3 sm:px-5 py-1 sm:py-2 rounded-lg">
                 Press release
               </span>
-              <span className="text-sm text-gray-500">2024.12.12</span>
-              <span className="text-xl px-2">⫶</span>
+              <span className="text-xs sm:text-sm text-gray-500">
+                2024.12.12
+              </span>
+              <span className="text-lg sm:text-xl px-2">⫶</span>
             </div>
             <h2
-              className="text-2xl sm:text-3xl font-medium mt-2 pt-7"
+              className="text-lg sm:text-2xl md:text-3xl font-medium mt-2 py-4 sm:py-7"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
             >
               Btaap Shopping Tab Reorganization, Strengthening Customized
@@ -176,30 +180,28 @@ const News = () => {
         </div>
 
         {/* Card 3 */}
-        <div className="bg-gray-100 p-4 rounded-xl shadow-md flex h-36 pt-6">
+        <div className="bg-gray-100 p-4 rounded-xl shadow-md flex flex-col sm:flex-row h-auto sm:h-36 items-center">
           <h2
-            className="font-medium text-2xl sm:text-3xl pt-6"
+            className="font-medium text-lg sm:text-2xl md:text-3xl text-center sm:text-left"
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
           >
-            Press
-            release&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Press release
           </h2>
-          <div className="flex pt-6 px-4">
-            <IoArrowForwardCircleSharp className="w-10 h-10" />
+          <div className="flex mt-4 sm:mt-0 sm:ml-auto">
+            <IoArrowForwardCircleSharp className="w-8 h-8 sm:w-10 sm:h-10" />
           </div>
         </div>
 
         {/* Card 4 */}
-        <div className="bg-gray-100 p-4 rounded-xl shadow-md flex h-36 pt-6">
+        <div className="bg-gray-100 p-4 rounded-xl shadow-md flex flex-col sm:flex-row h-auto sm:h-36 items-center">
           <h2
-            className="font-medium text-2xl sm:text-3xl pt-6"
+            className="font-medium text-lg sm:text-2xl md:text-3xl text-center sm:text-left"
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
           >
-            Media
-            Materials&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Media Materials
           </h2>
-          <div className="flex pt-6 px-4">
-            <IoArrowForwardCircleSharp className="w-10 h-10" />
+          <div className="flex mt-4 sm:mt-0 sm:ml-auto">
+            <IoArrowForwardCircleSharp className="w-8 h-8 sm:w-10 sm:h-10" />
           </div>
         </div>
       </div>
