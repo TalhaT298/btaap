@@ -314,39 +314,43 @@ const Service = () => {
 
       {/* 7th section end */}
       {/* 8th section start */}
-      <div className="flex py-32">
-        <div className="w-1/2 pt-40 pl-44">
+      <div className="flex flex-col md:flex-row py-12 md:py-32">
+        <div className="w-full md:w-1/2 pt-8 md:pt-40 px-6 md:pl-44 text-center md:text-left">
           <h1
-            className="text-4xl font-bold py-4 "
+            className="text-3xl md:text-4xl font-bold py-4"
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
           >
             Btaap Shopping
           </h1>
-          <p className="pt-2">
-            Shop today through BtaapTalkQuickly and
+          <p className="pt-2 text-sm md:text-base">
+            Shop today through BtaapTalk quickly and
             <br />
             easily look through products offered on
             <br />
             Btaap's fourth tab, Kakao Shopping.
-            <br />
           </p>
         </div>
 
-        <div className="1/2">
-          <img src={gif2} alt="" />
+        <div className="w-full md:w-1/2 flex justify-center md:justify-end mt-8 md:mt-0">
+          <img
+            src={gif2}
+            alt="Btaap Shopping"
+            className="w-full max-w-md md:max-w-none"
+          />
         </div>
       </div>
+
       {/* 8th section end */}
       {/* 9th section start */}
-      <div className="flex py-24">
-        <div className="w-1/2 pt-32 pl-44">
+      <div className="flex flex-col md:flex-row py-12 md:py-24">
+        <div className="w-full md:w-1/2 pt-8 md:pt-32 px-6 md:pl-44 text-center md:text-left">
           <h1
-            className="text-4xl font-bold py-4 "
+            className="text-3xl md:text-4xl font-bold py-4"
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
           >
             Btaap Channel
           </h1>
-          <p className="pt-2">
+          <p className="pt-2 text-sm md:text-base">
             Business platform anyone can create for
             <br />
             free.
@@ -355,80 +359,85 @@ const Service = () => {
             <br />
             Btaap Showcase your products or services in the
             <br />
-            Btaap
-            <br />
+            Btaap.
           </p>
-
-          <div className="pt-10">
+          <div className="pt-6 md:pt-10">
             <button
-              className="btn h- bg-gray-100 rounded-3xl text-sm"
+              className="btn h-auto bg-gray-100 rounded-3xl text-sm px-4 py-2 w-full md:w-auto flex items-center justify-center gap-2"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
             >
               Go to the service
               <MdArrowOutward />
-              &nbsp;&nbsp;
             </button>
           </div>
         </div>
 
-        <div className="1/2">
-          <img src={gif4} alt="" />
+        <div className="w-full md:w-1/2 flex justify-center md:justify-end mt-8 md:mt-0">
+          <img
+            src={gif4}
+            alt="Btaap Channel"
+            className="w-full max-w-md md:max-w-none"
+          />
         </div>
       </div>
+
       {/* 9th section end */}
       {/* 10th section start */}
-      <div className="flex py-24">
-        <div className="w-1/2 pt-32 pl-44">
+      <div className="flex flex-col md:flex-row py-12 md:py-24">
+        <div className="w-full md:w-1/2 pt-8 md:pt-32 px-6 md:pl-44 text-center md:text-left">
           <h1
-            className="text-4xl font-bold py-4 "
+            className="text-3xl md:text-4xl font-bold py-4"
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
           >
             Btaap Mail
           </h1>
-          <p className="pt-2">
+          <p className="pt-2 text-sm md:text-base">
             Btaap's all you need!
             <br />
             You can also access email from
             <br />
-            Btaap.Exchange emails more
+            Btaap. Exchange emails more
             <br />
             conveniently with Btaap Mail, where you
             <br />
-            can getemail notifications and have Jordy
+            can get email notifications and have Jordy
             <br />
             help you with simple replies.
           </p>
-
-          <div className="pt-10">
+          <div className="pt-6 md:pt-10">
             <button
-              className="btn h- bg-gray-100 rounded-3xl text-sm"
+              className="btn h-auto bg-gray-100 rounded-3xl text-sm px-4 py-2 w-full md:w-auto flex items-center justify-center gap-2"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
             >
               Go to the service
               <MdArrowOutward />
-              &nbsp;&nbsp;
             </button>
           </div>
         </div>
 
-        <div className="1/2">
-          <img src={gif3} alt="" />
+        <div className="w-full md:w-1/2 flex justify-center md:justify-end mt-8 md:mt-0">
+          <img
+            src={gif3}
+            alt="Btaap Mail"
+            className="w-full max-w-md md:max-w-none"
+          />
         </div>
       </div>
+
       {/* 10th section end */}
       {/* 11th section start */}
-      <div className="flex py-32">
-        <div className="w-1/2 pt-40 pl-44">
+      <div className="flex flex-col md:flex-row py-12 md:py-32">
+        <div className="w-full md:w-1/2 pt-8 md:pt-40 px-6 md:pl-44 text-center md:text-left">
           <h1
-            className="text-4xl font-bold py-4 "
+            className="text-3xl md:text-4xl font-bold py-4"
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
           >
             Theme
           </h1>
-          <p className="pt-2">
+          <p className="pt-2 text-sm md:text-base">
             There are ways to spruce up your
             <br />
-            Btaap, which you use daily.Include your
+            Btaap, which you use daily. Include your
             <br />
             favorite photo and characters to create a
             <br />
@@ -438,21 +447,26 @@ const Service = () => {
           </p>
         </div>
 
-        <div className="1/2">
-          <img src={gif5} alt="" />
+        <div className="w-full md:w-1/2 flex justify-center md:justify-end mt-8 md:mt-0">
+          <img
+            src={gif5}
+            alt="Theme"
+            className="w-full max-w-md md:max-w-none"
+          />
         </div>
       </div>
+
       {/* 11th section end */}
       {/* 12th section start */}
-      <div className="flex py-20">
-        <div className="w-1/2 pt-40 pl-44">
+      <div className="flex flex-col md:flex-row py-12 md:py-20">
+        <div className="w-full md:w-1/2 pt-8 md:pt-40 px-6 md:pl-44 text-center md:text-left">
           <h1
-            className="text-4xl font-bold py-4 "
+            className="text-3xl md:text-4xl font-bold py-4"
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
           >
             Wallet
           </h1>
-          <p className="pt-2">
+          <p className="pt-2 text-sm md:text-base">
             Btaap Wallet, Your Safe Haven for
             <br />
             Valuable Assets!
@@ -469,21 +483,26 @@ const Service = () => {
           </p>
         </div>
 
-        <div className="1/2">
-          <img src={gif6} alt="" />
+        <div className="w-full md:w-1/2 flex justify-center md:justify-end mt-8 md:mt-0">
+          <img
+            src={gif6}
+            alt="Wallet"
+            className="w-full max-w-md md:max-w-none"
+          />
         </div>
       </div>
+
       {/* 12th section end */}
       {/* 13th section start */}
-      <div className="flex py-20">
-        <div className="w-1/2 pt-40 pl-44">
+      <div className="flex flex-col md:flex-row py-12 md:py-20">
+        <div className="w-full md:w-1/2 pt-8 md:pt-40 px-6 md:pl-44 text-center md:text-left">
           <h1
-            className="text-4xl font-bold py-4 "
+            className="text-3xl md:text-4xl font-bold py-4"
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
           >
             Btaap Lab
           </h1>
-          <p className="pt-2">
+          <p className="pt-2 text-sm md:text-base">
             New features are tested by users in the
             <br />
             Lab before it is officially added to
@@ -496,10 +515,15 @@ const Service = () => {
           </p>
         </div>
 
-        <div className="1/2">
-          <img src={gif7} alt="" />
+        <div className="w-full md:w-1/2 flex justify-center md:justify-end mt-8 md:mt-0">
+          <img
+            src={gif7}
+            alt="Btaap Lab"
+            className="w-full max-w-md md:max-w-none"
+          />
         </div>
       </div>
+
       {/* 13th section end */}
       {/* 14th section start */}
       <div className="flex justify-center items-center space-x-4 mt-4">
