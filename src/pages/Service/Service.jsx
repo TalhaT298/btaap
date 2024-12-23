@@ -271,15 +271,15 @@ const Service = () => {
 
       {/* 6th section end */}
       {/* 7th section start */}
-      <div className="flex py-24">
-        <div className="w-1/2 pt-32 pl-44">
+      <div className="flex flex-col md:flex-row py-12 md:py-24">
+        <div className="w-full md:w-1/2 pt-8 md:pt-32 px-6 md:pl-44 text-center md:text-left">
           <h1
-            className="text-4xl font-bold py-4 "
+            className="text-3xl md:text-4xl font-bold py-4"
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
           >
             Emoticons
           </h1>
-          <p className="pt-2">
+          <p className="pt-2 text-sm md:text-base">
             Sometimes it’s difficult to express your
             <br />
             feelings with words alone.
@@ -292,23 +292,26 @@ const Service = () => {
             <br />
             with emoticons.
           </p>
-
-          <div className="pt-10">
+          <div className="pt-6 md:pt-10">
             <button
-              className="btn h- bg-gray-100 rounded-3xl text-sm"
+              className="btn h-auto bg-gray-100 rounded-3xl text-sm px-4 py-2 w-full md:w-auto flex items-center justify-center gap-2"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
             >
               Go to the service
               <MdArrowOutward />
-              &nbsp;&nbsp;
             </button>
           </div>
         </div>
 
-        <div className="1/2">
-          <img src={log1} alt="" />
+        <div className="w-full md:w-1/2 flex justify-center md:justify-end mt-8 md:mt-0">
+          <img
+            src={log1}
+            alt="Emoticons"
+            className="w-full max-w-md md:max-w-none"
+          />
         </div>
       </div>
+
       {/* 7th section end */}
       {/* 8th section start */}
       <div className="flex py-32">
