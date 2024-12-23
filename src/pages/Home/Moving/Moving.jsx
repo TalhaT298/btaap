@@ -83,7 +83,7 @@ const Moving = () => {
   };
 
   return (
-    <div>
+    <React.Fragment>
       <div className="flex items-center justify-between p-4">
         <div className="flex items-center space-x-2 sm:space-x-3 md:space-x-4">
           <div className="w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center rounded">
@@ -154,7 +154,7 @@ const Moving = () => {
           />
         </Marquee>
       </div>
-    </div>
+    </React.Fragment>
   );
 };
 
