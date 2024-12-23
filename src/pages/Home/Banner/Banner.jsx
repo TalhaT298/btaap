@@ -4,7 +4,7 @@ import img2 from "../../../../src/assets/2.png"; // Replace with your actual ima
 import img3 from "../../../../src/assets/3.png"; // Replace with your actual image paths
 import calender from "../../../../src/assets/calender.png";
 import world from "../../../../src/assets/wo.gif";
-// import banner from "../../../assets/banner.gif";
+import banner from "../../../assets/banner.gif";
 
 const Banner = () => {
   const images = [img1, img2, img3]; // Array of images for the slider
@@ -27,7 +27,7 @@ const Banner = () => {
           <h2 className="text-white text-5xl font-extrabold absolute top-6 left-6 p-4" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400}}>
             Digital Literacy for Seniors <br />Closer with Btaap
           </h2>
-          {/* <img src={banner} alt="" /> */}
+          <img src={banner} alt="" />
         </div>
 
         {/* Right Side (20%) */}
