@@ -738,7 +738,7 @@ const Service = () => {
       <div className="flex justify-end items-end">
         <li
           onClick={scrollToTop}
-          className=""
+          className="list-none"
         >
           <Link to="">
             <FaArrowCircleUp className="w-12 h-12" />
