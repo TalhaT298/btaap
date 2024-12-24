@@ -31,6 +31,7 @@ import log from "../../../src/assets/c.png";
 import log1 from "../../../src/assets/emotion.png";
 import { IoIosLink } from "react-icons/io";
 import { IoSettingsSharp } from "react-icons/io5";
+import { FaArrowCircleUp } from "react-icons/fa";
 import { Carousel } from "antd";
 import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
@@ -46,6 +47,12 @@ const Service = () => {
   //   textAlign: 'center',
 
   // };
+  const scrollToTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+    });
+}
   return (
     <React.Fragment>
       <Link to="/service"></Link>
@@ -727,6 +734,17 @@ const Service = () => {
                     </div> */}
       </div>
       {/* 17th section end*/}
+      {/* 18th section */}
+      <div className="flex justify-end items-end">
+        <li
+          onClick={scrollToTop}
+          className=""
+        >
+          <Link to="">
+            <FaArrowCircleUp className="w-12 h-12" />
+          </Link>
+        </li>
+      </div>
     </React.Fragment>
   );
 };
