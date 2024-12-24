@@ -61,7 +61,7 @@ const Tech = () => {
             >
               Accessibility of Btaap <br /> Corporate Sites
             </h2>
-            <div className="mt-4 flex flex-wrap gap-2 text-sm text-gray-600">
+            <div className="mt-24 flex flex-wrap gap-2 text-sm text-gray-600">
             <span>#WebAccessibility</span>
               
             </div>
@@ -90,9 +90,9 @@ const Tech = () => {
               className="text-3xl sm:text-4xl font-semibold mt-2 pt-10"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
             >
-              Lowering the barrier to <br />the future
+              Lowering the barrier to <br />the future 
             </h2>
-            <div className="mt-4 flex flex-wrap gap-2 text-sm text-gray-600">
+            <div className="mt-24 flex flex-wrap gap-2 text-sm text-gray-600">
             <span>#developer</span>
               <span>#engineering</span>
               <span>#tech</span>
