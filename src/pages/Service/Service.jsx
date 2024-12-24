@@ -32,6 +32,7 @@ import log1 from "../../../src/assets/emotion.png";
 import { IoIosLink } from "react-icons/io";
 import { IoSettingsSharp } from "react-icons/io5";
 import { FaArrowCircleUp } from "react-icons/fa";
+import { IoArrowUpCircleSharp } from "react-icons/io5";
 import { Carousel } from "antd";
 import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
@@ -735,15 +736,15 @@ const Service = () => {
       </div>
       {/* 17th section end*/}
       {/* 18th section */}
-      <div className="flex justify-end items-end">
-        <li
+      <div className="flex justify-end items-end py-10">
+        <div
           onClick={scrollToTop}
-          className="list-none"
+          className="list-none "
         >
           <Link to="">
-            <FaArrowCircleUp className="w-12 h-12" />
+            <IoArrowUpCircleSharp className="w-16 h-16 " />
           </Link>
-        </li>
+        </div>
       </div>
     </React.Fragment>
   );
