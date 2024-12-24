@@ -17,7 +17,7 @@ const Tech = () => {
                 <AiTwotoneSound className="text-[#97ce9b] w-8 h-8" />
               </div>
               <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
-                Press release
+              Btaap Tech
               </span>
               <span className="text-sm text-gray-500">2024.12.13</span>
               <span className="text-xl px-2">⫶</span>
@@ -29,9 +29,10 @@ const Tech = () => {
               Btaap to hold '2024 Kakao Business Best Awards' ceremony
             </h2>
             <div className="mt-4 flex flex-wrap gap-2 text-sm text-gray-600">
-              <span>#Symbiosis</span>
-              <span>#Btaap</span>
-              <span>#BtaapBusiness</span>
+            <span>#AI</span>
+            <span>#ifBtaap</span>
+              <span>#kanan</span>
+              <span>#AllRecomend</span>
             </div>
           </div>
           <img
@@ -49,7 +50,7 @@ const Tech = () => {
                 <AiTwotoneSound className="text-[#97ce9b] w-8 h-8" />
               </div>
               <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
-                Press release
+              Btaap Tech
               </span>
               <span className="text-sm text-gray-500">2024.12.12</span>
               <span className="text-xl px-2">⫶</span>
@@ -62,9 +63,8 @@ const Tech = () => {
               of the Year
             </h2>
             <div className="mt-4 flex flex-wrap gap-2 text-sm text-gray-600">
-              <span>#ESG</span>
-              <span>#TogetherValues</span>
-              <span>#Btaap</span>
+            <span>#WebAccessibility</span>
+              
             </div>
           </div>
           <img
@@ -82,7 +82,7 @@ const Tech = () => {
                 <AiTwotoneSound className="text-[#97ce9b] w-8 h-8" />
               </div>
               <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
-                Press release
+              Btaap Tech
               </span>
               <span className="text-sm text-gray-500">2024.12.11</span>
               <span className="text-xl px-2">⫶</span>
@@ -95,8 +95,9 @@ const Tech = () => {
               Growth
             </h2>
             <div className="mt-4 flex flex-wrap gap-2 text-sm text-gray-600">
-              <span>#Joint Growth Target</span>
-              <span>#Digital Transformation</span>
+            <span>#developer</span>
+              <span>#engineering</span>
+              <span>#tech</span>
             </div>
           </div>
           <img
