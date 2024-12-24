@@ -26,7 +26,7 @@ const Tech = () => {
               className="text-3xl sm:text-4xl font-semibold mt-2 py-10"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
             >
-              Btaap to hold '2024 Kakao Business Best Awards' ceremony
+              Introducing Btaap's Al <br />model, Kanana Model <br />Family
             </h2>
             <div className="mt-4 flex flex-wrap gap-2 text-sm text-gray-600">
             <span>#AI</span>
@@ -59,8 +59,7 @@ const Tech = () => {
               className="text-3xl sm:text-4xl font-semibold mt-2 pt-10"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
             >
-              Btaap Together Value, Various Sharing Activities to Meet the End
-              of the Year
+              Accessibility of Btaap <br /> Corporate Sites
             </h2>
             <div className="mt-4 flex flex-wrap gap-2 text-sm text-gray-600">
             <span>#WebAccessibility</span>
@@ -91,8 +90,7 @@ const Tech = () => {
               className="text-3xl sm:text-4xl font-semibold mt-2 pt-10"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
             >
-              Btaap Wins '2024 Korea Mutual Growth Award' Selected by the Mutual
-              Growth
+              Lowering the barrier to <br />the future
             </h2>
             <div className="mt-4 flex flex-wrap gap-2 text-sm text-gray-600">
             <span>#developer</span>
