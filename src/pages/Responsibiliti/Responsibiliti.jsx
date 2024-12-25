@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 import promise from "../../../src/assets/promise.gif";
 import turbine from "../../../src/assets/turbine.gif";
 import measure from "../../../src/assets/measure.gif";
+import a from "../../../src/assets/a.png";
+import b from "../../../src/assets/b23.png";
+import cc from "../../../src/assets/cc.png";
+import le from "../../../src/assets/le.png";
 import mobile from "../../../src/assets/mobile.png";
 import eco from "../../../src/assets/ecobanner.webp";
 import { ArrowDownOutlined, PlusCircleOutlined } from "@ant-design/icons";
@@ -274,7 +278,7 @@ const Responsibiliti = () => {
             <p>(2023)</p>
             <div className="relative flex justify-center">
               {/* Image */}
-              <img src={turbine} alt="Renewable energy" className="w-full" />
+              <img src={a} alt="Renewable energy" className="w-full" />
 
               {/* Button */}
             </div>
@@ -298,7 +302,7 @@ const Responsibiliti = () => {
             <p>(2022~2023)</p>
             <div className="relative flex justify-center">
               {/* Image */}
-              <img src={measure} alt="Renewable energy" className="w-full" />
+              <img src={b} alt="Renewable energy" className="w-full" />
 
               {/* Button */}
             </div>
@@ -322,7 +326,7 @@ const Responsibiliti = () => {
             <p>(2022~2023)</p>
             <div className="relative flex justify-center">
               {/* Image */}
-              <img src={mobile} alt="Renewable energy" className="w-full" />
+              <img src={cc} alt="Renewable energy" className="w-full" />
             </div>
           </div>
           {/* ?card 4 */}
@@ -343,7 +347,7 @@ const Responsibiliti = () => {
             <p>(2022~2023)</p>
             <div className="relative flex justify-center">
               {/* Image */}
-              <img src={mobile} alt="Renewable energy" className="w-full" />
+              <img src={le} alt="Renewable energy" className="w-full" />
             </div>
           </div>
         </div>
