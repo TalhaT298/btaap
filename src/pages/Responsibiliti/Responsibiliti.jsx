@@ -21,7 +21,7 @@ const Responsibiliti = () => {
         </div>
 
         <div className="navbar-end">
-          <a className="btn">2023 ESG Report<ArrowDownOutlined /></a>
+          <a className="w-44 h-12 rounded-full bg-black text-white flex items-center justify-center cursor-pointer">2023 ESG Report<ArrowDownOutlined /></a>
         </div>
       </div>
       {/* 1st section finish */}
