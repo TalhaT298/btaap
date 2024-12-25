@@ -340,16 +340,17 @@ const Responsibiliti = () => {
               class="text-xl lg:text-2xl font-bold mb-4"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
             >
-              Dangol Market <br /> receives the <br /> Presidential Award
+              CDP
             </h3>
             <p
               class="text-gray-700 text-sm lg:text-base mb-4"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
             >
-              Used services to digitize traditional markets
+             Rated A in Leadership by
               <br />
-              traditional markets
+              CDP Climate Change
             </p>
+            <p>(2022~2023)</p>
             <div className="relative flex justify-center">
               {/* Image */}
               <img src={mobile} alt="Renewable energy" className="w-full" />
