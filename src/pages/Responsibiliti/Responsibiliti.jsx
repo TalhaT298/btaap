@@ -237,11 +237,116 @@ const Responsibiliti = () => {
       <div className="py-1">
         <div className="flex justify-center items-center py-10">
           <button
-            className="btn h-10 bg-gray-100 text-black hover:bg-black hover:text-gray-100 rounded-3xl text-lg"
+            className="btn h-10 bg-gray-200 text-black hover:bg-black hover:text-gray-100 rounded-3xl text-lg"
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
           >
             &nbsp;&nbsp;More &nbsp;&nbsp;
           </button>
+        </div>
+      </div>
+      {/* 5th section add */}
+      <div>
+        <div className="flex justify-center items-center">
+          <h1
+            className="text-5xl"
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+          >
+            2023 ESG Evaluation Results
+          </h1>
+        </div>
+        {/* card add */}
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6">
+          {/* <!-- Card 1 --> */}
+          <div class="bg-gray-100 rounded-lg shadow-lg p-6">
+            <h3
+              class="text-xl lg:text-2xl font-bold mb-4"
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+            >
+              Used 2X more renewable energy than 2022
+            </h3>
+            <p
+              class="text-gray-700 text-sm lg:text-base mb-4"
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
+            >
+              Wind power in Jeju
+              <br />
+              Solar power in Pangyo
+            </p>
+            <div className="relative flex justify-center">
+              {/* Image */}
+              <img src={turbine} alt="Renewable energy" className="w-full" />
+
+              {/* Button */}
+            </div>
+          </div>
+
+          {/* <!-- Card 2 --> */}
+          <div class="bg-gray-100 rounded-lg shadow-lg p-6">
+            <h3
+              class="text-xl lg:text-2xl font-bold mb-4"
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
+            >
+              A system for reform,
+              <br /> to regain users' trust
+            </h3>
+            <p
+              class="text-gray-700 text-sm lg:text-base mb-4"
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+            >
+              Wind power in Jeju
+              <br />
+              Solar power in Pangyo
+            </p>
+            <div className="relative flex justify-center">
+              {/* Image */}
+              <img src={measure} alt="Renewable energy" className="w-full" />
+
+              {/* Button */}
+            </div>
+          </div>
+
+          {/* <!-- Card 3 --> */}
+          <div class="bg-gray-100 rounded-lg shadow-lg p-6">
+            <h3
+              class="text-xl lg:text-2xl font-bold mb-4"
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
+            >
+              Dangol Market <br /> receives the <br /> Presidential Award
+            </h3>
+            <p
+              class="text-gray-700 text-sm lg:text-base mb-4"
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+            >
+              Used services to digitize traditional markets
+              <br />
+              traditional markets
+            </p>
+            <div className="relative flex justify-center">
+              {/* Image */}
+              <img src={mobile} alt="Renewable energy" className="w-full" />
+            </div>
+          </div>
+         {/* ?card 4 */}
+          <div class="bg-gray-100 rounded-lg shadow-lg p-6">
+            <h3
+              class="text-xl lg:text-2xl font-bold mb-4"
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
+            >
+              Dangol Market <br /> receives the <br /> Presidential Award
+            </h3>
+            <p
+              class="text-gray-700 text-sm lg:text-base mb-4"
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+            >
+              Used services to digitize traditional markets
+              <br />
+              traditional markets
+            </p>
+            <div className="relative flex justify-center">
+              {/* Image */}
+              <img src={mobile} alt="Renewable energy" className="w-full" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
