@@ -88,9 +88,10 @@ const Responsibiliti = () => {
                     ✕
                   </button>
                 </form>
-                <h3 className="font-bold text-lg">Hello!</h3>
+                <h3 className="font-bold text-lg">Increased renewable energy</h3>
                 <p className="py-4">
-                  Press ESC key or click on ✕ button to close
+                In 2023, btaap joined RE100 to achieve carbon neutrality and transition to renewable energy. Renewable energy is now being used in btaap's Jeju and Pangyo office. <br />
+                The Jeju headquarters is now operating 100% on renewable energy procured from wind power generated in Jeju and from solar power produced from Gyeonggi-do Renewable Energy Coop's solar power generator, which have now started to provide renewable energy to btaap's Pangyo office.
                 </p>
               </div>
             </dialog>
