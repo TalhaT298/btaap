@@ -233,6 +233,17 @@ const Responsibiliti = () => {
         </div>
       </div>
       {/* 3rd section finish */}
+      {/* 4th section add */}
+      <div className="py-1">
+        <div className="flex justify-center items-center py-10">
+          <button
+            className="btn h-10 bg-gray-100 text-black hover:bg-black hover:text-gray-100 rounded-3xl text-lg"
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+          >
+            &nbsp;&nbsp;More &nbsp;&nbsp;
+          </button>
+        </div>
+      </div>
     </div>
   );
 };
