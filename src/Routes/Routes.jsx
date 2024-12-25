@@ -7,6 +7,7 @@ import Home from "../pages/Home/Home/Home";
 import About from "../pages/About/About";
 import Service from "../pages/Service/Service";
 import Tech from "../pages/Tech/Tech";
+import Responsibility from "../pages/Responsibility/Responsibility";
 
   
   export const router = createBrowserRouter([
@@ -29,6 +30,10 @@ import Tech from "../pages/Tech/Tech";
         {
             path:'/tech',
             element: <Tech></Tech>
+        },
+        {
+            path:'/responsibility',
+            element: <Responsibility></Responsibility>
         },
 
       ]
