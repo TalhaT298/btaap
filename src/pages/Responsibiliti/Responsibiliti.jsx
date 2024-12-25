@@ -245,8 +245,8 @@ const Responsibiliti = () => {
         </div>
       </div>
       {/* 5th section add */}
-      <div>
-        <div className="flex justify-center items-center">
+      <div className="py-6">
+        <div className="flex justify-center items-center py-7">
           <h1
             className="text-5xl"
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
@@ -255,22 +255,21 @@ const Responsibiliti = () => {
           </h1>
         </div>
         {/* card add */}
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6 py-6">
           {/* <!-- Card 1 --> */}
           <div class="bg-gray-100 rounded-lg shadow-lg p-6">
             <h3
               class="text-xl lg:text-2xl font-bold mb-4"
-              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
             >
               MSCI
             </h3>
-            <p
-              class="text-gray-700 text-sm lg:text-base mb-4"
-              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
-            >
+            <p class=" text-sm lg:text-base font-bold mb-4">
               Received MSCI ESG
               <br />
-              Rating of A 
+              Rating of A
+              <br />
+              মান নিয়ন্ত্রণ সংস্থা
             </p>
             <p>(2023)</p>
             <div className="relative flex justify-center">
@@ -287,14 +286,9 @@ const Responsibiliti = () => {
               class="text-xl lg:text-2xl font-bold mb-4"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
             >
-              
-বাংলাদেশে ESG মান নিয়ন্ত্রণ সংস্থা
-               
+              বাংলাদেশে ESG
             </h3>
-            <p
-              class="text-gray-700 text-sm lg:text-base mb-4"
-              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
-            >
+            <p class=" text-sm lg:text-base font-bold mb-4">
               Received KCGS ESG
               <br />
               Rating of A for the third
@@ -318,10 +312,7 @@ const Responsibiliti = () => {
             >
               S&P Global
             </h3>
-            <p
-              class="text-gray-700 text-sm lg:text-base mb-4"
-              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
-            >
+            <p class=" text-sm lg:text-base font-bold mb-4">
               Rated Top 1% in S&P
               <br />
               Global ESG Score for the
@@ -334,7 +325,7 @@ const Responsibiliti = () => {
               <img src={mobile} alt="Renewable energy" className="w-full" />
             </div>
           </div>
-         {/* ?card 4 */}
+          {/* ?card 4 */}
           <div class="bg-gray-100 rounded-lg shadow-lg p-6">
             <h3
               class="text-xl lg:text-2xl font-bold mb-4"
@@ -342,13 +333,12 @@ const Responsibiliti = () => {
             >
               CDP
             </h3>
-            <p
-              class="text-gray-700 text-sm lg:text-base mb-4"
-              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
-            >
-             Rated A in Leadership by
+            <p class=" text-sm lg:text-base font-bold mb-4">
+              Rated A in Leadership by
               <br />
               CDP Climate Change
+              <br />
+              Btaap update
             </p>
             <p>(2022~2023)</p>
             <div className="relative flex justify-center">
