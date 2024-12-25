@@ -3,13 +3,13 @@ import ba1 from "../../../src/assets/ba1.png";
 import ba2 from "../../../src/assets/ba2.png";
 import ba3 from "../../../src/assets/ba3.png";
 import { AiTwotoneSound } from "react-icons/ai";
-import calender from "../../../src/assets/calender.gif";
+import setting from "../../../src/assets/setting.gif";
 import { SettingOutlined } from '@ant-design/icons';
 const Tech = () => {
   return (
     <div>
       {/* title add */}
-            <div className="flex items-center justify-between py-6">
+            <div className="flex items-center justify-between py-6 pl-6">
               <div className="flex items-center space-x-2">
                 <div
                   className="w-16 h-16
@@ -17,7 +17,7 @@ const Tech = () => {
                 >
                   <div className=" ">
                     {" "}
-                    <img className="rounded-xl " src={calender} alt="" />{" "}
+                    <img className="rounded-xl " src={setting} alt="" />{" "}
                   </div>
                 </div>
                 <span
