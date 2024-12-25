@@ -103,45 +103,54 @@ const Responsibiliti = () => {
               class="text-xl lg:text-2xl font-bold mb-4"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
             >
-              Established the Compliance and Trust Committee
+              A system for reform,<br /> to regain users' trust
             </h3>
             <p
               class="text-gray-700 text-sm lg:text-base mb-4"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
             >
-              A system for reform, to regain users' trust
+              Wind power in Jeju
+              <br />
+              Solar power in Pangyo
             </p>
-            <div class="flex justify-center">
-              <img
-                src="path-to-scale-icon.svg"
-                alt="Compliance"
-                class="h-12 w-12 lg:h-16 lg:w-16"
-              />
+            <div className="relative flex justify-center">
+              {/* Image */}
+              <img src={turbine} alt="Renewable energy" className="w-full" />
+
+              {/* Button */}
+              <button
+                className="absolute top-3/4 left-0 flex items-center justify-center bg-opacity-70 p-2 rounded-full "
+                onClick={() =>
+                  document.getElementById("my_modal_2").showModal()
+                }
+              >
+                <PlusCircleOutlined
+                  className="text-black"
+                  style={{ fontSize: "34px", height: "34px", width: "34px" }}
+                />
+              </button>
             </div>
+
+            <dialog id="my_modal_2" className="modal">
+              <div className="modal-box">
+                <form method="dialog">
+                  {/* if there is a button in form, it will close the modal */}
+                  <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                    ✕
+                  </button>
+                </form>
+                <h3 className="font-bold text-lg">Established the Compliance and
+                Trust Committee</h3>
+                <p className="py-4">
+                Btaap established the Compliance and Trust Committee, an independent body that monitors Btaap affiliates' compliance to law and practice of ethical management. This committee will implement a framework for compliance and trust management and support the execution of corporate social responsibility <br />
+                Kakao established the Compliance and Trust Committee, an independent body that monitors Kakao affiliates' compliance to law and practice of ethical management. This committee will implement a framework for compliance and trust management and support the execution of corporate social responsibility
+                </p>
+              </div>
+            </dialog>
           </div>
 
           {/* <!-- Card 3 --> */}
-          <div class="bg-gray-100 rounded-lg shadow-lg p-6">
-            <h3
-              class="text-xl lg:text-2xl font-bold mb-4"
-              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
-            >
-              Dangol Market receives the Presidential Award
-            </h3>
-            <p
-              class="text-gray-700 text-sm lg:text-base mb-4"
-              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
-            >
-              Used services to digitize traditional markets
-            </p>
-            <div class="flex justify-center">
-              <img
-                src="path-to-market-icon.svg"
-                alt="Dangol Market"
-                class="h-12 w-12 lg:h-16 lg:w-16"
-              />
-            </div>
-          </div>
+         
         </div>
       </div>
       {/* 3rd section finish */}
