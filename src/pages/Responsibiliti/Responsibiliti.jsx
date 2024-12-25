@@ -30,7 +30,7 @@ const Responsibiliti = () => {
       </div>
       {/* 1st section finish */}
       {/* 2nd section start */}
-      <div>
+      <div className="flex justify-center items-center py-6">
         <img src={eco} alt="" />
       </div>
       {/* 2nd section finish */}
