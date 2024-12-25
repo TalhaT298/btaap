@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import promise from "../../../src/assets/promise.gif";
+import eco from "../../../src/assets/ecobanner.webp";
 import { ArrowDownOutlined } from "@ant-design/icons";
 const Responsibiliti = () => {
   return (
@@ -21,10 +22,18 @@ const Responsibiliti = () => {
         </div>
 
         <div className="navbar-end">
-          <a className="w-44 h-12 rounded-full bg-[#97ce9b] text-white flex items-center justify-center cursor-pointer">2023 ESG Report<ArrowDownOutlined className="pl-2"/></a>
+          <a className="w-44 h-12 rounded-full bg-[#97ce9b] text-white flex items-center justify-center cursor-pointer">
+            2023 ESG Report
+            <ArrowDownOutlined className="pl-2" />
+          </a>
         </div>
       </div>
       {/* 1st section finish */}
+      {/* 2nd section start */}
+      <div>
+        <img src={eco} alt="" />
+      </div>
+      {/* 2nd section finish */}
     </div>
   );
 };
