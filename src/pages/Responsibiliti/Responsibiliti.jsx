@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import promise from "../../../src/assets/promise.gif";
 import turbine from "../../../src/assets/turbine.gif";
 import eco from "../../../src/assets/ecobanner.webp";
-import { ArrowDownOutlined } from "@ant-design/icons";
+import { ArrowDownOutlined, PlusCircleOutlined } from "@ant-design/icons";
 const Responsibiliti = () => {
   return (
     <div>
@@ -62,16 +62,24 @@ const Responsibiliti = () => {
               <br />
               Solar power in Pangyo
             </p>
-            <div class="flex justify-center">
-              <img src={turbine} alt="Renewable energy" />
+            <div className="relative flex justify-center">
+              {/* Image */}
+              <img src={turbine} alt="Renewable energy" className="w-full" />
+
+              {/* Button */}
+              <button
+                className="absolute top-3/4 left-0 flex items-center justify-center bg-opacity-70 p-2 rounded-full "
+                onClick={() =>
+                  document.getElementById("my_modal_3").showModal()
+                }
+              >
+                <PlusCircleOutlined
+                  className="text-black"
+                  style={{ fontSize: "34px", height: "34px", width: "34px" }}
+                />
+              </button>
             </div>
-            {/* You can open the modal using document.getElementById('ID').showModal() method */}
-            <button
-              className="btn"
-              onClick={() => document.getElementById("my_modal_3").showModal()}
-            >
-              open modal
-            </button>
+
             <dialog id="my_modal_3" className="modal">
               <div className="modal-box">
                 <form method="dialog">
