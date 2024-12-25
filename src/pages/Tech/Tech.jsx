@@ -29,6 +29,9 @@ const Tech = () => {
               </div>
             </div>
             {/* title end */}
+            <div className='py-4'>
+              <p className='text-2xl'style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }} >Btaap's Technology, Lowering the barrier to the future</p>
+            </div>
       {/* card start */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 justify-center p-4">
         {/* Card 1 */}
