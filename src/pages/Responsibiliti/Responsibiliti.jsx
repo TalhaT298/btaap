@@ -14,14 +14,14 @@ const Responsibiliti = () => {
           </div>
           <span
             className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-black px-4 sm:px-6"
-            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
           >
             ESG Reports
           </span>
         </div>
 
         <div className="navbar-end">
-          <a className="w-44 h-12 rounded-full bg-black text-white flex items-center justify-center cursor-pointer">2023 ESG Report<ArrowDownOutlined /></a>
+          <a className="w-44 h-12 rounded-full bg-[#97ce9b] text-white flex items-center justify-center cursor-pointer">2023 ESG Report<ArrowDownOutlined className="pl-2"/></a>
         </div>
       </div>
       {/* 1st section finish */}
