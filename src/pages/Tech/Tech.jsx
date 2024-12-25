@@ -14,12 +14,12 @@ const Tech = () => {
           <div className="p-4">
             <div className="flex items-center space-x-2">
               <div className="flex items-center text-[#97ce9b]">
-                <AiTwotoneSound className="text-[#97ce9b] w-8 h-8" />
+                <SettingOutlined  className="text-[#97ce9b] w-8 h-8" />
               </div>
               <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
               Btaap Tech
               </span>
-              <span className="text-sm text-gray-500">2024.12.13</span>
+               
               <span className="text-xl px-2">⫶</span>
             </div>
             <h2
@@ -52,7 +52,7 @@ const Tech = () => {
               <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
               Btaap Tech
               </span>
-              <span className="text-sm text-gray-500">2024.12.12</span>
+              
               <span className="text-xl px-2">⫶</span>
             </div>
             <h2
@@ -83,7 +83,7 @@ const Tech = () => {
               <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
               Btaap Tech
               </span>
-              <span className="text-sm text-gray-500">2024.12.11</span>
+               
               <span className="text-xl px-2">⫶</span>
             </div>
             <h2
