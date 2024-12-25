@@ -1,7 +1,7 @@
 import React from 'react'
 import ba1 from "../../../src/assets/ba1.png";
-import ba2 from "../../../src/assets/ba2.png";
-import ba3 from "../../../src/assets/ba3.png";
+import site from "../../../src/assets/site.jpg";
+import look from "../../../src/assets/look.jpg";
 import { AiTwotoneSound } from "react-icons/ai";
 import setting from "../../../src/assets/setting.gif";
 import { SettingOutlined } from '@ant-design/icons';
@@ -29,8 +29,8 @@ const Tech = () => {
               </div>
             </div>
             {/* title end */}
-            <div className='py-4'>
-              <p className='text-2xl'style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }} >Btaap's Technology, Lowering the barrier to the future</p>
+            <div className='py-4 pl-4'>
+              <p className='text-3xl'style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }} >Btaap's Technology, Lowering the barrier to the future</p>
             </div>
       {/* card start */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 justify-center p-4">
@@ -92,7 +92,7 @@ const Tech = () => {
             </div>
           </div>
           <img
-            src={ba2}
+            src={site}
             alt="Kakao Together Value"
             className="w-full h-56 object-cover"
           />
@@ -124,7 +124,7 @@ const Tech = () => {
             </div>
           </div>
           <img
-            src={ba3}
+            src={look}
             alt="Kakao Mutual Growth"
             className="w-full h-56 object-cover"
           />
