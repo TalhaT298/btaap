@@ -150,9 +150,11 @@ const Navbar = () => {
               </div>
             </div>
           </li>
+          <Link to="/responsibility">
           <li className="cursor-pointer rounded-full px-6 py-2 text-black hover:bg-[#97ce9b]">
             Responsibility
           </li>
+          </Link>
           <li className="cursor-pointer rounded-full px-6 py-2 text-black hover:bg-[#97ce9b]">
             News
           </li>
