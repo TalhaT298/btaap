@@ -287,17 +287,21 @@ const Responsibiliti = () => {
               class="text-xl lg:text-2xl font-bold mb-4"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
             >
-              A system for reform,
-              <br /> to regain users' trust
+              
+বাংলাদেশে ESG মান নিয়ন্ত্রণ সংস্থা
+               
             </h3>
             <p
               class="text-gray-700 text-sm lg:text-base mb-4"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
             >
-              Wind power in Jeju
+              Received KCGS ESG
               <br />
-              Solar power in Pangyo
+              Rating of A for the third
+              <br />
+              consecutive year
             </p>
+            <p>(2022~2023)</p>
             <div className="relative flex justify-center">
               {/* Image */}
               <img src={measure} alt="Renewable energy" className="w-full" />
@@ -312,16 +316,19 @@ const Responsibiliti = () => {
               class="text-xl lg:text-2xl font-bold mb-4"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
             >
-              Dangol Market <br /> receives the <br /> Presidential Award
+              S&P Global
             </h3>
             <p
               class="text-gray-700 text-sm lg:text-base mb-4"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
             >
-              Used services to digitize traditional markets
+              Rated Top 1% in S&P
               <br />
-              traditional markets
+              Global ESG Score for the
+              <br />
+              second consecutive year
             </p>
+            <p>(2022~2023)</p>
             <div className="relative flex justify-center">
               {/* Image */}
               <img src={mobile} alt="Renewable energy" className="w-full" />
