@@ -262,16 +262,17 @@ const Responsibiliti = () => {
               class="text-xl lg:text-2xl font-bold mb-4"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
             >
-              Used 2X more renewable energy than 2022
+              MSCI
             </h3>
             <p
               class="text-gray-700 text-sm lg:text-base mb-4"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
             >
-              Wind power in Jeju
+              Received MSCI ESG
               <br />
-              Solar power in Pangyo
+              Rating of A 
             </p>
+            <p>(2023)</p>
             <div className="relative flex justify-center">
               {/* Image */}
               <img src={turbine} alt="Renewable energy" className="w-full" />
