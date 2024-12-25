@@ -56,7 +56,7 @@ const Responsibiliti = () => {
             </h3>
             <p
               class="text-gray-700 text-sm lg:text-base mb-4"
-              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
             >
               Wind power in Jeju
               <br />
@@ -101,7 +101,7 @@ const Responsibiliti = () => {
           <div class="bg-gray-100 rounded-lg shadow-lg p-6">
             <h3
               class="text-xl lg:text-2xl font-bold mb-4"
-              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
             >
               A system for reform,<br /> to regain users' trust
             </h3>
@@ -150,7 +150,56 @@ const Responsibiliti = () => {
           </div>
 
           {/* <!-- Card 3 --> */}
-         
+          <div class="bg-gray-100 rounded-lg shadow-lg p-6">
+            <h3
+              class="text-xl lg:text-2xl font-bold mb-4"
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
+            >
+              Dangol Market <br /> receives the <br /> Presidential Award
+            </h3>
+            <p
+              class="text-gray-700 text-sm lg:text-base mb-4"
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+            >
+             Used services to digitize traditional markets
+              <br />
+              traditional markets
+            </p>
+            <div className="relative flex justify-center">
+              {/* Image */}
+              <img src={turbine} alt="Renewable energy" className="w-full" />
+
+              {/* Button */}
+              <button
+                className="absolute top-3/4 left-0 flex items-center justify-center bg-opacity-70 p-2 rounded-full "
+                onClick={() =>
+                  document.getElementById("my_modal_1").showModal()
+                }
+              >
+                <PlusCircleOutlined
+                  className="text-black"
+                  style={{ fontSize: "34px", height: "34px", width: "34px" }}
+                />
+              </button>
+            </div>
+
+            <dialog id="my_modal_1" className="modal">
+              <div className="modal-box">
+                <form method="dialog">
+                  {/* if there is a button in form, it will close the modal */}
+                  <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                    ✕
+                  </button>
+                </form>
+                <h3 className="font-bold text-lg">Dangol Market receives the
+                Presidential Award</h3>
+                <p className="py-4">
+                Btaap operates multiple programs that support the digitalization of small businesses. Dangol Market is a project that supports the digitalization of vendors in traditional markets, so that they can easily communicate and attract regular customers. <br />
+                The Dangol Market project was recognized for closing the digital gap by helping and training market vendors on how to set up and use their own KakaoTalk Channel, and was awarded the 2023 Presidential Award for the Promotion of Traditional Markets.
+                </p>
+              </div>
+            </dialog>
+          </div>
         </div>
       </div>
       {/* 3rd section finish */}
