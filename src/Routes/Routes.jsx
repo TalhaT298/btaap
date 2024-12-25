@@ -7,7 +7,7 @@ import Home from "../pages/Home/Home/Home";
 import About from "../pages/About/About";
 import Service from "../pages/Service/Service";
 import Tech from "../pages/Tech/Tech";
-import Responsibility from "../pages/Responsibility/Responsibility";
+import Responsibiliti from "../pages/Responsibiliti/Responsibiliti";
 
   
   export const router = createBrowserRouter([
@@ -33,7 +33,7 @@ import Responsibility from "../pages/Responsibility/Responsibility";
         },
         {
             path:'/responsibility',
-            element: <Responsibility></Responsibility>
+            element: <Responsibiliti></Responsibiliti>
         },
 
       ]
