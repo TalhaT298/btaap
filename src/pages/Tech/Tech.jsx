@@ -4,6 +4,7 @@ import ba2 from "../../../src/assets/ba2.png";
 import ba3 from "../../../src/assets/ba3.png";
 import { AiTwotoneSound } from "react-icons/ai";
 import { IoArrowForwardCircleSharp } from "react-icons/io5";
+import { SettingOutlined } from '@ant-design/icons';
 const Tech = () => {
   return (
     <div>
@@ -14,7 +15,7 @@ const Tech = () => {
           <div className="p-4">
             <div className="flex items-center space-x-2">
               <div className="flex items-center text-[#97ce9b]">
-                <SettingOutlined  className="text-[#97ce9b] w-8 h-8" />
+                <SettingOutlined  className="text-[#1e40af] " style={{ fontSize: '24px', height: '24px', width: '24px' }}  />
               </div>
               <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
               Btaap Tech
@@ -47,7 +48,7 @@ const Tech = () => {
           <div className="p-4">
             <div className="flex items-center space-x-2">
               <div className="flex items-center text-[#97ce9b]">
-                <AiTwotoneSound className="text-[#97ce9b] w-8 h-8" />
+              <SettingOutlined  className="text-[#1e40af] " style={{ fontSize: '24px', height: '24px', width: '24px' }}  />
               </div>
               <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
               Btaap Tech
@@ -78,7 +79,7 @@ const Tech = () => {
           <div className="p-4">
             <div className="flex items-center space-x-2">
               <div className="flex items-center text-[#97ce9b]">
-                <AiTwotoneSound className="text-[#97ce9b] w-8 h-8" />
+              <SettingOutlined  className="text-[#1e40af] " style={{ fontSize: '24px', height: '24px', width: '24px' }}  />
               </div>
               <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
               Btaap Tech
