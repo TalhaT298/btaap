@@ -10,10 +10,10 @@ import { Link } from "react-router-dom";
 const Tech = () => {
   const scrollToTop = () => {
     window.scrollTo({
-        top: 0,
-        behavior: 'smooth',
+      top: 0,
+      behavior: "smooth",
     });
-}
+  };
   return (
     <div className="pt-16">
       {/* title add */}
@@ -44,6 +44,30 @@ const Tech = () => {
         >
           Btaap's Technology, Lowering the barrier to the future
         </p>
+      </div>
+      {/* hash use */}
+      <div className="flex justify-start items-start space-x-4 my-8">
+        <div className="w-24 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+          All
+        </div>
+        <div className="w-36 h-12 rounded-full bg-black text-white flex items-center justify-center cursor-pointer hover:bg-gray-300 hover:text-black">
+          Btapp Teck
+        </div>
+        <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+          Tech Platform
+        </div>
+        <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+          Tech Service
+        </div>
+        <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+          Tech Contents
+        </div>
+        <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+          Tech Event
+        </div>
+        <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+          if(Btaap)
+        </div>
       </div>
       {/* card start */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 justify-center p-4">
@@ -156,15 +180,12 @@ const Tech = () => {
       </div>
       {/* card end */}
       <div className="flex justify-end items-end py-10">
-              <div
-                onClick={scrollToTop}
-                className="list-none "
-              >
-                <Link to="">
-                  <IoArrowUpCircleSharp className="w-16 h-16 " />
-                </Link>
-              </div>
-            </div>
+        <div onClick={scrollToTop} className="list-none ">
+          <Link to="">
+            <IoArrowUpCircleSharp className="w-16 h-16 " />
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };
