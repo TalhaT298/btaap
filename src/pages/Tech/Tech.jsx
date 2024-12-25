@@ -3,11 +3,32 @@ import ba1 from "../../../src/assets/ba1.png";
 import ba2 from "../../../src/assets/ba2.png";
 import ba3 from "../../../src/assets/ba3.png";
 import { AiTwotoneSound } from "react-icons/ai";
-import { IoArrowForwardCircleSharp } from "react-icons/io5";
+import calender from "../../../src/assets/calender.gif";
 import { SettingOutlined } from '@ant-design/icons';
 const Tech = () => {
   return (
     <div>
+      {/* title add */}
+            <div className="flex items-center justify-between py-6">
+              <div className="flex items-center space-x-2">
+                <div
+                  className="w-16 h-16
+                             flex items-center justify-center rounded-lg "
+                >
+                  <div className=" ">
+                    {" "}
+                    <img className="rounded-xl " src={calender} alt="" />{" "}
+                  </div>
+                </div>
+                <span
+                  className="text-5xl font-extrabold text-black px-6"
+                  style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
+                >
+                  Tech
+                </span>
+              </div>
+            </div>
+            {/* title end */}
       {/* card start */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 justify-center p-4">
         {/* Card 1 */}
