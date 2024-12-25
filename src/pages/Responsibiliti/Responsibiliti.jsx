@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import promise from "../../../src/assets/promise.gif";
 import turbine from "../../../src/assets/turbine.gif";
+import measure from "../../../src/assets/measure.gif";
+import mobile from "../../../src/assets/mobile.png";
 import eco from "../../../src/assets/ecobanner.webp";
 import { ArrowDownOutlined, PlusCircleOutlined } from "@ant-design/icons";
 const Responsibiliti = () => {
@@ -88,10 +90,18 @@ const Responsibiliti = () => {
                     ✕
                   </button>
                 </form>
-                <h3 className="font-bold text-lg">Increased renewable energy</h3>
+                <h3 className="font-bold text-lg">
+                  Increased renewable energy
+                </h3>
                 <p className="py-4">
-                In 2023, btaap joined RE100 to achieve carbon neutrality and transition to renewable energy. Renewable energy is now being used in btaap's Jeju and Pangyo office. <br />
-                The Jeju headquarters is now operating 100% on renewable energy procured from wind power generated in Jeju and from solar power produced from Gyeonggi-do Renewable Energy Coop's solar power generator, which have now started to provide renewable energy to btaap's Pangyo office.
+                  In 2023, btaap joined RE100 to achieve carbon neutrality and
+                  transition to renewable energy. Renewable energy is now being
+                  used in btaap's Jeju and Pangyo office. <br />
+                  The Jeju headquarters is now operating 100% on renewable
+                  energy procured from wind power generated in Jeju and from
+                  solar power produced from Gyeonggi-do Renewable Energy Coop's
+                  solar power generator, which have now started to provide
+                  renewable energy to btaap's Pangyo office.
                 </p>
               </div>
             </dialog>
@@ -103,7 +113,8 @@ const Responsibiliti = () => {
               class="text-xl lg:text-2xl font-bold mb-4"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
             >
-              A system for reform,<br /> to regain users' trust
+              A system for reform,
+              <br /> to regain users' trust
             </h3>
             <p
               class="text-gray-700 text-sm lg:text-base mb-4"
@@ -115,7 +126,7 @@ const Responsibiliti = () => {
             </p>
             <div className="relative flex justify-center">
               {/* Image */}
-              <img src={turbine} alt="Renewable energy" className="w-full" />
+              <img src={measure} alt="Renewable energy" className="w-full" />
 
               {/* Button */}
               <button
@@ -139,11 +150,21 @@ const Responsibiliti = () => {
                     ✕
                   </button>
                 </form>
-                <h3 className="font-bold text-lg">Established the Compliance and
-                Trust Committee</h3>
+                <h3 className="font-bold text-lg">
+                  Established the Compliance and Trust Committee
+                </h3>
                 <p className="py-4">
-                Btaap established the Compliance and Trust Committee, an independent body that monitors Btaap affiliates' compliance to law and practice of ethical management. This committee will implement a framework for compliance and trust management and support the execution of corporate social responsibility <br />
-                Kakao established the Compliance and Trust Committee, an independent body that monitors Kakao affiliates' compliance to law and practice of ethical management. This committee will implement a framework for compliance and trust management and support the execution of corporate social responsibility
+                  Btaap established the Compliance and Trust Committee, an
+                  independent body that monitors Btaap affiliates' compliance to
+                  law and practice of ethical management. This committee will
+                  implement a framework for compliance and trust management and
+                  support the execution of corporate social responsibility{" "}
+                  <br />
+                  Kakao established the Compliance and Trust Committee, an
+                  independent body that monitors Kakao affiliates' compliance to
+                  law and practice of ethical management. This committee will
+                  implement a framework for compliance and trust management and
+                  support the execution of corporate social responsibility
                 </p>
               </div>
             </dialog>
@@ -161,13 +182,13 @@ const Responsibiliti = () => {
               class="text-gray-700 text-sm lg:text-base mb-4"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
             >
-             Used services to digitize traditional markets
+              Used services to digitize traditional markets
               <br />
               traditional markets
             </p>
             <div className="relative flex justify-center">
               {/* Image */}
-              <img src={turbine} alt="Renewable energy" className="w-full" />
+              <img src={mobile} alt="Renewable energy" className="w-full" />
 
               {/* Button */}
               <button
@@ -191,11 +212,20 @@ const Responsibiliti = () => {
                     ✕
                   </button>
                 </form>
-                <h3 className="font-bold text-lg">Dangol Market receives the
-                Presidential Award</h3>
+                <h3 className="font-bold text-lg">
+                  Dangol Market receives the Presidential Award
+                </h3>
                 <p className="py-4">
-                Btaap operates multiple programs that support the digitalization of small businesses. Dangol Market is a project that supports the digitalization of vendors in traditional markets, so that they can easily communicate and attract regular customers. <br />
-                The Dangol Market project was recognized for closing the digital gap by helping and training market vendors on how to set up and use their own KakaoTalk Channel, and was awarded the 2023 Presidential Award for the Promotion of Traditional Markets.
+                  Btaap operates multiple programs that support the
+                  digitalization of small businesses. Dangol Market is a project
+                  that supports the digitalization of vendors in traditional
+                  markets, so that they can easily communicate and attract
+                  regular customers. <br />
+                  The Dangol Market project was recognized for closing the
+                  digital gap by helping and training market vendors on how to
+                  set up and use their own KakaoTalk Channel, and was awarded
+                  the 2023 Presidential Award for the Promotion of Traditional
+                  Markets.
                 </p>
               </div>
             </dialog>
