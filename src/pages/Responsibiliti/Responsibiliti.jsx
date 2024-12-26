@@ -437,6 +437,20 @@ const Responsibiliti = () => {
         </div>
       </div>
       {/* 6th section finish */}
+      {/* -----------------------------------------------7th section start--------------------------------- */}
+      {/* title */}
+      <div className="flex justify-center items-center py-14">
+          <h1
+            className="text-5xl"
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+          >
+            Related Websites
+          </h1>
+        </div>
+        <div>
+          
+        </div>
+      {/* -----------------------------------------------7th section finish -------------------------------------*/}
     </div>
   );
 };
