@@ -363,6 +363,85 @@ const Responsibiliti = () => {
             2023 ESG Key Indicators
           </h1>
         </div>
+        {/* cursol add */}
+        <div className="relative max-w-md mx-auto">
+          {/* Carousel container */}
+          <div className="carousel carousel-center bg-neutral rounded-box max-w-md space-x-4 p-4">
+            <div className="carousel-item">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
+                className="rounded-box"
+                alt="Image 1"
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp"
+                className="rounded-box"
+                alt="Image 2"
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp"
+                className="rounded-box"
+                alt="Image 3"
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp"
+                className="rounded-box"
+                alt="Image 4"
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp"
+                className="rounded-box"
+                alt="Image 5"
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp"
+                className="rounded-box"
+                alt="Image 6"
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
+                className="rounded-box"
+                alt="Image 7"
+              />
+            </div>
+          </div>
+
+          {/* Navigation Buttons */}
+          <div className="absolute inset-x-0 flex justify-between top-1/2 transform -translate-y-1/2">
+            <button
+              className="btn btn-circle"
+              onClick={() =>
+                document
+                  .querySelector(".carousel")
+                  .scrollBy({ left: -300, behavior: "smooth" })
+              }
+            >
+              ❮
+            </button>
+            <button
+              className="btn btn-circle"
+              onClick={() =>
+                document
+                  .querySelector(".carousel")
+                  .scrollBy({ left: 300, behavior: "smooth" })
+              }
+            >
+              ❯
+            </button>
+          </div>
+        </div>
       </div>
       {/* 6th section finish */}
     </div>
