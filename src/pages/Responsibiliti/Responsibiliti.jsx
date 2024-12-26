@@ -8,6 +8,13 @@ import b from "../../../src/assets/b23.png";
 import cc from "../../../src/assets/cc.png";
 import le from "../../../src/assets/le.png";
 import mobile from "../../../src/assets/mobile.png";
+import t1 from "../../../src/assets/t1.png";
+import t2 from "../../../src/assets/t2.png";
+import t3 from "../../../src/assets/t3.png";
+import t4 from "../../../src/assets/t4.png";
+import t5 from "../../../src/assets/t5.png";
+import t6 from "../../../src/assets/t6.png";
+import t7 from "../../../src/assets/t7.png";
 import eco from "../../../src/assets/ecobanner.webp";
 import { ArrowDownOutlined, PlusCircleOutlined } from "@ant-design/icons";
 const Responsibiliti = () => {
