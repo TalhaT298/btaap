@@ -8,6 +8,7 @@ import About from "../pages/About/About";
 import Service from "../pages/Service/Service";
 import Tech from "../pages/Tech/Tech";
 import Responsibiliti from "../pages/Responsibiliti/Responsibiliti";
+import News from "../pages/News/News";
 
   
   export const router = createBrowserRouter([
@@ -34,6 +35,10 @@ import Responsibiliti from "../pages/Responsibiliti/Responsibiliti";
         {
             path:'/responsibility',
             element: <Responsibiliti></Responsibiliti>
+        },
+        {
+            path:'/news',
+            element: <News></News>
         },
 
       ]
