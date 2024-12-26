@@ -1,5 +1,5 @@
 import React from "react";
-import { useRef } from 'react';
+import { useRef } from "react";
 import { Link } from "react-router-dom";
 import promise from "../../../src/assets/promise.gif";
 import turbine from "../../../src/assets/turbine.gif";
@@ -374,9 +374,9 @@ const Responsibiliti = () => {
         </div>
       </div>
       {/* 6th section start */}
-      <div>
+      <div className="py-8">
         {/* title start */}
-        <div className="flex justify-center items-center py-7">
+        <div className="flex justify-center items-center py-14">
           <h1
             className="text-5xl"
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
@@ -387,26 +387,27 @@ const Responsibiliti = () => {
         {/* cursol add */}
         <div className="">
           <Swiper
-          ref={swiperRef} // Attach the ref to the Swiper component
+            ref={swiperRef} // Attach the ref to the Swiper component
             watchSlidesProgress={true}
             slidesPerView={4}
-             spaceBetween={40} // Add this line for gap
+            spaceBetween={40} // Add this line for gap
             className="mySwiper"
+            style={{ outline: 'none', boxShadow: 'none' }} 
           >
             <SwiperSlide>
               <img className="rounded-2xl" src={t1} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img className="rounded-2xl" src={t2} alt="" />
+              <img className="rounded-2xl" src={t3} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img className="rounded-2xl" src={t3} alt="" />
+              <img className="rounded-2xl" src={t5} alt="" />
             </SwiperSlide>
             <SwiperSlide>
               <img className="rounded-2xl" src={t4} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img className="rounded-2xl" src={t5} alt="" />
+              <img className="rounded-2xl" src={t2} alt="" />
             </SwiperSlide>
             <SwiperSlide>
               <img className="rounded-2xl" src={t6} alt="" />
@@ -416,23 +417,23 @@ const Responsibiliti = () => {
             </SwiperSlide>
           </Swiper>
           {/* Button to trigger slide change */}
-      {/* <button onClick={handleNextSlide} className="mt-4 px-4 py-2 bg-gray-100 rounded-full text-black ">
+          {/* <button onClick={handleNextSlide} className="mt-4 px-4 py-2 bg-gray-100 rounded-full text-black ">
       <FaCircleArrowRight />
       </button> */}
-      <div className="mt-4 flex gap-4">
-        <button 
-          onClick={handlePrevSlide} 
-          className="px-4 py-2 bg-gray-500 text-white rounded"
-        >
-          <FaCircleArrowLeft />
-        </button>
-        <button 
-          onClick={handleNextSlide} 
-          className="px-4 py-2 bg-blue-500 text-white rounded"
-        >
-          <FaCircleArrowRight />
-        </button>
-      </div>
+          <div className="mt-4 flex gap-4">
+            <button
+              onClick={handlePrevSlide}
+              className="px-4 py-2   text-black rounded"
+            >
+              <FaCircleArrowLeft className=" w-10 h-10" />
+            </button>
+            <button
+              onClick={handleNextSlide}
+              className="px-4 py-2  text-black rounded"
+            >
+              <FaCircleArrowRight className=" w-10 h-10" />
+            </button>
+          </div>
         </div>
       </div>
       {/* 6th section finish */}
