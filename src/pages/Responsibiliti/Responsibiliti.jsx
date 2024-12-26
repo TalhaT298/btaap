@@ -27,6 +27,10 @@ const Responsibiliti = () => {
   const handleNextSlide = () => {
     swiperRef.current.swiper.slideNext(); // Move to the next slide
   };
+
+  const handlePrevSlide = () => {
+    swiperRef.current.swiper.slidePrev(); // Move to the previous slide
+  };
   return (
     <div>
       <Link to="/responsibility"></Link>
@@ -411,9 +415,23 @@ const Responsibiliti = () => {
             </SwiperSlide>
           </Swiper>
           {/* Button to trigger slide change */}
-      <button onClick={handleNextSlide} className="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
-        Next Slide
-      </button>
+      {/* <button onClick={handleNextSlide} className="mt-4 px-4 py-2 bg-gray-100 rounded-full text-black ">
+      <FaCircleArrowRight />
+      </button> */}
+      <div className="mt-4 flex gap-4">
+        <button 
+          onClick={handlePrevSlide} 
+          className="px-4 py-2 bg-gray-500 text-white rounded"
+        >
+          &lt; Prev Slide
+        </button>
+        <button 
+          onClick={handleNextSlide} 
+          className="px-4 py-2 bg-blue-500 text-white rounded"
+        >
+          Next Slide &gt;
+        </button>
+      </div>
         </div>
       </div>
       {/* 6th section finish */}
