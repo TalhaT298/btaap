@@ -18,6 +18,7 @@ import t6 from "../../../src/assets/t6.png";
 import t7 from "../../../src/assets/t7.png";
 import "swiper/css";
 import { FaCircleArrowRight } from "react-icons/fa6";
+import { FaCircleArrowLeft } from "react-icons/fa6";
 import eco from "../../../src/assets/ecobanner.webp";
 import { ArrowDownOutlined, PlusCircleOutlined } from "@ant-design/icons";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -423,13 +424,13 @@ const Responsibiliti = () => {
           onClick={handlePrevSlide} 
           className="px-4 py-2 bg-gray-500 text-white rounded"
         >
-          &lt; Prev Slide
+          <FaCircleArrowLeft />
         </button>
         <button 
           onClick={handleNextSlide} 
           className="px-4 py-2 bg-blue-500 text-white rounded"
         >
-          Next Slide &gt;
+          <FaCircleArrowRight />
         </button>
       </div>
         </div>
