@@ -352,6 +352,19 @@ const Responsibiliti = () => {
           </div>
         </div>
       </div>
+      {/* 6th section start */}
+      <div>
+        {/* title start */}
+        <div className="flex justify-center items-center py-7">
+          <h1
+            className="text-5xl"
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+          >
+            2023 ESG Key Indicators
+          </h1>
+        </div>
+      </div>
+      {/* 6th section finish */}
     </div>
   );
 };
