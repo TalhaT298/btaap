@@ -381,25 +381,25 @@ const Responsibiliti = () => {
             className="mySwiper"
           >
             <SwiperSlide>
-              <img className="" src={t1} alt="" />
+              <img className="rounded-2xl" src={t1} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={t2} alt="" />
+              <img className="rounded-2xl" src={t2} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={t3} alt="" />
+              <img className="rounded-2xl" src={t3} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={t4} alt="" />
+              <img className="rounded-2xl" src={t4} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={t5} alt="" />
+              <img className="rounded-2xl" src={t5} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={t6} alt="" />
+              <img className="rounded-2xl" src={t6} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={t7} alt="" />
+              <img className="rounded-2xl" src={t7} alt="" />
             </SwiperSlide>
           </Swiper>
         </div>
