@@ -1,4 +1,5 @@
 import React from "react";
+import { useRef } from 'react';
 import { Link } from "react-router-dom";
 import promise from "../../../src/assets/promise.gif";
 import turbine from "../../../src/assets/turbine.gif";
@@ -16,10 +17,16 @@ import t5 from "../../../src/assets/t5.png";
 import t6 from "../../../src/assets/t6.png";
 import t7 from "../../../src/assets/t7.png";
 import "swiper/css";
+import { FaCircleArrowRight } from "react-icons/fa6";
 import eco from "../../../src/assets/ecobanner.webp";
 import { ArrowDownOutlined, PlusCircleOutlined } from "@ant-design/icons";
 import { Swiper, SwiperSlide } from "swiper/react";
 const Responsibiliti = () => {
+  const swiperRef = useRef(null); // Create a ref for the Swiper instance
+
+  const handleNextSlide = () => {
+    swiperRef.current.swiper.slideNext(); // Move to the next slide
+  };
   return (
     <div>
       <Link to="/responsibility"></Link>
@@ -375,6 +382,7 @@ const Responsibiliti = () => {
         {/* cursol add */}
         <div className="">
           <Swiper
+          ref={swiperRef} // Attach the ref to the Swiper component
             watchSlidesProgress={true}
             slidesPerView={4}
              spaceBetween={40} // Add this line for gap
@@ -402,6 +410,10 @@ const Responsibiliti = () => {
               <img className="rounded-2xl" src={t7} alt="" />
             </SwiperSlide>
           </Swiper>
+          {/* Button to trigger slide change */}
+      <button onClick={handleNextSlide} className="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
+        Next Slide
+      </button>
         </div>
       </div>
       {/* 6th section finish */}
