@@ -110,7 +110,7 @@ const Help = () => {
                     </span>
                   </p>
                 </div>
-                <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-yellow-400 flex items-center justify-center mt-4 sm:mt-0">
+                <div className="w-12 h-12 sm:w-20 sm:h-16 rounded-full bg-yellow-400 flex items-center justify-center mt-4 sm:mt-0">
                   <div className="relative">
                     <div className="w-6 h-6 bg-white border border-black rounded"></div>
                     <div className="absolute top-[-8px] left-1/2 -translate-x-1/2 text-red-500">
