@@ -457,7 +457,7 @@ const Responsibiliti = () => {
                 className="text-2xl font-extrabold"
                 style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
               >
-                Kakao Impact
+                Btaap Impact
               </h3>
               <p>
                 <MdArrowOutward className="w-8 h-8" />
@@ -474,14 +474,14 @@ const Responsibiliti = () => {
                 className="text-2xl font-extrabold"
                 style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
               >
-                Kakao Impact
+                Btaap Creative Foundation
               </h3>
               <p>
                 <MdArrowOutward className="w-8 h-8" />
               </p>
             </div>
 
-            <p class="text-lg text-gray-600">#ResolveSocialIssues #Tech4Good</p>
+            <p class="text-lg text-gray-600">#DigitalCreator #Support</p>
           </div>
 
           {/* <!-- Card 3 --> */}
@@ -491,14 +491,65 @@ const Responsibiliti = () => {
                 className="text-2xl font-extrabold"
                 style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
               >
-                Kakao Impact
+                Btaap Together
               </h3>
               <p>
                 <MdArrowOutward className="w-8 h-8" />
               </p>
             </div>
 
-            <p class="text-lg text-gray-600">#ResolveSocialIssues #Tech4Good</p>
+            <p class="text-lg text-gray-600">#Donations #CollectiveAction</p>
+          </div>
+          {/* sction2 */}
+          {/* <!-- Card 1 --> */}
+          <div class="bg-gray-100 shadow-md rounded-lg p-4 flex flex-col space-y-4">
+            <div className="flex justify-between items-center">
+              <h3
+                className="text-2xl font-extrabold"
+                style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+              >
+                Btaap Makers
+              </h3>
+              <p>
+                <MdArrowOutward className="w-8 h-8" />
+              </p>
+            </div>
+
+            <p class="text-lg text-gray-600">#ProductionWithoutInventory #SocialImpact</p>
+          </div>
+
+          {/* <!-- Card 2 --> */}
+          <div class="bg-gray-100 shadow-md rounded-lg p-4 flex flex-col space-y-4">
+            <div className="flex justify-between items-center">
+              <h3
+                className="text-2xl font-extrabold"
+                style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+              >
+                Btaap Creative for Credo
+              </h3>
+              <p>
+                <MdArrowOutward className="w-8 h-8" />
+              </p>
+            </div>
+
+            <p class="text-lg text-gray-600">#SmallBizOwners #DigitalTransformation</p>
+          </div>
+
+          {/* <!-- Card 3 --> */}
+          <div class="bg-gray-100 shadow-md rounded-lg p-4 flex flex-col space-y-4">
+            <div className="flex justify-between items-center">
+              <h3
+                className="text-2xl font-extrabold"
+                style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+              >
+                Dangol Market
+              </h3>
+              <p>
+                <MdArrowOutward className="w-8 h-8" />
+              </p>
+            </div>
+
+            <p class="text-lg text-gray-600">#SmallBizOwners #DigitalTransformation</p>
           </div>
 
           {/* <!-- Add more cards as needed --> */}
