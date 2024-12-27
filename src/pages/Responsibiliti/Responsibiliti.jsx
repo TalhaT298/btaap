@@ -41,6 +41,7 @@ const Responsibiliti = () => {
         behavior: 'smooth',
     });
 }
+//ex
   return (
     <div>
       <Link to="/responsibility"></Link>
