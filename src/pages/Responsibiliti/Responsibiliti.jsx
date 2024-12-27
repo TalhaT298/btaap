@@ -449,39 +449,56 @@ const Responsibiliti = () => {
         </h1>
       </div>
       <div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-1">
           {/* <!-- Card 1 --> */}
-          <div class="bg-white shadow-md rounded-lg p-4 flex flex-col space-y-4">
+          <div class="bg-gray-100 shadow-md rounded-lg p-4 flex flex-col space-y-4">
             <div className="flex justify-between items-center">
-              <h3 className="text-2xl font-extrabold">Kakao Impact</h3>
-              <p ><MdArrowOutward className="w-8 h-8"/></p>
+              <h3
+                className="text-2xl font-extrabold"
+                style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+              >
+                Kakao Impact
+              </h3>
+              <p>
+                <MdArrowOutward className="w-8 h-8" />
+              </p>
             </div>
 
             <p class="text-lg text-gray-600">#ResolveSocialIssues #Tech4Good</p>
           </div>
 
           {/* <!-- Card 2 --> */}
-          <div class="bg-white shadow-md rounded-lg p-4 flex flex-col space-y-4">
-            <h3 class="text-xl font-bold">Kakao Creative Foundation</h3>
-            <p class="text-sm text-gray-600">#DigitalCreator #Support</p>
-            <div class="mt-auto">
-              <a href="#" class="text-blue-500 font-bold flex items-center">
-                Learn More
-                <span class="ml-2">&rarr;</span>
-              </a>
+          <div class="bg-gray-100 shadow-md rounded-lg p-4 flex flex-col space-y-4">
+            <div className="flex justify-between items-center">
+              <h3
+                className="text-2xl font-extrabold"
+                style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+              >
+                Kakao Impact
+              </h3>
+              <p>
+                <MdArrowOutward className="w-8 h-8" />
+              </p>
             </div>
+
+            <p class="text-lg text-gray-600">#ResolveSocialIssues #Tech4Good</p>
           </div>
 
           {/* <!-- Card 3 --> */}
-          <div class="bg-white shadow-md rounded-lg p-4 flex flex-col space-y-4">
-            <h3 class="text-xl font-bold">Kakao Together</h3>
-            <p class="text-sm text-gray-600">#Donations #CollectiveAction</p>
-            <div class="mt-auto">
-              <a href="#" class="text-blue-500 font-bold flex items-center">
-                Learn More
-                <span class="ml-2">&rarr;</span>
-              </a>
+          <div class="bg-gray-100 shadow-md rounded-lg p-4 flex flex-col space-y-4">
+            <div className="flex justify-between items-center">
+              <h3
+                className="text-2xl font-extrabold"
+                style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+              >
+                Kakao Impact
+              </h3>
+              <p>
+                <MdArrowOutward className="w-8 h-8" />
+              </p>
             </div>
+
+            <p class="text-lg text-gray-600">#ResolveSocialIssues #Tech4Good</p>
           </div>
 
           {/* <!-- Add more cards as needed --> */}
