@@ -515,7 +515,9 @@ const Responsibiliti = () => {
               </p>
             </div>
 
-            <p class="text-lg text-gray-600">#ProductionWithoutInventory #SocialImpact</p>
+            <p class="text-lg text-gray-600">
+              #ProductionWithoutInventory #SocialImpact
+            </p>
           </div>
 
           {/* <!-- Card 2 --> */}
@@ -532,7 +534,9 @@ const Responsibiliti = () => {
               </p>
             </div>
 
-            <p class="text-lg text-gray-600">#SmallBizOwners #DigitalTransformation</p>
+            <p class="text-lg text-gray-600">
+              #SmallBizOwners #DigitalTransformation
+            </p>
           </div>
 
           {/* <!-- Card 3 --> */}
@@ -549,9 +553,68 @@ const Responsibiliti = () => {
               </p>
             </div>
 
-            <p class="text-lg text-gray-600">#SmallBizOwners #DigitalTransformation</p>
+            <p class="text-lg text-gray-600">
+              #SmallBizOwners #DigitalTransformation
+            </p>
           </div>
 
+          {/* sction3 */}
+          {/* <!-- Card 1 --> */}
+          <div class="bg-gray-100 shadow-md rounded-lg p-4 flex flex-col space-y-4">
+            <div className="flex justify-between items-center">
+              <h3
+                className="text-2xl font-extrabold"
+                style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+              >
+                Heroes on the road
+              </h3>
+              <p>
+                <MdArrowOutward className="w-8 h-8" />
+              </p>
+            </div>
+
+            <p class="text-lg text-gray-600">
+              #Mobile #CivilianHeroAward #WinWin
+            </p>
+          </div>
+
+          {/* <!-- Card 2 --> */}
+          <div class="bg-gray-100 shadow-md rounded-lg p-4 flex flex-col space-y-4">
+            <div className="flex justify-between items-center">
+              <h3
+                className="text-2xl font-extrabold"
+                style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+              >
+                Btaap Tech Campus
+              </h3>
+              <p>
+                <MdArrowOutward className="w-8 h-8" />
+              </p>
+            </div>
+
+            <p class="text-lg text-gray-600">
+              #ITDeveloperProgram #LocalUndergraduates
+            </p>
+          </div>
+
+          {/* <!-- Card 3 --> */}
+          <div class="bg-gray-100 shadow-md rounded-lg p-4 flex flex-col space-y-4">
+            <div className="flex justify-between items-center">
+              <h3
+                className="text-2xl font-extrabold"
+                style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+              >
+                Jeju with Btaap
+              </h3>
+              <p>
+                <MdArrowOutward className="w-8 h-8" />
+              </p>
+            </div>
+
+            <p class="text-lg text-gray-600">
+              #Jeju #LocalSociety #WinWin
+            </p>
+          </div>
           {/* <!-- Add more cards as needed --> */}
         </div>
       </div>
