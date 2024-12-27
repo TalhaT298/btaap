@@ -32,7 +32,7 @@ const Responsibility = () => {
             alt="Image 1"
             className="w-full h-auto rounded-3xl"
           />
-          <IoArrowForwardCircleSharp className="absolute top-[80%] right-4 transform -translate-y-1/2 w-12 h-12 sm:w-16 sm:h-16 text-black" />
+          <IoArrowForwardCircleSharp className="absolute top-[92%] right-4 transform -translate-y-1/2 w-12 h-12 sm:w-16 sm:h-16 text-[#0cc0df]" />
         </div>
         <div className="relative">
           <img
@@ -40,7 +40,7 @@ const Responsibility = () => {
             alt="Image 2"
             className="w-full h-auto rounded-3xl"
           />
-          <IoArrowForwardCircleSharp className="absolute top-[80%] right-4 transform -translate-y-1/2 w-12 h-12 sm:w-16 sm:h-16 text-black" />
+          <IoArrowForwardCircleSharp className="absolute top-[92%] right-4 transform -translate-y-1/2 w-12 h-12 sm:w-16 sm:h-16 text-[#0f7544]" />
         </div>
         <div className="relative">
           <img
@@ -48,7 +48,7 @@ const Responsibility = () => {
             alt="Image 3"
             className="w-full h-auto rounded-3xl"
           />
-          <IoArrowForwardCircleSharp className="absolute top-[80%] right-4 transform -translate-y-1/2 w-12 h-12 sm:w-16 sm:h-16 text-black" />
+          <IoArrowForwardCircleSharp className="absolute top-[92%] right-4 transform -translate-y-1/2 w-12 h-12 sm:w-16 sm:h-16 text-[#5a461b]" />
         </div>
       </div>
     </div>
