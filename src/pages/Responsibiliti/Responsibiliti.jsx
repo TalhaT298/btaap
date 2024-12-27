@@ -20,6 +20,7 @@ import { MdArrowOutward } from "react-icons/md";
 import "swiper/css";
 import { FaCircleArrowRight } from "react-icons/fa6";
 import { FaCircleArrowLeft } from "react-icons/fa6";
+import { IoArrowUpCircleSharp } from "react-icons/io5";
 import eco from "../../../src/assets/ecobanner.webp";
 import { ArrowDownOutlined, PlusCircleOutlined } from "@ant-design/icons";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -33,6 +34,13 @@ const Responsibiliti = () => {
   const handlePrevSlide = () => {
     swiperRef.current.swiper.slidePrev(); // Move to the previous slide
   };
+  // scroll top er section
+  const scrollToTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+    });
+}
   return (
     <div>
       <Link to="/responsibility"></Link>
@@ -618,20 +626,32 @@ const Responsibiliti = () => {
       </div>
       {/* -----------------------------------------------7th section finish -------------------------------------*/}
       {/* -----------------------------------------------8th section start -------------------------------------*/}
-      <div className="flex">
-        <div className="w-2/6 text-3xl font-semibold" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}>Data References</div>
+      <div className="flex py-12 pt-20">
+        <div className="w-2/6 text-3xl font-semibold" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}>Data References</div>
         <div className="w-4/6">
            
-          <p style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}>1)Accessibility is about providing people with or without disability
-          the ability to use web and app services ↑</p>
-          <p style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}>
+          <p className="text-xl" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}>1)Accessibility is about providing people with or without disability 
+          the<br /> ability to use web and app services ↑</p>
+          <p className="py-10 text-xl" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}>
           2)Reference : 2023
-          Accessibility Survey - Survey was conducted only on top priority
-          features in Kakao's main services ↑
+          Accessibility Survey<br /> - Survey was conducted only on top priority
+          features in Btaap's main<br /> services ↑
           </p>
         </div>
       </div>
       {/* -----------------------------------------------8th section finish -------------------------------------*/}
+      {/* -----------------------------------------------9th section start -------------------------------------*/}
+      <div className="flex justify-end items-end py-10">
+              <div
+                onClick={scrollToTop}
+                className="list-none "
+              >
+                <Link to="">
+                  <IoArrowUpCircleSharp className="w-16 h-16 " />
+                </Link>
+              </div>
+            </div>
+      {/* -----------------------------------------------9th section finish -------------------------------------*/}
     </div>
   );
 };

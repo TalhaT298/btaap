@@ -31,7 +31,7 @@ import log from "../../../src/assets/c.png";
 import log1 from "../../../src/assets/emotion.png";
 import { IoIosLink } from "react-icons/io";
 import { IoSettingsSharp } from "react-icons/io5";
-import { FaArrowCircleUp } from "react-icons/fa";
+
 import { IoArrowUpCircleSharp } from "react-icons/io5";
 import { Carousel } from "antd";
 import { Swiper, SwiperSlide } from "swiper/react";
