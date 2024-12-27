@@ -448,7 +448,7 @@ const Responsibiliti = () => {
           Related Websites
         </h1>
       </div>
-      <div>
+      <div className="pb-8">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-1">
           {/* <!-- Card 1 --> */}
           <div class="bg-gray-100 shadow-md rounded-lg p-4 flex flex-col space-y-4">
@@ -611,14 +611,27 @@ const Responsibiliti = () => {
               </p>
             </div>
 
-            <p class="text-lg text-gray-600">
-              #Jeju #LocalSociety #WinWin
-            </p>
+            <p class="text-lg text-gray-600">#Jeju #LocalSociety #WinWin</p>
           </div>
           {/* <!-- Add more cards as needed --> */}
         </div>
       </div>
       {/* -----------------------------------------------7th section finish -------------------------------------*/}
+      {/* -----------------------------------------------8th section start -------------------------------------*/}
+      <div className="flex">
+        <div className="w-2/6 text-3xl font-semibold" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}>Data References</div>
+        <div className="w-4/6">
+           
+          <p style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}>1)Accessibility is about providing people with or without disability
+          the ability to use web and app services ↑</p>
+          <p style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}>
+          2)Reference : 2023
+          Accessibility Survey - Survey was conducted only on top priority
+          features in Kakao's main services ↑
+          </p>
+        </div>
+      </div>
+      {/* -----------------------------------------------8th section finish -------------------------------------*/}
     </div>
   );
 };
