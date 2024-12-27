@@ -16,6 +16,7 @@ import t4 from "../../../src/assets/t4.png";
 import t5 from "../../../src/assets/t5.png";
 import t6 from "../../../src/assets/t6.png";
 import t7 from "../../../src/assets/t7.png";
+import { MdArrowOutward } from "react-icons/md";
 import "swiper/css";
 import { FaCircleArrowRight } from "react-icons/fa6";
 import { FaCircleArrowLeft } from "react-icons/fa6";
@@ -392,7 +393,7 @@ const Responsibiliti = () => {
             slidesPerView={4}
             spaceBetween={40} // Add this line for gap
             className="mySwiper"
-            style={{ outline: 'none', boxShadow: 'none' }} 
+            style={{ outline: "none", boxShadow: "none" }}
           >
             <SwiperSlide>
               <img className="rounded-2xl" src={t1} alt="" />
@@ -440,16 +441,52 @@ const Responsibiliti = () => {
       {/* -----------------------------------------------7th section start--------------------------------- */}
       {/* title */}
       <div className="flex justify-center items-center py-14">
-          <h1
-            className="text-5xl"
-            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
-          >
-            Related Websites
-          </h1>
+        <h1
+          className="text-5xl"
+          style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+        >
+          Related Websites
+        </h1>
+      </div>
+      <div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+          {/* <!-- Card 1 --> */}
+          <div class="bg-white shadow-md rounded-lg p-4 flex flex-col space-y-4">
+            <div className="flex justify-between items-center">
+              <h3 className="text-2xl font-extrabold">Kakao Impact</h3>
+              <p ><MdArrowOutward className="w-8 h-8"/></p>
+            </div>
+
+            <p class="text-lg text-gray-600">#ResolveSocialIssues #Tech4Good</p>
+          </div>
+
+          {/* <!-- Card 2 --> */}
+          <div class="bg-white shadow-md rounded-lg p-4 flex flex-col space-y-4">
+            <h3 class="text-xl font-bold">Kakao Creative Foundation</h3>
+            <p class="text-sm text-gray-600">#DigitalCreator #Support</p>
+            <div class="mt-auto">
+              <a href="#" class="text-blue-500 font-bold flex items-center">
+                Learn More
+                <span class="ml-2">&rarr;</span>
+              </a>
+            </div>
+          </div>
+
+          {/* <!-- Card 3 --> */}
+          <div class="bg-white shadow-md rounded-lg p-4 flex flex-col space-y-4">
+            <h3 class="text-xl font-bold">Kakao Together</h3>
+            <p class="text-sm text-gray-600">#Donations #CollectiveAction</p>
+            <div class="mt-auto">
+              <a href="#" class="text-blue-500 font-bold flex items-center">
+                Learn More
+                <span class="ml-2">&rarr;</span>
+              </a>
+            </div>
+          </div>
+
+          {/* <!-- Add more cards as needed --> */}
         </div>
-        <div>
-          
-        </div>
+      </div>
       {/* -----------------------------------------------7th section finish -------------------------------------*/}
     </div>
   );
