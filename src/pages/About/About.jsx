@@ -13,8 +13,8 @@ const About = () => {
   return (
     <React.Fragment>
       <Helmet>
-              <title>Btaap | About</title>
-            </Helmet>
+        <title>Btaap | About</title>
+      </Helmet>
       <Link to="/about"></Link>
       <div className="flex justify-center items-center min-h-96">
         {/* Main Container */}

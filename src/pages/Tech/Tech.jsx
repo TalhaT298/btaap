@@ -7,6 +7,7 @@ import setting from "../../../src/assets/setting.gif";
 import { SettingOutlined } from "@ant-design/icons";
 import { IoArrowUpCircleSharp } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 const Tech = () => {
   const scrollToTop = () => {
     window.scrollTo({
@@ -16,6 +17,9 @@ const Tech = () => {
   };
   return (
     <div className="pt-16">
+      <Helmet>
+        <title>Btaap | Tech</title>
+      </Helmet>
       {/* title add */}
       <div className="flex items-center justify-between py-6 pl-6">
         <div className="flex items-center space-x-2">
