@@ -8,9 +8,13 @@ import abou1 from "../../../src/assets/about1.webp";
 import "./About.css";
 import Countdown from "react-countdown";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 const About = () => {
   return (
     <React.Fragment>
+      <Helmet>
+              <title>Btaap | About</title>
+            </Helmet>
       <Link to="/about"></Link>
       <div className="flex justify-center items-center min-h-96">
         {/* Main Container */}
