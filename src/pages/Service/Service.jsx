@@ -37,6 +37,7 @@ import { Carousel } from "antd";
 import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
 import { Navigation } from "swiper/modules";
+import { Helmet } from "react-helmet-async";
 
 const Service = () => {
   // const contentStyle = {
@@ -56,6 +57,9 @@ const Service = () => {
 }
   return (
     <React.Fragment>
+      <Helmet>
+        <title>Btaap | Service</title>
+      </Helmet>
       <Link to="/service"></Link>
       {/* 1st section  start*/}
       <div
