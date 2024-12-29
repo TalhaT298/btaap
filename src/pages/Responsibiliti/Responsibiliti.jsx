@@ -24,6 +24,7 @@ import { IoArrowUpCircleSharp } from "react-icons/io5";
 import eco from "../../../src/assets/ecobanner.webp";
 import { ArrowDownOutlined, PlusCircleOutlined } from "@ant-design/icons";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Helmet } from "react-helmet-async";
 const Responsibiliti = () => {
   const swiperRef = useRef(null); // Create a ref for the Swiper instance
 
@@ -43,8 +44,11 @@ const Responsibiliti = () => {
 }
 //ex
   return (
-    <div>
+    <React.Fragment>
       <Link to="/responsibility"></Link>
+      <Helmet>
+        <title>Btaap | Responsibility</title>
+      </Helmet>
       {/* 1st section start */}
       <div className="navbar bg-base-100">
         <div className="navbar-start">
@@ -653,7 +657,7 @@ const Responsibiliti = () => {
               </div>
             </div>
       {/* -----------------------------------------------9th section finish -------------------------------------*/}
-    </div>
+    </React.Fragment>
   );
 };
 
