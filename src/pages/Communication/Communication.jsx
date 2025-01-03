@@ -76,7 +76,7 @@ const Communication = () => {
           Regional
         </div>
       </div>
-      {/* card start */}
+      {/* card start 1*/}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 justify-center p-4 max-w-7xl mx-auto">
         {/* Card 1 */}
         <div className="bg-gray-100 rounded-2xl shadow-md overflow-hidden flex flex-col h-full">
@@ -183,7 +183,114 @@ const Communication = () => {
           />
         </div>
       </div>
+      {/* card end */}
+      {/* card start 2*/}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 justify-center p-4 max-w-7xl mx-auto">
+        {/* Card 1 */}
+        <div className="bg-gray-100 rounded-2xl shadow-md overflow-hidden flex flex-col h-full">
+          <div className="p-4 flex-grow flex flex-col">
+            <div className="flex items-center justify-between w-full">
+              <div className="flex items-center space-x-2">
+                <BsFillLightbulbFill
+                  className="text-[#97ce9b]"
+                  style={{ fontSize: "24px", height: "24px", width: "24px" }}
+                />
+                <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
+                  Communication
+                </span>
+              </div>
+              <span className="text-2xl px-2">⫶</span>
+            </div>
+            <h2
+              className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+            >
+              Btaap, where people <br />
+              and the world come to ge...
+            </h2>
+            <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
+              <span>#AI</span>
+              <span>#ifBtaap</span>
+              <span>#kanan</span>
+              <span>#AllRecomend</span>
+            </div>
+          </div>
+          <img
+            src={ba1}
+            alt="Btaap Business Best Awards"
+            className="w-full h-56 object-cover"
+          />
+        </div>
 
+        {/* Card 2 */}
+        <div className="bg-gray-100 rounded-2xl shadow-md overflow-hidden flex flex-col h-full">
+          <div className="p-4 flex-grow flex flex-col">
+            <div className="flex items-center justify-between w-full">
+              <div className="flex items-center space-x-2">
+                <BsFillLightbulbFill
+                  className="text-[#97ce9b]"
+                  style={{ fontSize: "24px", height: "24px", width: "24px" }}
+                />
+                <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
+                  Communication
+                </span>
+              </div>
+              <span className="text-2xl px-2">⫶</span>
+            </div>
+            <h2
+              className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+            >
+              We all have our own Story
+            </h2>
+            <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
+              <span>#brunchstory</span>
+              <span>#contents</span>
+              <span>#btaapstory...</span>
+            </div>
+          </div>
+          <img
+            src={site}
+            alt="Kakao Together Value"
+            className="w-full h-56 object-cover"
+          />
+        </div>
+
+        {/* Card 3 */}
+        <div className="bg-gray-100 rounded-2xl shadow-md overflow-hidden flex flex-col h-full">
+          <div className="p-4 flex-grow flex flex-col">
+            <div className="flex items-center justify-between w-full">
+              <div className="flex items-center space-x-2">
+                <BsFillLightbulbFill
+                  className="text-[#97ce9b]"
+                  style={{ fontSize: "24px", height: "24px", width: "24px" }}
+                />
+                <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
+                  Communication
+                </span>
+              </div>
+              <span className="text-2xl px-2">⫶</span>
+            </div>
+            <h2
+              className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
+            >
+              Chat with your voice in <br />
+              Open Chat, <br />
+              Voice Room
+            </h2>
+            <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
+              <span>#openchat</span>
+              <span>#voiceroom</span>
+            </div>
+          </div>
+          <img
+            src={look}
+            alt="Kakao Mutual Growth"
+            className="w-full h-56 object-cover"
+          />
+        </div>
+      </div>
       {/* card end */}
       <div className="flex justify-end items-end py-10">
         <div onClick={scrollToTop} className="list-none ">
