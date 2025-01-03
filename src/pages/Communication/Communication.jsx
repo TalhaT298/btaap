@@ -58,23 +58,23 @@ const Communication = () => {
                 All
               </div>
               <div className="w-36 h-12 rounded-full bg-black text-white flex items-center justify-center cursor-pointer hover:bg-gray-300 hover:text-black">
-                Btapp Tech
+              Education
               </div>
-              {/* <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
-                Tech Platform
-              </div> */}
               <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
-                Tech Service
+                Medical
               </div>
-              {/* <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
-                Tech Contents
-              </div> */}
               <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
-                Tech Event
+                Business
               </div>
-              {/* <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
-                if(Btaap)
-              </div> */}
+              <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+              Transport
+              </div>
+              <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+                Entertainment
+              </div>
+              <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+                Regional
+              </div>
             </div>
             {/* card start */}
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 justify-center p-4">
