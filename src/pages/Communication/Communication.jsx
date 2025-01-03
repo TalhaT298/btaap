@@ -4,7 +4,7 @@ import site from "../../../src/assets/site.jpg";
 import look from "../../../src/assets/look.jpg";
 import { AiTwotoneSound } from "react-icons/ai";
 import bulbc from "../../../src/assets/bulbc.png";
-import { SettingOutlined } from "@ant-design/icons";
+import { ArrowDownOutlined } from "@ant-design/icons";
 import { IoArrowUpCircleSharp } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
@@ -101,10 +101,12 @@ const Communication = () => {
               and the world come to ge...
             </h2>
             <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
-              <span>#AI</span>
-              <span>#ifBtaap</span>
-              <span>#kanan</span>
-              <span>#AllRecomend</span>
+              <div className="navbar-end">
+                <a className="w-60 h-12 rounded-full bg-[#97ce9b] text-white flex items-center justify-center cursor-pointer">
+                  Btaap Download
+                  <ArrowDownOutlined className="pl-2" />
+                </a>
+              </div>
             </div>
           </div>
           <img
@@ -184,7 +186,7 @@ const Communication = () => {
         </div>
       </div>
       {/* card end */}
-      {/* card start 2*/}
+      {/* ====================================================card start 2=========================================*/}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 justify-center p-4 max-w-7xl mx-auto">
         {/* Card 1 */}
         <div className="bg-gray-100 rounded-2xl shadow-md overflow-hidden flex flex-col h-full">
@@ -205,14 +207,13 @@ const Communication = () => {
               className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
             >
-              Btaap, where people <br />
-              and the world come to ge...
+              Smarter schedule <br />
+              management with Talk <br />
+              Calendar
             </h2>
             <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
-              <span>#AI</span>
-              <span>#ifBtaap</span>
-              <span>#kanan</span>
-              <span>#AllRecomend</span>
+              <span>#calendar</span>
+              <span>#invite friends</span>
             </div>
           </div>
           <img
@@ -241,17 +242,18 @@ const Communication = () => {
               className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
             >
-              We all have our own Story
+              Our new language,
+              <br />
+              emoticons!
             </h2>
             <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
-              <span>#brunchstory</span>
-              <span>#contents</span>
-              <span>#btaapstory...</span>
+              <span>#emoticonplus</span>
+              <span>#emoticons</span>
             </div>
           </div>
           <img
             src={site}
-            alt="Kakao Together Value"
+            alt="Btaap Together Value"
             className="w-full h-56 object-cover"
           />
         </div>
@@ -275,18 +277,19 @@ const Communication = () => {
               className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
             >
-              Chat with your voice in <br />
-              Open Chat, <br />
-              Voice Room
+              Created for my needs,
+              <br />
+              the Daum app <br />
             </h2>
             <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
-              <span>#openchat</span>
-              <span>#voiceroom</span>
+              <span>#contents</span>
+              <span>#daumapp</span>
+              <span>#portal</span>
             </div>
           </div>
           <img
             src={look}
-            alt="Kakao Mutual Growth"
+            alt="Btaap Mutual Growth"
             className="w-full h-56 object-cover"
           />
         </div>
