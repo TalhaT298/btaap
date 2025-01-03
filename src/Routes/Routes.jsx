@@ -9,6 +9,7 @@ import Service from "../pages/Service/Service";
 import Tech from "../pages/Tech/Tech";
 import Responsibiliti from "../pages/Responsibiliti/Responsibiliti";
 import News from "../pages/News/News";
+import Communication from "../pages/Communication/Communication";
 
   
   export const router = createBrowserRouter([
@@ -39,6 +40,10 @@ import News from "../pages/News/News";
         {
             path:'/news',
             element: <News></News>
+        },
+        {
+            path:'/communication',
+            element: <Communication></Communication>
         },
 
       ]
