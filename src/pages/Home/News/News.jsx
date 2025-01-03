@@ -33,16 +33,22 @@ const News = () => {
         {/* Card 1 */}
         <div className="max-w-full mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
           <div className="p-4">
-            <div className="flex items-center space-x-2">
-              <div className="flex items-center text-[#97ce9b]">
-                <AiTwotoneSound className="text-[#97ce9b] w-8 h-8" />
+            <div className="flex items-center justify-between w-full">
+              {/* Left Group */}
+              <div className="flex items-center space-x-2">
+                <div className="flex items-center text-[#97ce9b]">
+                  <AiTwotoneSound className="text-[#97ce9b] w-8 h-8" />
+                </div>
+                <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
+                  Press release
+                </span>
+                <span className="text-sm text-gray-500">2024.12.13</span>
               </div>
-              <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
-                Press release
-              </span>
-              <span className="text-sm text-gray-500">2024.12.13</span>
-              <span className="text-xl px-2">⫶</span>
+
+              {/* Right-Aligned Element */}
+              <span className="text-2xl px-2">⫶</span>
             </div>
+
             <h2
               className="text-3xl sm:text-4xl font-semibold mt-2 py-10"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
@@ -65,7 +71,7 @@ const News = () => {
         {/* Card 2 */}
         <div className="max-w-full mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
           <div className="p-4">
-            <div className="flex items-center space-x-2">
+            {/* <div className="flex items-center space-x-2">
               <div className="flex items-center text-[#97ce9b]">
                 <AiTwotoneSound className="text-[#97ce9b] w-8 h-8" />
               </div>
@@ -74,7 +80,23 @@ const News = () => {
               </span>
               <span className="text-sm text-gray-500">2024.12.12</span>
               <span className="text-xl px-2">⫶</span>
+            </div> */}
+            <div className="flex items-center justify-between w-full">
+              {/* Left Group */}
+              <div className="flex items-center space-x-2">
+                <div className="flex items-center text-[#97ce9b]">
+                  <AiTwotoneSound className="text-[#97ce9b] w-8 h-8" />
+                </div>
+                <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
+                  Press release
+                </span>
+                <span className="text-sm text-gray-500">2024.12.12</span>
+              </div>
+
+              {/* Right-Aligned Element */}
+              <span className="text-2xl px-2">⫶</span>
             </div>
+
             <h2
               className="text-3xl sm:text-4xl font-semibold mt-2 pt-10"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
@@ -98,16 +120,22 @@ const News = () => {
         {/* Card 3 */}
         <div className="max-w-full mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
           <div className="p-4">
-            <div className="flex items-center space-x-2">
-              <div className="flex items-center text-[#97ce9b]">
-                <AiTwotoneSound className="text-[#97ce9b] w-8 h-8" />
+            <div className="flex items-center justify-between w-full">
+              {/* Left Group */}
+              <div className="flex items-center space-x-2">
+                <div className="flex items-center text-[#97ce9b]">
+                  <AiTwotoneSound className="text-[#97ce9b] w-8 h-8" />
+                </div>
+                <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
+                  Press release
+                </span>
+                <span className="text-sm text-gray-500">2024.12.11</span>
               </div>
-              <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
-                Press release
-              </span>
-              <span className="text-sm text-gray-500">2024.12.11</span>
-              <span className="text-xl px-2">⫶</span>
+
+              {/* Right-Aligned Element */}
+              <span className="text-2xl px-2">⫶</span>
             </div>
+
             <h2
               className="text-3xl sm:text-4xl font-semibold mt-2 pt-10"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
@@ -133,18 +161,21 @@ const News = () => {
         {/* Card 1 */}
         <div className="max-w-full mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
           <div className="p-4">
-            <div className="flex flex-wrap items-center space-x-2">
-              <div className="flex items-center text-[#97ce9b]">
-                <AiTwotoneSound className="text-[#97ce9b] w-6 h-6 sm:w-8 sm:h-8" />
+            <div className="flex flex-wrap items-center justify-between w-full">
+              <div className="flex items-center space-x-2">
+                <div className="flex items-center text-[#97ce9b]">
+                  <AiTwotoneSound className="text-[#97ce9b] w-6 h-6 sm:w-8 sm:h-8" />
+                </div>
+                <span className="text-xs sm:text-sm font-extralight bg-white text-black px-3 sm:px-5 py-1 sm:py-2 rounded-lg">
+                  Press release
+                </span>
+                <span className="text-xs sm:text-sm text-gray-500">
+                  2024.12.13
+                </span>
               </div>
-              <span className="text-xs sm:text-sm font-extralight bg-white text-black px-3 sm:px-5 py-1 sm:py-2 rounded-lg">
-                Press release
-              </span>
-              <span className="text-xs sm:text-sm text-gray-500">
-                2024.12.13
-              </span>
-              <span className="text-lg sm:text-xl px-2">⫶</span>
+              <span className="text-lg sm:text-2xl px-2">⫶</span>
             </div>
+
             <h2
               className="text-lg sm:text-2xl md:text-3xl font-medium mt-2 py-4 sm:py-7"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
@@ -157,7 +188,7 @@ const News = () => {
         {/* Card 2 */}
         <div className="max-w-full mx-auto bg-gray-100 rounded-2xl shadow-md overflow-hidden">
           <div className="p-4">
-            <div className="flex flex-wrap items-center space-x-2">
+            {/* <div className="flex flex-wrap items-center space-x-2">
               <div className="flex items-center text-[#97ce9b]">
                 <AiTwotoneSound className="text-[#97ce9b] w-6 h-6 sm:w-8 sm:h-8" />
               </div>
@@ -168,7 +199,22 @@ const News = () => {
                 2024.12.12
               </span>
               <span className="text-lg sm:text-xl px-2">⫶</span>
+            </div> */}
+            <div className="flex flex-wrap items-center justify-between w-full">
+              <div className="flex items-center space-x-2">
+                <div className="flex items-center text-[#97ce9b]">
+                  <AiTwotoneSound className="text-[#97ce9b] w-6 h-6 sm:w-8 sm:h-8" />
+                </div>
+                <span className="text-xs sm:text-sm font-extralight bg-white text-black px-3 sm:px-5 py-1 sm:py-2 rounded-lg">
+                  Press release
+                </span>
+                <span className="text-xs sm:text-sm text-gray-500">
+                  2024.12.13
+                </span>
+              </div>
+              <span className="text-lg sm:text-2xl px-2">⫶</span>
             </div>
+
             <h2
               className="text-lg sm:text-2xl md:text-3xl font-medium mt-2 py-4 sm:py-7"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
