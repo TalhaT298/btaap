@@ -178,10 +178,10 @@ const Navbar = () => {
                     </a>
                   </li>
                   </Link>
-                  <Link to="/life">
+                  <Link to="/communication">
                   <li>
-                    <a href="#life" className="hover:bg-[#97ce9b]">
-                      Life
+                    <a href="communication" className="hover:bg-[#97ce9b]">
+                    Communication
                     </a>
                   </li>
                   </Link>
