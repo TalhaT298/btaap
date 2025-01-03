@@ -21,7 +21,7 @@ const Communication = () => {
       <Link to="/communication"></Link>
        
             <Helmet>
-              <title>Btaap | Tech</title>
+              <title>Btaap |Communication</title>
             </Helmet>
             {/* title add */}
             <div className="flex items-center justify-between py-6 pl-6">
@@ -39,7 +39,7 @@ const Communication = () => {
                   className="text-5xl font-extrabold text-black px-6"
                   style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
                 >
-                  Tech
+                  Service
                 </span>
               </div>
             </div>
@@ -49,7 +49,7 @@ const Communication = () => {
                 className="text-3xl"
                 style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
               >
-                Btaap's Technology, Lowering the barrier to the future
+                Btaap Creates a better world
               </p>
             </div>
             {/* hash use */}
