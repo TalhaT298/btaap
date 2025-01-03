@@ -3,7 +3,7 @@ import ba1 from "../../../src/assets/ba1.png";
 import site from "../../../src/assets/site.jpg";
 import look from "../../../src/assets/look.jpg";
 import { AiTwotoneSound } from "react-icons/ai";
-import setting from "../../../src/assets/setting.gif";
+import bulbc from "../../../src/assets/bulbc.png";
 import { SettingOutlined } from "@ant-design/icons";
 import { IoArrowUpCircleSharp } from "react-icons/io5";
 import { Link } from "react-router-dom";
@@ -32,7 +32,7 @@ const Communication = () => {
                 >
                   <div className=" ">
                     {" "}
-                    <img className="rounded-xl " src={setting} alt="" />{" "}
+                    <img className="rounded-xl " src={bulbc} alt="" />{" "}
                   </div>
                 </div>
                 <span
