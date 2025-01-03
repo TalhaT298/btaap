@@ -112,7 +112,7 @@ const Navbar = () => {
                   tabIndex={0}
                   className="cursor-pointer rounded-full px-6 py-2 text-black hover:bg-[#97ce9b]"
                 >
-                  Tech & Service
+                  Tech
                 </label>
                 <ul
                   tabIndex={0}
@@ -125,6 +125,52 @@ const Navbar = () => {
                     </a>
                   </li>
                   </Link>
+                  {/* <Link to="/service">
+                  <li >
+                    <a href="#service" className="hover:bg-[#97ce9b]">
+                      Service
+                    </a>
+                  </li>
+                  </Link> */}
+                  <Link to="/life">
+                  <li>
+                    <a href="#life" className="hover:bg-[#97ce9b]">
+                      Life
+                    </a>
+                  </li>
+                  </Link>
+                  <Link to="/business">
+                  <li>
+                    <a href="#business" className="hover:bg-[#97ce9b]">
+                      Business
+                    </a>
+                  </li>
+                  </Link>
+                </ul>
+              </div>
+            </div>
+          </li>
+          {/* new service */}
+          <li>
+            <div className="relative">
+              <div className="dropdown z-50">
+                <label
+                  tabIndex={0}
+                  className="cursor-pointer rounded-full px-6 py-2 text-black hover:bg-[#97ce9b]"
+                >
+                  Service
+                </label>
+                <ul
+                  tabIndex={0}
+                  className="dropdown-content menu rounded-box mt-2 w-52 bg-white p-2 shadow-lg"
+                >
+                  {/* <Link to="/tech">
+                  <li>
+                    <a href="#tech" className="hover:bg-[#97ce9b]">
+                      Tech
+                    </a>
+                  </li>
+                  </Link> */}
                   <Link to="/service">
                   <li >
                     <a href="#service" className="hover:bg-[#97ce9b]">
@@ -160,9 +206,9 @@ const Navbar = () => {
             News
           </li>
           </Link>
-          <li className="cursor-pointer rounded-full px-6 py-2 text-black hover:bg-[#97ce9b]">
+          {/* <li className="cursor-pointer rounded-full px-6 py-2 text-black hover:bg-[#97ce9b]">
             IR↗
-          </li>
+          </li> */}
         </ul>
 
         {/* Icons */}
