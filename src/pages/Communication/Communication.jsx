@@ -1,5 +1,6 @@
 import React from "react";
-import ba1 from "../../../src/assets/ba1.png";
+import abb from "../../../src/assets/aboutbanner.webp";
+import story from "../../../src/assets/story.webp";
 import site from "../../../src/assets/site.jpg";
 import look from "../../../src/assets/look.jpg";
 import { AiTwotoneSound } from "react-icons/ai";
@@ -53,7 +54,7 @@ const Communication = () => {
         </p>
       </div>
       {/* hash use */}
-      <div className="flex justify-start items-start space-x-4 my-8">
+      <div className="flex justify-start items-start space-x-4 my-12 pl-5">
         <div className="w-24 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
           All
         </div>
@@ -110,7 +111,7 @@ const Communication = () => {
             </div>
           </div>
           <img
-            src={ba1}
+            src={abb}
             alt="Btaap Business Best Awards"
             className="w-full h-56 object-cover"
           />
@@ -144,7 +145,7 @@ const Communication = () => {
             </div>
           </div>
           <img
-            src={site}
+            src={story}
             alt="Kakao Together Value"
             className="w-full h-56 object-cover"
           />
@@ -217,7 +218,7 @@ const Communication = () => {
             </div>
           </div>
           <img
-            src={ba1}
+            src={abb}
             alt="Btaap Business Best Awards"
             className="w-full h-56 object-cover"
           />
