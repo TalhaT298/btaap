@@ -3,6 +3,10 @@ import abb from "../../../src/assets/aboutbanner.webp";
 import story from "../../../src/assets/story.webp";
 import site from "../../../src/assets/site.jpg";
 import look from "../../../src/assets/look.jpg";
+import voice from "../../../src/assets/voice.jpg";
+import appt from "../../../src/assets/app.jpg";
+import clock from "../../../src/assets/clock.jpg";
+import lan from "../../../src/assets/lan.png";
 import { AiTwotoneSound } from "react-icons/ai";
 import bulbc from "../../../src/assets/bulbc.png";
 import { ArrowDownOutlined } from "@ant-design/icons";
@@ -180,7 +184,7 @@ const Communication = () => {
             </div>
           </div>
           <img
-            src={look}
+            src={voice}
             alt="Kakao Mutual Growth"
             className="w-full h-56 object-cover"
           />
@@ -218,7 +222,7 @@ const Communication = () => {
             </div>
           </div>
           <img
-            src={abb}
+            src={clock}
             alt="Btaap Business Best Awards"
             className="w-full h-56 object-cover"
           />
@@ -253,7 +257,7 @@ const Communication = () => {
             </div>
           </div>
           <img
-            src={site}
+            src={lan}
             alt="Btaap Together Value"
             className="w-full h-56 object-cover"
           />
@@ -289,7 +293,7 @@ const Communication = () => {
             </div>
           </div>
           <img
-            src={look}
+            src={appt}
             alt="Btaap Mutual Growth"
             className="w-full h-56 object-cover"
           />
