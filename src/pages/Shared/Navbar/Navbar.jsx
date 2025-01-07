@@ -192,6 +192,13 @@ const Navbar = () => {
                     </a>
                   </li>
                   </Link>
+                  <Link to="/entertainment">
+                  <li>
+                    <a href="#entertainmen" className="hover:bg-[#97ce9b]">
+                    Entertainment
+                    </a>
+                  </li>
+                  </Link>
                 </ul>
               </div>
             </div>
