@@ -103,8 +103,8 @@ const Entertainment = () => {
                     className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
                     style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
                   >
-                    Btaap, where people <br />
-                    and the world come to ge...
+                    Small Shop,Entrepreneur <br />
+                    around the country...
                   </h2>
                   <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
                     <div className="navbar-end">
@@ -141,7 +141,8 @@ const Entertainment = () => {
                     className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
                     style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
                   >
-                    We all have our own Story
+                    Products, Trending <br />
+                    across Bangladesh
                   </h2>
                   <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
                     <span>#brunchstory</span>
@@ -175,9 +176,7 @@ const Entertainment = () => {
                     className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
                     style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
                   >
-                    Chat with your voice in <br />
-                    Open Chat, <br />
-                    Voice Room
+                    Marketplace, Your favorite Brand
                   </h2>
                   <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
                     <span>#openchat</span>
@@ -213,9 +212,9 @@ const Entertainment = () => {
                     className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
                     style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
                   >
-                    Smarter schedule <br />
-                    management with Talk <br />
-                    Calendar
+                    Community, the group  <br />
+                    for your shops,reach now<br />
+                    
                   </h2>
                   <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
                     <span>#calendar</span>
@@ -283,9 +282,9 @@ const Entertainment = () => {
                     className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
                     style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
                   >
-                    Created for my needs,
+                    Promotional, videos 
                     <br />
-                    the Daum app <br />
+                    and advertisement
                   </h2>
                   <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
                     <span>#contents</span>
