@@ -1,7 +1,7 @@
 import React from "react";
-import abb from "../../../src/assets/aboutbanner.webp";
-import story from "../../../src/assets/story.webp";
-import site from "../../../src/assets/site.jpg";
+import small from "../../../src/assets/small.png";
+import bd from "../../../src/assets/bd.png";
+import market from "../../../src/assets/market.png";
 import look from "../../../src/assets/look.jpg";
 import voice from "../../../src/assets/voice.jpg";
 import appt from "../../../src/assets/app.jpg";
@@ -118,7 +118,7 @@ const Entertainment = () => {
                   </div>
                 </div>
                 <img
-                  src={abb}
+                  src={small}
                   alt="Btaap Business Best Awards"
                   className="w-full h-56 object-cover"
                 />
@@ -153,7 +153,7 @@ const Entertainment = () => {
                   </div>
                 </div>
                 <img
-                  src={story}
+                  src={bd}
                   alt="Kakao Together Value"
                   className="w-full h-56 object-cover"
                 />
@@ -186,7 +186,7 @@ const Entertainment = () => {
                   </div>
                 </div>
                 <img
-                  src={voice}
+                  src={market}
                   alt="Kakao Mutual Growth"
                   className="w-full h-56 object-cover"
                 />
