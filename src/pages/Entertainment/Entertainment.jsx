@@ -3,9 +3,9 @@ import small from "../../../src/assets/small.png";
 import bd from "../../../src/assets/bd.png";
 import market from "../../../src/assets/market.png";
 import look from "../../../src/assets/look.jpg";
-import voice from "../../../src/assets/voice.jpg";
+import promotional from "../../../src/assets/promotional.jpg";
 import appt from "../../../src/assets/app.jpg";
-import clock from "../../../src/assets/clock.jpg";
+import com from "../../../src/assets/com.png";
 import lan from "../../../src/assets/lan.png";
 import { AiTwotoneSound } from "react-icons/ai";
 import bulbc from "../../../src/assets/bulbc.png";
@@ -224,7 +224,7 @@ const Entertainment = () => {
                   </div>
                 </div>
                 <img
-                  src={clock}
+                  src={com}
                   alt="Btaap Business Best Awards"
                   className="w-full h-56 object-cover"
                 />
@@ -295,7 +295,7 @@ const Entertainment = () => {
                   </div>
                 </div>
                 <img
-                  src={appt}
+                  src={promotional}
                   alt="Btaap Mutual Growth"
                   className="w-full h-56 object-cover"
                 />
