@@ -147,9 +147,9 @@ const Entertainment = () => {
                     across Bangladesh
                   </h2>
                   <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
-                    <span>#brunchstory</span>
-                    <span>#contents</span>
-                    <span>#btaapstory...</span>
+                    <span>#products</span>
+                    <span>#trending</span>
+                    <span>#btaapsproduc...</span>
                   </div>
                 </div>
                 <img
@@ -181,8 +181,8 @@ const Entertainment = () => {
                     Marketplace, Your favorite Brand
                   </h2>
                   <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
-                    <span>#openchat</span>
-                    <span>#voiceroom</span>
+                    <span>#marketplace</span>
+                    <span>#brand</span>
                   </div>
                 </div>
                 <img
@@ -219,8 +219,8 @@ const Entertainment = () => {
                     
                   </h2>
                   <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
-                    <span>#calendar</span>
-                    <span>#invite friends</span>
+                    <span>#community</span>
+                    <span>#groups</span>
                   </div>
                 </div>
                 <img
@@ -289,9 +289,9 @@ const Entertainment = () => {
                     and advertisement
                   </h2>
                   <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
-                    <span>#contents</span>
-                    <span>#daumapp</span>
-                    <span>#portal</span>
+                    <span>#promotional</span>
+                    <span>#videos</span>
+                    <span>#advertisement</span>
                   </div>
                 </div>
                 <img
