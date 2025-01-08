@@ -71,9 +71,11 @@ const Entertainment = () => {
               <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
                 Medical
               </div>
+              <Link to="/business">
               <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
                 Business
               </div>
+              </Link>
               <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
                 Transport
               </div>
@@ -105,8 +107,8 @@ const Entertainment = () => {
                     className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
                     style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
                   >
-                    Small Shop,Entrepreneur <br />
-                    around the country...
+                    Karoke, sign with <br />
+                    your friends..
                   </h2>
                   <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
                     <div className="navbar-end">
@@ -143,8 +145,8 @@ const Entertainment = () => {
                     className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
                     style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
                   >
-                    Products, Trending <br />
-                    across Bangladesh
+                    TV & Music, live News  <br />
+                    and Entertainment
                   </h2>
                   <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
                     <span>#products</span>
@@ -178,7 +180,8 @@ const Entertainment = () => {
                     className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
                     style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
                   >
-                    Marketplace, Your favorite Brand
+                   Comics & Novels, <br />
+                   amazing creators
                   </h2>
                   <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
                     <span>#marketplace</span>
@@ -214,8 +217,8 @@ const Entertainment = () => {
                     className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
                     style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
                   >
-                    Community, the group  <br />
-                    for your shops,reach now<br />
+                    Games play with your  <br />
+                    community 
                     
                   </h2>
                   <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
@@ -249,9 +252,9 @@ const Entertainment = () => {
                     className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
                     style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
                   >
-                    Our new language,
+                    Upcoming games &,
                     <br />
-                    emoticons!
+                    musics
                   </h2>
                   <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
                     <span>#emoticonplus</span>
@@ -284,9 +287,9 @@ const Entertainment = () => {
                     className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
                     style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
                   >
-                    Promotional, videos 
+                    Podcasts, voice  
                     <br />
-                    and advertisement
+                    of Bangladesh
                   </h2>
                   <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
                     <span>#promotional</span>
