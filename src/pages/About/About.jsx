@@ -5,6 +5,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { FaDiscord } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import abou1 from "../../../src/assets/about1.webp";
+import manus from "../../../src/assets/manus.gif";
 import "./About.css";
 import Countdown from "react-countdown";
 import { Link } from "react-router-dom";
@@ -181,6 +182,9 @@ const About = () => {
           <div className="stat-desc">21% more than last month</div>
         </div>
       </div>
+      {/* 5th section start */}
+      <img src={manus} alt="" />
+      {/* 5th section end */}
     </React.Fragment>
   );
 };
