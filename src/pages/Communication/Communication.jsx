@@ -22,7 +22,7 @@ const Communication = () => {
     });
   };
   return (
-    <div className="pt-6">
+    <div className="">
       <Link to="/communication"></Link>
 
       <Helmet>
