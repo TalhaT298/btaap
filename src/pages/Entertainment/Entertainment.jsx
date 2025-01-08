@@ -5,7 +5,7 @@ import reda from "../../../src/assets/reading.jpg";
 import game1 from "../../../src/assets/game1.jpg";
 import promotional from "../../../src/assets/promotional.jpg";
 import game2 from "../../../src/assets/game2.jpg";
-import com from "../../../src/assets/com.png";
+import women from "../../../src/assets/women.jpg";
 import lan from "../../../src/assets/lan.png";
 import { AiTwotoneSound } from "react-icons/ai";
 import bulbc from "../../../src/assets/bulbc.png";
@@ -298,7 +298,7 @@ const Entertainment = () => {
                   </div>
                 </div>
                 <img
-                  src={promotional}
+                  src={women}
                   alt="Btaap Mutual Growth"
                   className="w-full h-56 object-cover"
                 />
