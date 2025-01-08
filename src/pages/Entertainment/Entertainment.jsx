@@ -1,10 +1,10 @@
 import React from "react";
-import small from "../../../src/assets/small.png";
-import bd from "../../../src/assets/bd.png";
-import market from "../../../src/assets/market.png";
-import look from "../../../src/assets/look.jpg";
+import chil from "../../../src/assets/children.jpg";
+import teli from "../../../src/assets/television.jpg";
+import reda from "../../../src/assets/reading.jpg";
+import game1 from "../../../src/assets/game1.jpg";
 import promotional from "../../../src/assets/promotional.jpg";
-import appt from "../../../src/assets/app.jpg";
+import game2 from "../../../src/assets/game2.jpg";
 import com from "../../../src/assets/com.png";
 import lan from "../../../src/assets/lan.png";
 import { AiTwotoneSound } from "react-icons/ai";
@@ -120,7 +120,7 @@ const Entertainment = () => {
                   </div>
                 </div>
                 <img
-                  src={small}
+                  src={chil}
                   alt="Btaap Business Best Awards"
                   className="w-full h-56 object-cover"
                 />
@@ -155,7 +155,7 @@ const Entertainment = () => {
                   </div>
                 </div>
                 <img
-                  src={bd}
+                  src={teli}
                   alt="Kakao Together Value"
                   className="w-full h-56 object-cover"
                 />
@@ -189,7 +189,7 @@ const Entertainment = () => {
                   </div>
                 </div>
                 <img
-                  src={market}
+                  src={reda}
                   alt="Kakao Mutual Growth"
                   className="w-full h-56 object-cover"
                 />
@@ -227,7 +227,7 @@ const Entertainment = () => {
                   </div>
                 </div>
                 <img
-                  src={com}
+                  src={game1}
                   alt="Btaap Business Best Awards"
                   className="w-full h-56 object-cover"
                 />
@@ -262,7 +262,7 @@ const Entertainment = () => {
                   </div>
                 </div>
                 <img
-                  src={lan}
+                  src={game2}
                   alt="Btaap Together Value"
                   className="w-full h-56 object-cover"
                 />
