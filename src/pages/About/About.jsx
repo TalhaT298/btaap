@@ -98,7 +98,7 @@ const About = () => {
           platform—Marble Mania, Sweet Run, and AniGame. With 93 percent of
           Bangladesh's users on BtaapTalk, the free downloads of games like Ani
           Pang and Dragon Flight, which can only be played with a BtaapTalk
-          account, were deemed "national" games. To maintain simplicity across
+          account, were deemed "national"h games. To maintain simplicity across
           all the provided services, Btaap applications can be purchased and
           logged in with links to BtaapTalk.
           <br />
