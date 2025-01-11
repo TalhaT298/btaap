@@ -68,9 +68,11 @@ const Entertainment = () => {
               </div>
               </Link>
              
+              <Link to="/medical">
               <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
                 Medical
               </div>
+              </Link>
               <Link to="/business">
               <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
                 Business
