@@ -12,6 +12,7 @@ import News from "../pages/News/News";
 import Communication from "../pages/Communication/Communication";
 import Business from "../pages/Business/Business";
 import Entertainment from "../pages/Entertainment/Entertainment";
+import Medical from "../pages/Medical/Medical";
 
   
   export const router = createBrowserRouter([
@@ -54,6 +55,10 @@ import Entertainment from "../pages/Entertainment/Entertainment";
         {
             path:'/entertainment',
             element: <Entertainment></Entertainment>
+        },
+        {
+            path:'/medical',
+            element: <Medical></Medical>
         },
 
       ]
