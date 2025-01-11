@@ -31,8 +31,7 @@ const Medical = () => {
       <div className="flex items-center justify-between py-6 pl-6">
         <div className="flex items-center space-x-2">
           <div
-            className="w-16 h-16
-                                               flex items-center justify-center rounded-lg "
+            className="w-16 h-16 flex items-center justify-center rounded-lg "
           >
             <div className=" ">
               {" "}
@@ -67,7 +66,7 @@ const Medical = () => {
           </div>
         </Link>
 
-        <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+        <div className="w-36 h-12 rounded-full bg-black text-white flex items-center justify-center cursor-pointer hover:bg-gray-300 hover:text-black">
           Medical
         </div>
         <Link to="/business">
@@ -78,8 +77,9 @@ const Medical = () => {
         <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
           Transport
         </div>
-        <div className="w-36 h-12 rounded-full bg-black text-white flex items-center justify-center cursor-pointer hover:bg-gray-300 hover:text-black">
-          Entertainment
+        
+        <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+        Entertainment
         </div>
         <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
           Regional
