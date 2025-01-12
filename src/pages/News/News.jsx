@@ -58,8 +58,9 @@ const News = () => {
       >
         <SwiperSlide> <img src={em1} alt="" /> </SwiperSlide>
         <SwiperSlide> <img src={em2} alt="" /> </SwiperSlide>
-        <SwiperSlide> <img src={em1} alt="" /> </SwiperSlide>
-        <SwiperSlide> <img src={em1} alt="" /> </SwiperSlide>
+        <SwiperSlide> <img src={em3} alt="" /> </SwiperSlide>
+        <SwiperSlide> <img src={em4} alt="" /> </SwiperSlide>
+        <SwiperSlide> <img src={em5} alt="" /> </SwiperSlide>
         
       </Swiper>
     </div>
