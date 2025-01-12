@@ -1,6 +1,10 @@
 import { NotificationOutlined } from "@ant-design/icons";
 import React, { useRef, useState } from 'react';
-
+import em1 from "../../../src/assets/em1.png";
+import em2 from "../../../src/assets/em2.png";
+import em3 from "../../../src/assets/em3.png";
+import em4 from "../../../src/assets/em4.png";
+import em5 from "../../../src/assets/em5.png";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -43,24 +47,20 @@ const News = () => {
       </p>
       {/* swipper add */}
       <Swiper
-        slidesPerView={'auto'}
-        centeredSlides={true}
-        spaceBetween={30}
+        slidesPerView={3} // Set to 3 slides visible at a time
+        centeredSlides={false} // Set to false if you don't want centered slides
+        spaceBetween={30} // Adjust spacing between slides
         pagination={{
           clickable: true,
         }}
         modules={[Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide> <img src={em1} alt="" /> </SwiperSlide>
+        <SwiperSlide> <img src={em2} alt="" /> </SwiperSlide>
+        <SwiperSlide> <img src={em1} alt="" /> </SwiperSlide>
+        <SwiperSlide> <img src={em1} alt="" /> </SwiperSlide>
+        
       </Swiper>
     </div>
   );
