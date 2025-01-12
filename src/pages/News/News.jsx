@@ -7,11 +7,6 @@ import em4 from "../../../src/assets/em4.png";
 import em5 from "../../../src/assets/em5.png";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
- 
- 
-
- 
 
 // import required modules
 import { Pagination } from 'swiper/modules';
@@ -26,7 +21,7 @@ const News = () => {
         <title>Btaap | News</title>
       </Helmet>
       {/* title add */}
-      <div className="flex items-center justify-between py-6 pl-6">
+      <div className="flex items-center justify-between py-6 pt-12 pl-6">
         <div className="flex items-center space-x-2">
           <div className="  " >
             <NotificationOutlined className="text-[#97ce9b]" style={{ fontSize: '50px' }} />
@@ -40,12 +35,13 @@ const News = () => {
         </div>
       </div>
       <p
-        className="text-4xl pl-6"
+        className="text-4xl pl-6 py-8"
         style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
       >
         the latest news from{" "}
       </p>
       {/* swipper add */}
+      <div className="py-8">
       <Swiper
         slidesPerView={3} // Set to 3 slides visible at a time
         centeredSlides={false} // Set to false if you don't want centered slides
@@ -63,6 +59,7 @@ const News = () => {
         <SwiperSlide> <img src={em5} className="rounded-3xl" alt="" /> </SwiperSlide>
         
       </Swiper>
+      </div>
     </div>
   );
 };
