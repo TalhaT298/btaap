@@ -56,11 +56,11 @@ const News = () => {
         modules={[Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide> <img src={em1} alt="" /> </SwiperSlide>
-        <SwiperSlide> <img src={em2} alt="" /> </SwiperSlide>
-        <SwiperSlide> <img src={em3} alt="" /> </SwiperSlide>
-        <SwiperSlide> <img src={em4} alt="" /> </SwiperSlide>
-        <SwiperSlide> <img src={em5} alt="" /> </SwiperSlide>
+        <SwiperSlide> <img src={em1} className="rounded-3xl" alt="" /> </SwiperSlide>
+        <SwiperSlide> <img src={em2} className="rounded-3xl" alt="" /> </SwiperSlide>
+        <SwiperSlide> <img src={em3} className="rounded-3xl" alt="" /> </SwiperSlide>
+        <SwiperSlide> <img src={em4} className="rounded-3xl" alt="" /> </SwiperSlide>
+        <SwiperSlide> <img src={em5} className="rounded-3xl" alt="" /> </SwiperSlide>
         
       </Swiper>
     </div>
