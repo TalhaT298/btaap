@@ -6,6 +6,8 @@ import em3 from "../../../src/assets/em3.png";
 import em4 from "../../../src/assets/em4.png";
 import em5 from "../../../src/assets/em5.png";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { IoIosArrowForward } from "react-icons/io";
+import { IoIosArrowBack } from "react-icons/io";
 import { Pagination } from "swiper/modules";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
@@ -81,15 +83,15 @@ const News = () => {
         <div className="flex justify-start mt-4">
           <button
             onClick={() => swiperRef.current?.slidePrev()}
-            className="bg-gray-800 text-white px-4 py-2 rounded-l-lg"
+            className="bg-gray-100 text-black px-5 py-4 rounded-full"
           >
-            &#8592; {/* Left Arrow */}
+            <IoIosArrowBack />
           </button>
           <button
             onClick={() => swiperRef.current?.slideNext()}
-            className="bg-gray-800 text-white px-4 py-2 rounded-r-lg ml-2"
+            className="bg-gray-100 text-black px-5 py-5 rounded-full ml-2"
           >
-            &#8594; {/* Right Arrow */}
+            <IoIosArrowForward />
           </button>
         </div>
       </div>
