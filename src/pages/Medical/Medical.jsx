@@ -30,9 +30,7 @@ const Medical = () => {
       </Helmet>
       <div className="flex items-center justify-between py-6 pl-6">
         <div className="flex items-center space-x-2">
-          <div
-            className="w-16 h-16 flex items-center justify-center rounded-lg "
-          >
+          <div className="w-16 h-16 flex items-center justify-center rounded-lg ">
             <div className=" ">
               {" "}
               <img className="rounded-xl " src={bulbc} alt="" />{" "}
@@ -77,9 +75,9 @@ const Medical = () => {
         <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
           Transport
         </div>
-        
+
         <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
-        Entertainment
+          Entertainment
         </div>
         <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
           Regional
@@ -106,8 +104,9 @@ const Medical = () => {
               className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
             >
-              Karoke, sign with <br />
-              your friends..
+              Health News, Live Updates,
+              <br />
+              and Expert Advice
             </h2>
             <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
               <div className="navbar-end">
@@ -144,13 +143,12 @@ const Medical = () => {
               className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
             >
-              TV & Music, live News <br />
-              and Entertainment
+              Wellness Articles & Research <br />
+              by top experts.
             </h2>
             <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
-              <span>#products</span>
-              <span>#trending</span>
-              <span>#btaapsproduc...</span>
+              <span>#medicalresources</span>
+              <span>#trustedbrand</span>
             </div>
           </div>
           <img
@@ -179,12 +177,12 @@ const Medical = () => {
               className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
             >
-              Comics & Novels, <br />
-              amazing creators
+              Fitness and Wellness Programs <br />
+              tailored to your needs.
             </h2>
             <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
-              <span>#marketplace</span>
-              <span>#brand</span>
+              <span>#communityhealth</span>
+              <span>#supportgroups</span>
             </div>
           </div>
           <img
@@ -216,12 +214,12 @@ const Medical = () => {
               className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
             >
-              Games play with your <br />
-              community
+              Explore upcoming advancements in <br />
+              treatments & technologies.
             </h2>
             <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
-              <span>#community</span>
-              <span>#groups</span>
+              <span>#healthtech</span>
+              <span>#innovativemedicine</span>
             </div>
           </div>
           <img
@@ -250,13 +248,13 @@ const Medical = () => {
               className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
             >
-              Upcoming games &,
+              Podcasts featuring the voices of
               <br />
-              musics
+              Bangladesh's healthcare heroes.
             </h2>
             <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
-              <span>#emoticonplus</span>
-              <span>#emoticons</span>
+              <span>#healthpromotion</span>
+              <span>#publichealth</span>
             </div>
           </div>
           <img
@@ -285,14 +283,13 @@ const Medical = () => {
               className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
             >
-              Podcasts, voice
+              Live Medical News, and
               <br />
-              of Bangladesh
+              Expert Insights
             </h2>
             <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
-              <span>#promotional</span>
-              <span>#videos</span>
-              <span>#advertisement</span>
+              <span>#telemedicine</span>
+              <span>#healthtrends</span>
             </div>
           </div>
           <img
