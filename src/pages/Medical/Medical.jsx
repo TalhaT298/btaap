@@ -1,7 +1,7 @@
 import React from "react";
-import chil from "../../../src/assets/children.jpg";
-import teli from "../../../src/assets/television.jpg";
-import reda from "../../../src/assets/reading.jpg";
+import medi1 from "../../../src/assets/medi2.jpg";
+import medi2 from "../../../src/assets/medi3.jpg";
+import fit  from "../../../src/assets/fitness.jpg";
 import game1 from "../../../src/assets/game1.jpg";
 import promotional from "../../../src/assets/promotional.jpg";
 import game2 from "../../../src/assets/game2.jpg";
@@ -118,7 +118,7 @@ const Medical = () => {
             </div>
           </div>
           <img
-            src={chil}
+            src={medi1}
             alt="Btaap Business Best Awards"
             className="w-full h-56 object-cover"
           />
@@ -152,7 +152,7 @@ const Medical = () => {
             </div>
           </div>
           <img
-            src={teli}
+            src={medi2}
             alt="Kakao Together Value"
             className="w-full h-56 object-cover"
           />
@@ -186,7 +186,7 @@ const Medical = () => {
             </div>
           </div>
           <img
-            src={reda}
+            src={fit}
             alt="Kakao Mutual Growth"
             className="w-full h-56 object-cover"
           />
