@@ -2,9 +2,9 @@ import React from "react";
 import medi1 from "../../../src/assets/medi2.jpg";
 import medi2 from "../../../src/assets/medi3.jpg";
 import fit  from "../../../src/assets/fitness.jpg";
-import game1 from "../../../src/assets/game1.jpg";
-import promotional from "../../../src/assets/promotional.jpg";
-import game2 from "../../../src/assets/game2.jpg";
+import hospital from "../../../src/assets/hospital.jpg";
+import ex from "../../../src/assets/ex.jpg";
+import hero from "../../../src/assets/hero.jpg";
 import women from "../../../src/assets/women.jpg";
 import lan from "../../../src/assets/lan.png";
 import { AiTwotoneSound } from "react-icons/ai";
@@ -223,7 +223,7 @@ const Medical = () => {
             </div>
           </div>
           <img
-            src={game1}
+            src={hospital}
             alt="Btaap Business Best Awards"
             className="w-full h-56 object-cover"
           />
@@ -258,7 +258,7 @@ const Medical = () => {
             </div>
           </div>
           <img
-            src={game2}
+            src={hero}
             alt="Btaap Together Value"
             className="w-full h-56 object-cover"
           />
@@ -293,7 +293,7 @@ const Medical = () => {
             </div>
           </div>
           <img
-            src={women}
+            src={ex}
             alt="Btaap Mutual Growth"
             className="w-full h-56 object-cover"
           />
