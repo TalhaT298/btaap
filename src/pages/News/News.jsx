@@ -5,6 +5,12 @@ import em2 from "../../../src/assets/em2.png";
 import em3 from "../../../src/assets/em3.png";
 import em4 from "../../../src/assets/em4.png";
 import em5 from "../../../src/assets/em5.png";
+import em6 from "../../../src/assets/em6.png";
+import em7 from "../../../src/assets/em7.png";
+import em8 from "../../../src/assets/em8.png";
+import em9 from "../../../src/assets/em9.png";
+import em10 from "../../../src/assets/em10.png";
+import em11 from "../../../src/assets/em11.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
@@ -76,6 +82,24 @@ const News = () => {
           </SwiperSlide>
           <SwiperSlide>
             <img src={em5} className="rounded-3xl" alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={em6} className="rounded-3xl" alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={em7} className="rounded-3xl" alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={em8} className="rounded-3xl" alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={em9} className="rounded-3xl" alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={em10} className="rounded-3xl" alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={em11} className="rounded-3xl" alt="" />
           </SwiperSlide>
         </Swiper>
 
