@@ -11,6 +11,7 @@ import em8 from "../../../src/assets/em8.png";
 import em9 from "../../../src/assets/em9.png";
 import em10 from "../../../src/assets/em10.png";
 import em11 from "../../../src/assets/em11.png";
+import ch1 from "../../../src/assets/fe1.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
@@ -124,12 +125,16 @@ const News = () => {
   {/* <!-- Left Section --> */}
   <div class="w-full lg:w-9/12 p-4">
     {/* <!-- News Items --> */}
-    <div class="space-y-6">
+    <div class="space-y-4">
       {/* <!-- News Item 1 --> */}
-      <div class="bg-white p-6 shadow rounded-md">
-        <p class="text-gray-500 text-sm mb-2">2024.10.22</p>
-        <h3 class="text-xl font-bold mb-2">Kakao Declares AI-Native Vision and Unveils AI Mate "Kanana" at "if(kakaoAI)2024"</h3>
-        <p class="text-sm text-gray-400">#Kakao #Kanana #if kakao #kakao AI</p>
+      <div className="flex py-8 px-4 border-b border-black">
+      <div class=""  style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}>
+        <p class="text-gray-500 text-sm mb-2 pt-2">2024.10.22</p>
+        <h3 class="text-2xl font-bold mb-2">Kakao Declares AI-Native Vision and Unveils AI Mate "Kanana" at "if(kakaoAI)2024"</h3>
+        <p class="text-sm text-gray-400 pt-6">#Kakao #Kanana #if kakao #kakao AI</p>
+        
+      </div>
+      <img src={ch1} className=" h-36 rounded-3xl" alt="" />
       </div>
       {/* <!-- News Item 2 --> */}
       <div class="bg-white p-6 shadow rounded-md">
