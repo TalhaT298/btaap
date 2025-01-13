@@ -220,7 +220,7 @@ const Navbar = () => {
 
         {/* Icons */}
         <div className="hidden md:flex gap-5 text-black">
-          <CiSearch className="w-7 h-7 cursor-pointer" />
+          <Link to="/search"><CiSearch className="w-7 h-7 cursor-pointer" /></Link>
           <TbWorld className="w-7 h-7 cursor-pointer" />
           <LuMoon className="w-7 h-7 cursor-pointer" />
         </div>
