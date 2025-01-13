@@ -182,6 +182,56 @@ const News = () => {
               </div>
               <img src={ch1} className=" h-36 rounded-3xl" alt="" />
             </div>
+            {/* <!-- News Item 4 --> */}
+            <div className="flex py-2 px-2 border-b border-black">
+              <div
+                class=""
+                style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+              >
+                <p class="text-gray-500 text-sm mb-2 pt-2">2024.10.22</p>
+                <h3 class="text-2xl font-bold mb-2">
+                  Kakao Declares AI-Native Vision and Unveils AI Mate "Kanana"
+                  at "if(kakaoAI)2024"
+                </h3>
+                <p class="text-sm text-gray-400 pt-6">
+                  #Kakao #Kanana #if kakao #kakao AI
+                </p>
+              </div>
+              <img src={ch1} className=" h-36 rounded-3xl" alt="" />
+            </div>
+            {/* <!-- News Item 6 --> */}
+            <div className="flex py-2 px-2 border-b border-black">
+              <div
+                class=""
+                style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+              >
+                <p class="text-gray-500 text-sm mb-2 pt-2">2024.10.22</p>
+                <h3 class="text-2xl font-bold mb-2">
+                  Kakao Declares AI-Native Vision and Unveils AI Mate "Kanana"
+                  at "if(kakaoAI)2024"
+                </h3>
+                <p class="text-sm text-gray-400 pt-6">
+                  #Kakao #Kanana #if kakao #kakao AI
+                </p>
+              </div>
+              <img src={ch1} className=" h-36 rounded-3xl" alt="" />
+            </div>
+            <div className="flex py-2 px-2 border-b border-black">
+              <div
+                class=""
+                style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+              >
+                <p class="text-gray-500 text-sm mb-2 pt-2">2024.10.22</p>
+                <h3 class="text-2xl font-bold mb-2">
+                  Kakao Declares AI-Native Vision and Unveils AI Mate "Kanana"
+                  at "if(kakaoAI)2024"
+                </h3>
+                <p class="text-sm text-gray-400 pt-6">
+                  #Kakao #Kanana #if kakao #kakao AI
+                </p>
+              </div>
+              <img src={ch1} className=" h-36 rounded-3xl" alt="" />
+            </div>
           </div>
         </div>
 
