@@ -239,7 +239,12 @@ const News = () => {
         <div class="w-full lg:w-3/12 p-4">
           {/* <!-- Recommended News --> */}
           <div class="p-6 ">
-            <h4 class="text-lg font-bold mb-4" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}>Recommended News</h4>
+            <h4
+              class="text-2xl font-bold mb-4"
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+            >
+              Recommended News
+            </h4>
             <ul class="space-y-4">
               <li class="flex items-start bg-gray-100 py-4 rounded-3xl">
                 <div class="text-yellow-500 mr-2 px-1">🔔</div>
@@ -264,25 +269,25 @@ const News = () => {
             </ul>
           </div>
 
-          <div class="bg-white p-6 shadow rounded-md mt-6">
-            <h4 class="text-lg font-bold mb-4">Tags</h4>
+          <div class="p-6  mt-6">
+            <h4 class="text-2xl font-bold mb-4 pb-4"  style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}>Tags</h4>
             <div class="flex flex-wrap gap-2">
-              <span class="bg-gray-100 text-sm px-3 py-1 rounded-full">
+              <span class="bg-gray-100 text-lg px-3 py-1 rounded-full">
                 #LACP
               </span>
-              <span class="bg-gray-100 text-sm px-3 py-1 rounded-full">
-                #closer with kakao
+              <span class="bg-gray-100 text-lg px-3 py-1 rounded-full">
+                #closer with btaap
               </span>
-              <span class="bg-gray-100 text-sm px-3 py-1 rounded-full">
+              <span class="bg-gray-100 text-lg px-3 py-1 rounded-full">
                 #slogan
               </span>
-              <span class="bg-gray-100 text-sm px-3 py-1 rounded-full">
+              <span class="bg-gray-100 text-lg px-3 py-1 rounded-full">
                 #groupwide
               </span>
-              <span class="bg-gray-100 text-sm px-3 py-1 rounded-full">
+              <span class="bg-gray-100 text-lg px-3 py-1 rounded-full">
                 #compliance covenant
               </span>
-              <span class="bg-gray-100 text-sm px-3 py-1 rounded-full">
+              <span class="bg-gray-100 text-lg px-3 py-1 rounded-full">
                 #Sustainable Companies of 202...
               </span>
             </div>
@@ -290,12 +295,12 @@ const News = () => {
         </div>
       </div>
       <div className="flex justify-end items-end py-10">
-                    <div onClick={scrollToTop} className="list-none ">
-                      <Link to="">
-                        <IoArrowUpCircleSharp className="w-16 h-16 " />
-                      </Link>
-                    </div>
-                  </div>
+        <div onClick={scrollToTop} className="list-none ">
+          <Link to="">
+            <IoArrowUpCircleSharp className="w-16 h-16 " />
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };
