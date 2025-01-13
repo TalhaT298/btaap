@@ -13,6 +13,10 @@ import em10 from "../../../src/assets/em10.png";
 import em11 from "../../../src/assets/em11.png";
 import ch1 from "../../../src/assets/fe1.png";
 import ch2 from "../../../src/assets/taap.png";
+import ch3 from "../../../src/assets/ta1.png";
+import ch4 from "../../../src/assets/ta2.png";
+import ch5 from "../../../src/assets/ta3.png";
+import ch6 from "../../../src/assets/ta4.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoArrowUpCircleSharp } from "react-icons/io5";
@@ -181,7 +185,7 @@ const News = () => {
                   #Kakao #Kanana #if kakao #kakao AI
                 </p>
               </div>
-              <img src={ch1} className=" h-36 rounded-3xl" alt="" />
+              <img src={ch3} className=" h-36 rounded-3xl" alt="" />
             </div>
             {/* <!-- News Item 4 --> */}
             <div className="flex py-2 px-2 border-b border-black">
@@ -198,7 +202,7 @@ const News = () => {
                   #Kakao #Kanana #if kakao #kakao AI
                 </p>
               </div>
-              <img src={ch1} className=" h-36 rounded-3xl" alt="" />
+              <img src={ch4} className=" h-36 rounded-3xl" alt="" />
             </div>
             {/* <!-- News Item 6 --> */}
             <div className="flex py-2 px-2 border-b border-black">
@@ -215,7 +219,7 @@ const News = () => {
                   #Kakao #Kanana #if kakao #kakao AI
                 </p>
               </div>
-              <img src={ch1} className=" h-36 rounded-3xl" alt="" />
+              <img src={ch5} className=" h-36 rounded-3xl" alt="" />
             </div>
             <div className="flex py-2 px-2 border-b border-black">
               <div
@@ -231,7 +235,7 @@ const News = () => {
                   #Kakao #Kanana #if kakao #kakao AI
                 </p>
               </div>
-              <img src={ch1} className=" h-36 rounded-3xl" alt="" />
+              <img src={ch6} className=" h-36 rounded-3xl" alt="" />
             </div>
           </div>
         </div>
