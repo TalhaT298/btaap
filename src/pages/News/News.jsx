@@ -132,7 +132,7 @@ const News = () => {
           {/* <!-- News Items --> */}
           <div class="space-y-4">
             {/* <!-- News Item 1 --> */}
-            <div className="flex py-8 px-4 border-b border-black">
+            <div className="flex py-2 px-2 border-b border-black">
               <div
                 class=""
                 style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
