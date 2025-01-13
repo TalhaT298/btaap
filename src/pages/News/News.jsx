@@ -149,24 +149,38 @@ const News = () => {
               <img src={ch1} className=" h-36 rounded-3xl" alt="" />
             </div>
             {/* <!-- News Item 2 --> */}
-            <div class="bg-white p-6 shadow rounded-md">
-              <p class="text-gray-500 text-sm mb-2">2024.09.30</p>
-              <h3 class="text-xl font-bold mb-2">
-                Kakao Unveils Group Slogan "Closer with Kakao" For Greater
-                Inclusivity
-              </h3>
-              <p class="text-sm text-gray-400">
-                #kakao #slogan #closer with kakao
-              </p>
+            <div className="flex py-2 px-2 border-b border-black">
+              <div
+                class=""
+                style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+              >
+                <p class="text-gray-500 text-sm mb-2 pt-2">2024.10.22</p>
+                <h3 class="text-2xl font-bold mb-2">
+                  Kakao Declares AI-Native Vision and Unveils AI Mate "Kanana"
+                  at "if(kakaoAI)2024"
+                </h3>
+                <p class="text-sm text-gray-400 pt-6">
+                  #Kakao #Kanana #if kakao #kakao AI
+                </p>
+              </div>
+              <img src={ch1} className=" h-36 rounded-3xl" alt="" />
             </div>
             {/* <!-- News Item 3 --> */}
-            <div class="bg-white p-6 shadow rounded-md">
-              <p class="text-gray-500 text-sm mb-2">2024.09.27</p>
-              <h3 class="text-xl font-bold mb-2">
-                Kakao, The First Korean IT Company to Develop and Publicly
-                Release Open Source Benchmarking Dataset
-              </h3>
-              <p class="text-sm text-gray-400">#kakao #AI</p>
+            <div className="flex py-2 px-2 border-b border-black">
+              <div
+                class=""
+                style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+              >
+                <p class="text-gray-500 text-sm mb-2 pt-2">2024.10.22</p>
+                <h3 class="text-2xl font-bold mb-2">
+                  Kakao Declares AI-Native Vision and Unveils AI Mate "Kanana"
+                  at "if(kakaoAI)2024"
+                </h3>
+                <p class="text-sm text-gray-400 pt-6">
+                  #Kakao #Kanana #if kakao #kakao AI
+                </p>
+              </div>
+              <img src={ch1} className=" h-36 rounded-3xl" alt="" />
             </div>
           </div>
         </div>
@@ -174,11 +188,11 @@ const News = () => {
         {/* <!-- Right Section --> */}
         <div class="w-full lg:w-3/12 p-4">
           {/* <!-- Recommended News --> */}
-          <div class="bg-white p-6 shadow rounded-md">
-            <h4 class="text-lg font-bold mb-4">Recommended News</h4>
+          <div class="p-6 ">
+            <h4 class="text-lg font-bold mb-4" style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}>Recommended News</h4>
             <ul class="space-y-4">
-              <li class="flex items-start">
-                <div class="text-yellow-500 mr-2">🔔</div>
+              <li class="flex items-start bg-gray-100 py-4 rounded-3xl">
+                <div class="text-yellow-500 mr-2 px-1">🔔</div>
                 <div>
                   <p class="text-gray-500 text-sm">2024.10.22</p>
                   <p class="text-sm font-medium">
@@ -187,8 +201,8 @@ const News = () => {
                   </p>
                 </div>
               </li>
-              <li class="flex items-start">
-                <div class="text-yellow-500 mr-2">🔔</div>
+              <li class="flex items-start bg-gray-100 py-4 rounded-3xl">
+                <div class="text-yellow-500 mr-2 px-1">🔔</div>
                 <div>
                   <p class="text-gray-500 text-sm">2024.09.30</p>
                   <p class="text-sm font-medium">
