@@ -119,6 +119,71 @@ const News = () => {
           </button>
         </div>
       </div>
+      {/* -----------------------------------------------2nd phase -------------------------------------------*/}
+      <div class="flex ">
+  {/* <!-- Left Section --> */}
+  <div class="w-full lg:w-9/12 p-4">
+    {/* <!-- News Items --> */}
+    <div class="space-y-6">
+      {/* <!-- News Item 1 --> */}
+      <div class="bg-white p-6 shadow rounded-md">
+        <p class="text-gray-500 text-sm mb-2">2024.10.22</p>
+        <h3 class="text-xl font-bold mb-2">Kakao Declares AI-Native Vision and Unveils AI Mate "Kanana" at "if(kakaoAI)2024"</h3>
+        <p class="text-sm text-gray-400">#Kakao #Kanana #if kakao #kakao AI</p>
+      </div>
+      {/* <!-- News Item 2 --> */}
+      <div class="bg-white p-6 shadow rounded-md">
+        <p class="text-gray-500 text-sm mb-2">2024.09.30</p>
+        <h3 class="text-xl font-bold mb-2">Kakao Unveils Group Slogan "Closer with Kakao" For Greater Inclusivity</h3>
+        <p class="text-sm text-gray-400">#kakao #slogan #closer with kakao</p>
+      </div>
+      {/* <!-- News Item 3 --> */}
+      <div class="bg-white p-6 shadow rounded-md">
+        <p class="text-gray-500 text-sm mb-2">2024.09.27</p>
+        <h3 class="text-xl font-bold mb-2">Kakao, The First Korean IT Company to Develop and Publicly Release Open Source Benchmarking Dataset</h3>
+        <p class="text-sm text-gray-400">#kakao #AI</p>
+      </div>
+    </div>
+  </div>
+
+  {/* <!-- Right Section --> */}
+  <div class="w-full lg:w-3/12 p-4">
+    {/* <!-- Recommended News --> */}
+    <div class="bg-white p-6 shadow rounded-md">
+      <h4 class="text-lg font-bold mb-4">Recommended News</h4>
+      <ul class="space-y-4">
+        <li class="flex items-start">
+          <div class="text-yellow-500 mr-2">🔔</div>
+          <div>
+            <p class="text-gray-500 text-sm">2024.10.22</p>
+            <p class="text-sm font-medium">Kakao Declares AI-Native Vision and Unveils AI Mate "Kanana"...</p>
+          </div>
+        </li>
+        <li class="flex items-start">
+          <div class="text-yellow-500 mr-2">🔔</div>
+          <div>
+            <p class="text-gray-500 text-sm">2024.09.30</p>
+            <p class="text-sm font-medium">Kakao Unveils Group Slogan "Closer with Kakao" For Greater...</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    
+    <div class="bg-white p-6 shadow rounded-md mt-6">
+      <h4 class="text-lg font-bold mb-4">Tags</h4>
+      <div class="flex flex-wrap gap-2">
+        <span class="bg-gray-100 text-sm px-3 py-1 rounded-full">#LACP</span>
+        <span class="bg-gray-100 text-sm px-3 py-1 rounded-full">#closer with kakao</span>
+        <span class="bg-gray-100 text-sm px-3 py-1 rounded-full">#slogan</span>
+        <span class="bg-gray-100 text-sm px-3 py-1 rounded-full">#groupwide</span>
+        <span class="bg-gray-100 text-sm px-3 py-1 rounded-full">#compliance covenant</span>
+        <span class="bg-gray-100 text-sm px-3 py-1 rounded-full">#Sustainable Companies of 202...</span>
+      </div>
+    </div>
+  </div>
+</div>
+
     </div>
   );
 };
