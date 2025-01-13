@@ -12,6 +12,7 @@ import em9 from "../../../src/assets/em9.png";
 import em10 from "../../../src/assets/em10.png";
 import em11 from "../../../src/assets/em11.png";
 import ch1 from "../../../src/assets/fe1.png";
+import ch2 from "../../../src/assets/taap.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoArrowUpCircleSharp } from "react-icons/io5";
@@ -163,7 +164,7 @@ const News = () => {
                   #Kakao #Kanana #if kakao #kakao AI
                 </p>
               </div>
-              <img src={ch1} className=" h-36 rounded-3xl" alt="" />
+              <img src={ch2} className=" h-36 rounded-3xl" alt="" />
             </div>
             {/* <!-- News Item 3 --> */}
             <div className="flex py-2 px-2 border-b border-black">
