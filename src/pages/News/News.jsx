@@ -144,11 +144,11 @@ const News = () => {
               >
                 <p class="text-gray-500 text-sm mb-2 pt-2">2024.10.22</p>
                 <h3 class="text-2xl font-bold mb-2">
-                  Kakao Declares AI-Native Vision and Unveils AI Mate "Kanana"
-                  at "if(kakaoAI)2024"
+                  Btaap Declares AI-Native Vision and Unveils AI Mate "Kanana"
+                  at "if(BtaapAI)2024"
                 </h3>
                 <p class="text-sm text-gray-400 pt-6">
-                  #Kakao #Kanana #if kakao #kakao AI
+                  #Btaap #Kanana #if Btaap #Btaap AI
                 </p>
               </div>
               <img src={ch1} className=" h-36 rounded-3xl" alt="" />
@@ -161,11 +161,10 @@ const News = () => {
               >
                 <p class="text-gray-500 text-sm mb-2 pt-2">2024.10.22</p>
                 <h3 class="text-2xl font-bold mb-2">
-                  Kakao Declares AI-Native Vision and Unveils AI Mate "Kanana"
-                  at "if(kakaoAI)2024"
+                Btaap, The First BD IT Company to Develop and Publicly Release Open Source Benchmarking Datase..
                 </h3>
                 <p class="text-sm text-gray-400 pt-6">
-                  #Kakao #Kanana #if kakao #kakao AI
+                  #Btaap #AI
                 </p>
               </div>
               <img src={ch2} className=" h-36 rounded-3xl" alt="" />
@@ -178,11 +177,10 @@ const News = () => {
               >
                 <p class="text-gray-500 text-sm mb-2 pt-2">2024.10.22</p>
                 <h3 class="text-2xl font-bold mb-2">
-                  Kakao Declares AI-Native Vision and Unveils AI Mate "Kanana"
-                  at "if(kakaoAI)2024"
+                Btaap Publishes 2024 Issue of “Partners with Btaap”...............
                 </h3>
                 <p class="text-sm text-gray-400 pt-6">
-                  #Kakao #Kanana #if kakao #kakao AI
+                  #Btaap #Partners with Btaap
                 </p>
               </div>
               <img src={ch3} className=" h-36 rounded-3xl" alt="" />
@@ -195,11 +193,10 @@ const News = () => {
               >
                 <p class="text-gray-500 text-sm mb-2 pt-2">2024.10.22</p>
                 <h3 class="text-2xl font-bold mb-2">
-                  Kakao Declares AI-Native Vision and Unveils AI Mate "Kanana"
-                  at "if(kakaoAI)2024"
+                Btaap ESG Report Wins Highest Grades at LACP 2023 Vision Awards and ARC Awards 2023
                 </h3>
                 <p class="text-sm text-gray-400 pt-6">
-                  #Kakao #Kanana #if kakao #kakao AI
+                  #Btaap #ESG Report
                 </p>
               </div>
               <img src={ch4} className=" h-36 rounded-3xl" alt="" />
@@ -212,11 +209,10 @@ const News = () => {
               >
                 <p class="text-gray-500 text-sm mb-2 pt-2">2024.10.22</p>
                 <h3 class="text-2xl font-bold mb-2">
-                  Kakao Declares AI-Native Vision and Unveils AI Mate "Kanana"
-                  at "if(kakaoAI)2024"
+                Btaap Signs Groupwide Compliance Covenant......................................
                 </h3>
                 <p class="text-sm text-gray-400 pt-6">
-                  #Kakao #Kanana #if kakao #kakao AI
+                  #Btaap #Groupwide
                 </p>
               </div>
               <img src={ch5} className=" h-36 rounded-3xl" alt="" />
@@ -228,11 +224,10 @@ const News = () => {
               >
                 <p class="text-gray-500 text-sm mb-2 pt-2">2024.10.22</p>
                 <h3 class="text-2xl font-bold mb-2">
-                  Kakao Declares AI-Native Vision and Unveils AI Mate "Kanana"
-                  at "if(kakaoAI)2024"
+              Btaap Named TIME World’s Most Sustainable Companies of 2024
                 </h3>
                 <p class="text-sm text-gray-400 pt-6">
-                  #Kakao #Kanana #if kakao #kakao AI
+                  #Btaap #Sustainable
                 </p>
               </div>
               <img src={ch6} className=" h-36 rounded-3xl" alt="" />
@@ -241,12 +236,12 @@ const News = () => {
         </div>
 
         {/* <!-- Right Section --> */}
-        <div class="w-full lg:w-3/12 p-4">
+        <div class="w-full lg:w-3/12  ">
           {/* <!-- Recommended News --> */}
           <div class="p-6 ">
             <h4
               class="text-2xl font-bold mb-4"
-              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+              style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}
             >
               Recommended News
             </h4>
@@ -275,7 +270,7 @@ const News = () => {
           </div>
 
           <div class="p-6  mt-6">
-            <h4 class="text-2xl font-bold mb-4 pb-4"  style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}>Tags</h4>
+            <h4 class="text-2xl font-bold mb-4 pb-4"  style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 500 }}>Tags</h4>
             <div class="flex flex-wrap gap-2">
               <span class="bg-gray-100 text-lg px-3 py-1 rounded-full">
                 #LACP
