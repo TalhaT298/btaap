@@ -1,6 +1,6 @@
 import React from "react";
 import ab7 from "../../../src/assets/ab7.png";
-import manus from "../../../src/assets/manus.gif";
+import doc from "../../../src/assets/doct.png";
 import Revolutionizing from "../../../src/assets/Revolutionizing.png";
 
 import { Link } from "react-router-dom";
@@ -30,10 +30,10 @@ const About = () => {
         <img src={ab7} alt="" />
       </div>
       {/* 3rd section */}
-      <div className="flex">
-        <div className="w-1/2 pt-24 px-4">
+      <div className="flex flex-col md:flex-row">
+        <div className="md:w-1/2 w-full pt-12 px-4">
           <p
-            className="text-2xl font-semibold"
+            className="text-lg md:text-2xl font-semibold"
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
           >
             Revolutionizing Bangladesh, Rooted in Culture Bangladesh is a land
@@ -50,9 +50,37 @@ const About = () => {
             evolving world.
           </p>
         </div>
-        <div className="w-1/2">
-          <img src={Revolutionizing} alt="" />
+        <div className="md:w-1/2 w-full mt-6 md:mt-0 flex justify-center">
+          <img
+            src={Revolutionizing}
+            alt=""
+            className="w-full max-w-xs md:max-w-full"
+          />
         </div>
+      </div>
+      {/* 4thsection */}
+      <div className="flex flex-col md:flex-row py-16">
+      <div className="md:w-1/2 w-full mt-6 md:mt-0 flex justify-center">
+          <img
+            src={doc}
+            alt=""
+            className="w-full max-w-xs md:max-w-full"
+          />
+        </div>
+        <div className="md:w-1/2 w-full pt-44 px-4">
+          <p
+            className="text-lg md:text-2xl font-semibold"
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+          >
+           Empowering Education and Healthcare for All
+Education is the backbone of progress, and our app bridges the gap between urban and rural education in Bangladesh. With features like an online library of Bengali and international books, live virtual classes, and interactive tools like whiteboards and tutorials, we empower students and educators alike.
+<br />
+Access to quality healthcare is a basic right, and our app makes it more accessible than ever. With telemedicine consultations, online appointment bookings, and tools for tracking health metrics, we simplify healthcare for everyone. We also connect users to nearby hospitals, pharmacies, and emergency services, ensuring that help is always just a tap away. <br />
+
+These innovations supports both urban centers and rural areas where healthcare access can be limited.
+          </p>
+        </div>
+        
       </div>
     </React.Fragment>
   );
