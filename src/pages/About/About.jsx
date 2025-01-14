@@ -2,6 +2,7 @@ import React from "react";
 import ab7 from "../../../src/assets/ab7.png";
 import doc from "../../../src/assets/doct.png";
 import Revolutionizing from "../../../src/assets/Revolutionizing.png";
+import Streamlining from "../../../src/assets/Streamlining.png";
 
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
@@ -60,27 +61,62 @@ const About = () => {
       </div>
       {/* 4thsection */}
       <div className="flex flex-col md:flex-row py-16">
-      <div className="md:w-1/2 w-full mt-6 md:mt-0 flex justify-center">
-          <img
-            src={doc}
-            alt=""
-            className="w-full max-w-xs md:max-w-full"
-          />
+        <div className="md:w-1/2 w-full mt-6 md:mt-0 flex justify-center">
+          <img src={doc} alt="" className="w-full max-w-xs md:max-w-full" />
         </div>
         <div className="md:w-1/2 w-full pt-44 px-4">
           <p
             className="text-lg md:text-2xl font-semibold"
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
           >
-           Empowering Education and Healthcare for All
-Education is the backbone of progress, and our app bridges the gap between urban and rural education in Bangladesh. With features like an online library of Bengali and international books, live virtual classes, and interactive tools like whiteboards and tutorials, we empower students and educators alike.
-<br />
-Access to quality healthcare is a basic right, and our app makes it more accessible than ever. With telemedicine consultations, online appointment bookings, and tools for tracking health metrics, we simplify healthcare for everyone. We also connect users to nearby hospitals, pharmacies, and emergency services, ensuring that help is always just a tap away. <br />
-
-These innovations supports both urban centers and rural areas where healthcare access can be limited.
+            Empowering Education and Healthcare for All Education is the
+            backbone of progress, and our app bridges the gap between urban and
+            rural education in Bangladesh. With features like an online library
+            of Bengali and international books, live virtual classes, and
+            interactive tools like whiteboards and tutorials, we empower
+            students and educators alike.
+            <br />
+            Access to quality healthcare is a basic right, and our app makes it
+            more accessible than ever. With telemedicine consultations, online
+            appointment bookings, and tools for tracking health metrics, we
+            simplify healthcare for everyone. We also connect users to nearby
+            hospitals, pharmacies, and emergency services, ensuring that help is
+            always just a tap away. <br />
+            These innovations supports both urban centers and rural areas where
+            healthcare access can be limited.
           </p>
         </div>
-        
+      </div>
+      {/* 5th section */}
+      <div className="flex flex-col md:flex-row">
+        <div className="md:w-1/2 w-full pt-56 px-4">
+          <p
+            className="text-lg md:text-2xl font-semibold"
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+          >
+            Streamlining Business and Transport for a Smarter Tomorrow Our app
+            transforms the way Bangladeshi entrepreneurs do business. Whether
+            you’re a small shopkeeper, a startup founder, or an established
+            brand, our business platform connects you to the right audience. By
+            integrating tools for advertising, networking, and e-commerce, we
+            empower local businesses to scale globally. <br />
+            Transport is the lifeline of any nation. Our app offers a seamless
+            way to navigate the country, from real-time bus schedules to
+            ride-sharing options. We’ve also incorporated eco-friendly
+            initiatives like promoting carpooling and sustainable transport
+            solutions. <br />
+            By easing commutes and connecting users to smarter transport
+            options, we help reduce congestion and save valuable time for
+            everyone.
+          </p>
+        </div>
+        <div className="md:w-1/2 w-full mt-6 md:mt-0 flex justify-center">
+          <img
+            src={Streamlining}
+            alt=""
+            className="w-full max-w-xs md:max-w-full"
+          />
+        </div>
       </div>
     </React.Fragment>
   );
