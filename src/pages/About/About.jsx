@@ -14,7 +14,7 @@ const About = () => {
         <title>Btaap | About</title>
       </Helmet>
       <Link to="/about"></Link>
-      <div className="text-center justify-center items-center">
+      <div className="text-center justify-center items-center pt-16">
         <h1
           className="font-bold text-5xl text-[#97ce9b] py-2"
           style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
