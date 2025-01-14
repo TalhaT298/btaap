@@ -3,6 +3,7 @@ import ab7 from "../../../src/assets/ab7.png";
 import doc from "../../../src/assets/doct.png";
 import Revolutionizing from "../../../src/assets/Revolutionizing.png";
 import Streamlining from "../../../src/assets/Streamlining.png";
+import last from "../../../src/assets/last.png";
 
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
@@ -117,6 +118,28 @@ const About = () => {
             className="w-full max-w-xs md:max-w-full"
           />
         </div>
+      </div>
+      {/* last section */}
+      <div className="pt-16">
+      <p className="items-center justify-center text-center text-lg md:text-2xl font-semibold"  style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}>
+        Why This Super-App is a Game-Changer for Bangladesh Bangladesh is
+        evolving rapidly, and its citizens are embracing the digital age with
+        unparalleled enthusiasm. Yet, the challenge remains—managing daily tasks
+        often means switching between multiple platforms, wasting time, and
+        complicating lives. Our super-app offers an elegant solution: a unified
+        platform designed to bring efficiency, convenience, and innovation to
+        every aspect of life. From empowering education and boosting businesses
+        to streamlining healthcare and transport, this app is tailored to the
+        unique needs of our people. <br />
+        It’s not just an app; it’s a vision of progress. By bridging urban and
+        rural divides, fostering collaboration, and celebrating our cultural
+        heritage, the app seamlessly integrates modern technology into everyday
+        life. <br />
+        This super-app isn’t about changing habits—it’s about enhancing them,
+        providing tools and opportunities that make every day simpler, smarter,
+        and more connected.
+      </p>
+      <img className="pt-12" src={last} alt="" />
       </div>
     </React.Fragment>
   );
