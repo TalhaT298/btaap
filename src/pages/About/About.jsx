@@ -34,8 +34,10 @@ const About = () => {
       {/* 3rd section */}
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/2 w-full pt-12 px-4">
+        <h1 className="text-lg md:text-3xl font-bold py-4"
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}>Digitizing Bangladesh's Cultural Heritage</h1>
           <p
-            className="text-lg md:text-2xl font-semibold"
+            className="text-lg md:text-xl font-semibold"
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
           >
             Revolutionizing Bangladesh, Rooted in Culture Bangladesh is a land
