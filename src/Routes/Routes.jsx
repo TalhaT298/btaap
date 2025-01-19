@@ -14,6 +14,7 @@ import Business from "../pages/Business/Business";
 import Entertainment from "../pages/Entertainment/Entertainment";
 import Medical from "../pages/Medical/Medical";
 import Search from "../pages/Search/Search";
+import Transport from "../pages/Transport/Transport";
 
   
   export const router = createBrowserRouter([
@@ -64,6 +65,10 @@ import Search from "../pages/Search/Search";
         {
             path:'/search',
             element: <Search></Search>
+        },
+        {
+            path:'/transport',
+            element: <Transport></Transport>
         },
 
       ]
