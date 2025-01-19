@@ -75,9 +75,11 @@ const Communication = () => {
             Business
           </div>
         </Link>
-        <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
-          Transport
-        </div>
+        <Link to="/transport">
+          <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+            Transport
+          </div>
+        </Link>
         <Link to="/entertainment">
           <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
             Entertainment
