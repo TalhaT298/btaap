@@ -71,7 +71,7 @@ const About = () => {
         <h1 className="text-lg md:text-3xl font-bold py-4"
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}>Education & Healthcare for Al</h1>
           <p
-            className="text-lg md:text-2xl font-semibold"
+           className="text-lg md:text-xl font-semibold"
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
           >
             Empowering Education and Healthcare for All Education is the
@@ -98,7 +98,7 @@ const About = () => {
         <h1 className="text-lg md:text-3xl font-bold py-4"
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}>Smarter Business and Transport Solutions</h1>
           <p
-            className="text-lg md:text-2xl font-semibold"
+            className="text-lg md:text-xl font-semibold"
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
           >
             Streamlining Business and Transport for a Smarter Tomorrow Our app
@@ -127,7 +127,9 @@ const About = () => {
       </div>
       {/* last section */}
       <div className="pt-16">
-      <p className="items-center justify-center text-center text-lg md:text-2xl font-semibold"  style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}>
+      <h1 className="text-lg md:text-3xl font-bold py-4 justify-center items-center text-center"
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}>Bangladesh's All-in-One Solution for a Smarter Future</h1>
+      <p className="items-center justify-center text-center text-lg md:text-xl font-semibold"  style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}>
         Why This Super-App is a Game-Changer for Bangladesh Bangladesh is
         evolving rapidly, and its citizens are embracing the digital age with
         unparalleled enthusiasm. Yet, the challenge remains—managing daily tasks

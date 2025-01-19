@@ -85,9 +85,9 @@ const Business = () => {
             Entertainment
           </div>
         </Link>
-        <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
+        {/* <div className="w-36 h-12 rounded-full bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300">
           Regional
-        </div>
+        </div> */}
       </div>
       {/* card start 1*/}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 justify-center p-4 max-w-7xl mx-auto">
