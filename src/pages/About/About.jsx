@@ -68,6 +68,8 @@ const About = () => {
           <img src={doc} alt="" className="w-full max-w-xs md:max-w-full" />
         </div>
         <div className="md:w-1/2 w-full pt-44 px-4">
+        <h1 className="text-lg md:text-3xl font-bold py-4"
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}>Education & Healthcare for Al</h1>
           <p
             className="text-lg md:text-2xl font-semibold"
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
@@ -93,6 +95,8 @@ const About = () => {
       {/* 5th section */}
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/2 w-full pt-56 px-4">
+        <h1 className="text-lg md:text-3xl font-bold py-4"
+            style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}>Smarter Business and Transport Solutions</h1>
           <p
             className="text-lg md:text-2xl font-semibold"
             style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
