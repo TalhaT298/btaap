@@ -15,6 +15,7 @@ import Entertainment from "../pages/Entertainment/Entertainment";
 import Medical from "../pages/Medical/Medical";
 import Search from "../pages/Search/Search";
 import Transport from "../pages/Transport/Transport";
+import LiveClass from "../pages/LiveClass/LiveClass";
 
   
   export const router = createBrowserRouter([
@@ -69,6 +70,10 @@ import Transport from "../pages/Transport/Transport";
         {
             path:'/transport',
             element: <Transport></Transport>
+        },
+        {
+            path:'/liveclass',
+            element: <LiveClass></LiveClass>
         },
 
       ]
