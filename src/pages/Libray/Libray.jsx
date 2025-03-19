@@ -5,16 +5,28 @@ import { Link } from "react-router-dom";
 const Library = () => {
   const [searchQuery, setSearchQuery] = useState("");
 
-  // Sample book data
+  // Updated book data
   const books = [
     { title: "A Golden Age", author: "Tahmima Anam", year: 2007 },
     { title: "The Good Muslim", author: "Tahmima Anam", year: 2011 },
-    { title: "u", author: "Author", year: "Year" },
-    { title: "n", author: "Author", year: "Year" },
-    { title: "h", author: "Author", year: "Year" },
-    { title: "g", author: "Author", year: "Year" },
-    { title: "p", author: "Author", year: "Year" },
-    { title: "q", author: "Author", year: "Year" },
+    { title: "1984", author: "George Orwell", year: 1949 },
+    { title: "To Kill a Mockingbird", author: "Harper Lee", year: 1960 },
+    { title: "Pride and Prejudice", author: "Jane Austen", year: 1813 },
+    { title: "The Great Gatsby", author: "F. Scott Fitzgerald", year: 1925 },
+    { title: "One Hundred Years of Solitude", author: "Gabriel García Márquez", year: 1967 },
+    { title: "The Catcher in the Rye", author: "J.D. Salinger", year: 1951 },
+    { title: "Brave New World", author: "Aldous Huxley", year: 1932 },
+    { title: "The Alchemist", author: "Paulo Coelho", year: 1988 },
+    { title: "The Kite Runner", author: "Khaled Hosseini", year: 2003 },
+    { title: "The Book Thief", author: "Markus Zusak", year: 2005 },
+    { title: "The Hobbit", author: "J.R.R. Tolkien", year: 1937 },
+    { title: "The Lord of the Rings", author: "J.R.R. Tolkien", year: 1954 },
+    { title: "Harry Potter and the Philosopher's Stone", author: "J.K. Rowling", year: 1997 },
+    { title: "The Da Vinci Code", author: "Dan Brown", year: 2003 },
+    { title: "The Hunger Games", author: "Suzanne Collins", year: 2008 },
+    { title: "The Road", author: "Cormac McCarthy", year: 2006 },
+    { title: "Life of Pi", author: "Yann Martel", year: 2001 },
+    { title: "The Handmaid's Tale", author: "Margaret Atwood", year: 1985 },
   ];
 
   // Filter books based on search query
