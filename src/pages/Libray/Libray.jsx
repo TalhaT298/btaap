@@ -9,7 +9,7 @@ const Libray = () => {
       <Helmet>
         <title>Btaap | Library</title>
       </Helmet>
-      <div class="bg-gray-100 p-4">
+      <div class="p-4">
         {/* <!-- Sidebar Menu --> */}
 
         {/* <!-- Main Container --> */}
@@ -29,7 +29,7 @@ const Libray = () => {
             {/* <!-- Book Card --> */}
             <div class="bg-white p-4 rounded-lg shadow-lg text-center">
               <div class="h-32 w-24 bg-gradient-to-r from-red-500 to-blue-500 mx-auto rounded-lg"></div>
-              <p class="mt-2 font-semibold">Book Title</p>
+              <p class="mt-2 font-semibold">u</p>
               <p class="text-gray-500 text-sm">Author, Year</p>
             </div>
 
@@ -47,31 +47,31 @@ const Libray = () => {
 
             <div class="bg-white p-4 rounded-lg shadow-lg text-center">
               <div class="h-32 w-24 bg-gradient-to-r from-red-500 to-blue-500 mx-auto rounded-lg"></div>
-              <p class="mt-2 font-semibold">Book Title</p>
+              <p class="mt-2 font-semibold">n</p>
               <p class="text-gray-500 text-sm">Author, Year</p>
             </div>
 
             <div class="bg-white p-4 rounded-lg shadow-lg text-center">
               <div class="h-32 w-24 bg-gradient-to-r from-red-500 to-blue-500 mx-auto rounded-lg"></div>
-              <p class="mt-2 font-semibold">Book Title</p>
+              <p class="mt-2 font-semibold">h</p>
               <p class="text-gray-500 text-sm">Author, Year</p>
             </div>
 
             <div class="bg-white p-4 rounded-lg shadow-lg text-center">
               <div class="h-32 w-24 bg-gradient-to-r from-red-500 to-blue-500 mx-auto rounded-lg"></div>
-              <p class="mt-2 font-semibold">Book Title</p>
+              <p class="mt-2 font-semibold">g</p>
               <p class="text-gray-500 text-sm">Author, Year</p>
             </div>
 
             <div class="bg-white p-4 rounded-lg shadow-lg text-center">
               <div class="h-32 w-24 bg-gradient-to-r from-red-500 to-blue-500 mx-auto rounded-lg"></div>
-              <p class="mt-2 font-semibold">Book Title</p>
+              <p class="mt-2 font-semibold">p</p>
               <p class="text-gray-500 text-sm">Author, Year</p>
             </div>
 
             <div class="bg-white p-4 rounded-lg shadow-lg text-center">
               <div class="h-32 w-24 bg-gradient-to-r from-red-500 to-blue-500 mx-auto rounded-lg"></div>
-              <p class="mt-2 font-semibold">Book Title</p>
+              <p class="mt-2 font-semibold">q</p>
               <p class="text-gray-500 text-sm">Author, Year</p>
             </div>
           </div>
