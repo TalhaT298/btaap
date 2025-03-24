@@ -17,6 +17,7 @@ import Search from "../pages/Search/Search";
 import Transport from "../pages/Transport/Transport";
 import LiveClass from "../pages/LiveClass/LiveClass";
 import Libray from "../pages/Libray/Libray";
+import Calling from "../pages/Calling/Calling";
 
   
   export const router = createBrowserRouter([
@@ -79,6 +80,10 @@ import Libray from "../pages/Libray/Libray";
         {
             path:'/libray',
             element: <Libray></Libray>
+        },
+        {
+            path:'/call',
+            element: <Calling></Calling>
         },
 
       ]
