@@ -36,7 +36,7 @@ const Library = () => {
 
   return (
     <div>
-      <Link to="/library"></Link>
+      <Link to="/libray"></Link>
       <Helmet>
         <title>Btaap | Library</title>
       </Helmet>
