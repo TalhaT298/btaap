@@ -15,9 +15,10 @@ import Entertainment from "../pages/Entertainment/Entertainment";
 import Medical from "../pages/Medical/Medical";
 import Search from "../pages/Search/Search";
 import Transport from "../pages/Transport/Transport";
-import LiveClass from "../pages/LiveClass/LiveClass";
+// import LiveClass from "../pages/LiveClass/LiveClass";
 import Libray from "../pages/Libray/Libray";
-import Calling from "../pages/Calling/Calling";
+import ZegoLive from "../pages/ZegoLive/ZegoLive";
+ 
 
   
   export const router = createBrowserRouter([
@@ -74,17 +75,14 @@ import Calling from "../pages/Calling/Calling";
             element: <Transport></Transport>
         },
         {
-            path:'/liveclass',
-            element: <LiveClass></LiveClass>
+            path: "/room/:id",
+            element: <ZegoLive></ZegoLive>
         },
         {
             path:'/libray',
             element: <Libray></Libray>
         },
-        {
-            path:'/call',
-            element: <Calling></Calling>
-        },
+         
 
       ]
     },
