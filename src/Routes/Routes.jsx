@@ -18,6 +18,7 @@ import Transport from "../pages/Transport/Transport";
 // import LiveClass from "../pages/LiveClass/LiveClass";
 import Libray from "../pages/Libray/Libray";
 import ZegoLive from "../pages/ZegoLive/ZegoLive";
+import Classic from "../pages/Classic/Classic";
  
 
   
@@ -81,6 +82,10 @@ import ZegoLive from "../pages/ZegoLive/ZegoLive";
         {
             path:'/libray',
             element: <Libray></Libray>
+        },
+        {
+            path:'/classic',
+            element: <Classic></Classic>
         },
          
 
