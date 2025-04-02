@@ -149,7 +149,7 @@ const Navbar = () => {
                 {/* Dropdown Trigger */}
                 <label
                   tabIndex={0}
-                  className="cursor-pointer rounded-full px-6 py-2 text-black hover:bg-[#97ce9b]"
+                  className="cursor-pointer text-base rounded-full px-6 py-2 text-black hover:bg-[#97ce9b]"
                   style={{
                     position: "relative", // Ensure proper stacking context
                     zIndex: 1001, // Higher than other elements but less than dropdown content
@@ -243,7 +243,7 @@ const Navbar = () => {
                 {/* Dropdown Trigger */}
                 <label
                   tabIndex={0}
-                  className="cursor-pointer rounded-full px-6 py-2 text-black hover:bg-[#97ce9b]"
+                  className="cursor-pointer text-base rounded-full px-6 py-2 text-black hover:bg-[#97ce9b]"
                   style={{
                     position: "relative", // Ensure proper stacking context
                     zIndex: 1001, // Higher than other elements but less than dropdown content
