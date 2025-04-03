@@ -177,64 +177,64 @@ const Library = () => {
 
   return (
     <div>
-      <Link to="/libray"></Link>
-      <Helmet>
-        <title>Btaap | Library</title>
-      </Helmet>
-      <div className="p-4">
-  {/* Main Container */}
-  <div className="">
-    {/* Header */}
-    <div className="flex flex-col md:flex-row justify-between items-center mb-6 gap-4">
-      <h1
-        className="text-2xl md:text-3xl font-bold text-center md:text-left"
-        style={{ fontFamily: "Parkinsans, serif", fontWeight: 400 }}
-      >
-        Books That Everyone Should Read At Least Once
-      </h1>
-      <textarea
-        type="text"
-        placeholder="Search..."
-        className="border rounded-lg px-4 py-2 w-full md:w-1/3"
-        value={searchQuery}
-        onChange={(e) => setSearchQuery(e.target.value)}
-      ></textarea>
-    </div>
+  <Link to="/library"></Link>
+  <Helmet>
+    <title>Talha | Book</title>
+  </Helmet>
+  <div className="p-4">
+    {/* Main Container */}
+    <div className="">
+      {/* Header */}
+      <div className="flex flex-col md:flex-row justify-between items-center mb-6 gap-4">
+        <h1
+          className="text-2xl md:text-3xl font-bold text-center md:text-left"
+          style={{ fontFamily: "Parkinsans, serif", fontWeight: 400 }}
+        >
+          Books That Everyone Should Read At Least Once
+        </h1>
+        <textarea
+          type="text"
+          placeholder="Search..."
+          className="border rounded-lg px-4 py-2 w-full md:w-1/3"
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+        ></textarea>
+      </div>
 
-    {/* Book Grid */}
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-      {filteredBooks.length > 0 ? (
-        filteredBooks.map((book) => (
-          <Link
-            to={book.href}
-            key={book.id}
-            className="border-2 border-cyan-800 rounded-xl p-4 text-center hover:shadow-lg transition-shadow"
-          >
-            <div className="h-40 w-24 mx-auto rounded-lg overflow-hidden">
-              <img
-                src={book.image}
-                alt={book.title}
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <p
-              className="mt-2 font-semibold text-white"
-              style={{ fontFamily: "Parkinsans, serif", fontWeight: 400 }}
+      {/* Book Grid - Responsive */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        {filteredBooks.length > 0 ? (
+          filteredBooks.map((book) => (
+            <Link
+              to={book.href}
+              key={book.id}
+              className="border-2 border-cyan-800 rounded-xl p-4 text-center hover:shadow-lg transition-shadow"
             >
-              {book.title}
-            </p>
-            <p className="text-gray-500 text-sm">{`${book.author}, ${book.year}`}</p>
-          </Link>
-        ))
-      ) : (
-        <div className="col-span-1 md:col-span-2 lg:col-span-4 text-center text-gray-500">
-          There is no book with this name.
-        </div>
-      )}
+              <div className="h-40 w-24 mx-auto rounded-lg overflow-hidden">
+                <img
+                  src={book.image}
+                  alt={book.title}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <p
+                className="mt-2 font-semibold text-black"
+                style={{ fontFamily: "Parkinsans, serif", fontWeight: 400 }}
+              >
+                {book.title}
+              </p>
+              <p className="text-gray-500 text-sm">{`${book.author}, ${book.year}`}</p>
+            </Link>
+          ))
+        ) : (
+          <div className="col-span-full text-center text-gray-500">
+            There is no book with this name.
+          </div>
+        )}
+      </div>
     </div>
   </div>
 </div>
-    </div>
   );
 };
 
