@@ -19,6 +19,8 @@ import hor from "../../../src/assets/hor.webp"
 import dra from "../../../src/assets/dra.webp"
 import thomas from "../../../src/assets/thomsa.webp"
 import jan from "../../../src/assets/jan.webp"
+import prd from "../../../src/assets/prd.webp"
+import apa from "../../../src/assets/april.webp"
  
 
 
@@ -170,18 +172,18 @@ const Library = () => {
     },
     {
       id: 19,
-      title: "Life of Pi",
-      author: "Yann Martel",
+      title: "Pride and Prejudice",
+      author: "jane austen",
       year: 2001,
-      image: "https://via.placeholder.com/150",
+      image: prd,
       href: "/book/19",
     },
     {
       id: 20,
-      title: "The Handmaid's Tale",
-      author: "Margaret Atwood",
+      title: "The Enchanted April",
+      author: " Elizabeth von Arnim",
       year: 1985,
-      image: "https://via.placeholder.com/150",
+      image: apa,
       href: "/book/20",
     },
   ];
