@@ -9,6 +9,10 @@ import robin5 from "../../../src/assets/homer.webp"
 import robin6 from "../../../src/assets/ro.webp"
 import sir from "../../../src/assets/sir.webp"
 import sir2 from "../../../src/assets/sir3.webp"
+import sir3 from "../../../src/assets/we.webp"
+import sir4 from "../../../src/assets/we1.webp"
+ 
+
  
 
 const Library = () => {
@@ -28,7 +32,6 @@ const Library = () => {
       id: 2,
       title: "The Power of Habit",
       author: " Charles Duhigg",
-       
       image: robin3,
       href: "https://github.com/TalhaT298/importantBook/blob/main/The%20Power%20of%20Habit.pdf",
     },
@@ -75,37 +78,36 @@ const Library = () => {
       id: 8,
       title: "The Hound of the Baskervilles",
       author: "Conan Doyle",
-      
       image: sir2,
       href: "/book/8",
     },
     {
       id: 9,
-      title: "Brave New World",
-      author: "Aldous Huxley",
+      title: "The Moonstone",
+      author: "Wilkie Collins",
       year: 1932,
-      image: "https://via.placeholder.com/150",
+      image: sir3,
       href: "/book/9",
     },
     {
       id: 10,
-      title: "The Alchemist",
-      author: "Paulo Coelho",
+      title: "The Mysterious Affair at Styles",
+      author: "Agatha Christie",
       year: 1988,
-      image: "https://via.placeholder.com/150",
+      image: sir4,
       href: "/book/10",
     },
     {
       id: 11,
-      title: "The Kite Runner",
-      author: "Khaled Hosseini",
+      title: "The Woman in White",
+      author: "Wilkie Collins",
       year: 2003,
-      image: "https://via.placeholder.com/150",
+       
       href: "/book/11",
     },
     {
       id: 12,
-      title: "The Book Thief",
+      title: "Carmilla",
       author: "Markus Zusak",
       year: 2005,
       image: "https://via.placeholder.com/150",
@@ -230,7 +232,8 @@ const Library = () => {
                   >
                     {book.title}
                   </p>
-                  <p className="text-gray-500 text-sm">{`${book.author}, ${book.year}`}</p>
+                  {/* <p className="text-gray-500 text-sm">{`${book.author}, ${book.year}`}</p> */}
+                  <p className="text-gray-500 text-sm">{`${book.author}`}</p>
                 </Link>
               ))
             ) : (
