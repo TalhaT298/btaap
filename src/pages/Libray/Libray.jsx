@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
+import robin from "../../../src/assets/robin.webp"
+import robin2 from "../../../src/assets/book1.webp"
+import robin3 from "../../../src/assets/book2.webp"
  
 
 const Library = () => {
@@ -13,7 +16,7 @@ const Library = () => {
       title: "Artificial Intelligence Technology",
       author: "Huawei Technologies Co., Ltd.",
       year: 2023,
-      // image: book1,
+      image: robin2,
       href: "https://github.com/TalhaT298/importantBook/blob/main/Artificial%20Intelligence%20Technology.pdf",
     },
     {
@@ -21,15 +24,15 @@ const Library = () => {
       title: "The Power of Habit",
       author: " Charles Duhigg",
        
-      // image: book2,
+      image: robin3,
       href: "https://github.com/TalhaT298/importantBook/blob/main/The%20Power%20of%20Habit.pdf",
     },
     {
       id: 3,
-      title: "1984",
-      author: "George Orwell",
-      year: 1949,
-      image: "https://via.placeholder.com/150",
+      title: "Robinson crusoe",
+      author: "Robinson crusoe",
+      
+      image: robin,
       href: "/book/3",
     },
     {
@@ -210,7 +213,7 @@ const Library = () => {
                   key={book.id}
                   className="border-2 border-cyan-800 rounded-xl p-4 text-center hover:shadow-lg transition-shadow"
                 >
-                  <div className="h-40 w-24 mx-auto rounded-lg overflow-hidden">
+                  <div className="h-44 w-32 mx-auto rounded-lg overflow-hidden">
                     <img
                       src={book.image}
                       alt={book.title}
