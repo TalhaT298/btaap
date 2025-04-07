@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import robin from "../../../src/assets/robin.webp"
 import robin2 from "../../../src/assets/book1.webp"
 import robin3 from "../../../src/assets/book2.webp"
+import robin4 from "../../../src/assets/thecount.webp"
  
 
 const Library = () => {
@@ -30,17 +31,16 @@ const Library = () => {
     {
       id: 3,
       title: "Robinson crusoe",
-      author: "Robinson crusoe",
+      author: "Daniel Defoe",
       
       image: robin,
       href: "/book/3",
     },
     {
       id: 4,
-      title: "To Kill a Mockingbird",
-      author: "Harper Lee",
-      year: 1960,
-      image: "https://via.placeholder.com/150",
+      title: "The Count of Monte Cristo",
+      author: "Alexandre Dumas and Auguste Maquet",
+      image: robin4,
       href: "/book/4",
     },
     {
