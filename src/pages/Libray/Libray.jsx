@@ -13,9 +13,12 @@ import sir3 from "../../../src/assets/we.webp"
 import sir4 from "../../../src/assets/we1.webp"
 import sir5 from "../../../src/assets/we3.webp"
 import sir6 from "../../../src/assets/we4.webp"
+import sir7 from "../../../src/assets/le.webp"
+import pera from "../../../src/assets/lebaba.webp"
+import hor from "../../../src/assets/hor.webp"
+import dra from "../../../src/assets/dra.webp"
  
 
- 
 
 const Library = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -117,34 +120,34 @@ const Library = () => {
     },
     {
       id: 13,
-      title: "The Hobbit",
-      author: "J.R.R. Tolkien",
+      title: "The Legend of Sleepy Hollow",
+      author: " Washington Irving",
       year: 1937,
-      image: "https://via.placeholder.com/150",
+      image: sir7,
       href: "/book/13",
     },
     {
       id: 14,
-      title: "The Lord of the Rings",
-      author: "J.R.R. Tolkien",
+      title: "The Phantom of the Opera",
+      author: "Andrew Lloyd Webber",
       year: 1954,
-      image: "https://via.placeholder.com/150",
+      image: pera,
       href: "/book/14",
     },
     {
       id: 15,
-      title: "Harry Potter and the Philosopher's Stone",
-      author: "J.K. Rowling",
+      title: "The Turn of the Screw",
+      author: "Henry James",
       year: 1997,
-      image: "https://via.placeholder.com/150",
+      image: hor,
       href: "/book/15",
     },
     {
       id: 16,
-      title: "The Da Vinci Code",
-      author: "Dan Brown",
+      title: "Dracula",
+      author: "Bram Stoke",
       year: 2003,
-      image: "https://via.placeholder.com/150",
+      image: dra,
       href: "/book/16",
     },
     {
