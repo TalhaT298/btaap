@@ -17,6 +17,8 @@ import sir7 from "../../../src/assets/le.webp"
 import pera from "../../../src/assets/lebaba.webp"
 import hor from "../../../src/assets/hor.webp"
 import dra from "../../../src/assets/dra.webp"
+import thomas from "../../../src/assets/thomsa.webp"
+import jan from "../../../src/assets/jan.webp"
  
 
 
@@ -152,18 +154,18 @@ const Library = () => {
     },
     {
       id: 17,
-      title: "The Hunger Games",
-      author: "Suzanne Collins",
+      title: "Far from the Madding Crowd",
+      author: "Thomas Hardy",
       year: 2008,
-      image: "https://via.placeholder.com/150",
+      image: thomas,
       href: "/book/17",
     },
     {
       id: 18,
-      title: "The Road",
-      author: "Cormac McCarthy",
+      title: "Jane Eyre",
+      author: " Charlotte Brontë",
       year: 2006,
-      image: "https://via.placeholder.com/150",
+      image: jan,
       href: "/book/18",
     },
     {
