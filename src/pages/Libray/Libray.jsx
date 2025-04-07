@@ -11,6 +11,8 @@ import sir from "../../../src/assets/sir.webp"
 import sir2 from "../../../src/assets/sir3.webp"
 import sir3 from "../../../src/assets/we.webp"
 import sir4 from "../../../src/assets/we1.webp"
+import sir5 from "../../../src/assets/we3.webp"
+import sir6 from "../../../src/assets/we4.webp"
  
 
  
@@ -102,15 +104,15 @@ const Library = () => {
       title: "The Woman in White",
       author: "Wilkie Collins",
       year: 2003,
-       
+      image: sir5,
       href: "/book/11",
     },
     {
       id: 12,
       title: "Carmilla",
-      author: "Markus Zusak",
+      author: "Sheridan Le Fanu",
       year: 2005,
-      image: "https://via.placeholder.com/150",
+      image: sir6,
       href: "/book/12",
     },
     {
