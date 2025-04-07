@@ -5,6 +5,10 @@ import robin from "../../../src/assets/robin.webp"
 import robin2 from "../../../src/assets/book1.webp"
 import robin3 from "../../../src/assets/book2.webp"
 import robin4 from "../../../src/assets/thecount.webp"
+import robin5 from "../../../src/assets/homer.webp"
+import robin6 from "../../../src/assets/ro.webp"
+import sir from "../../../src/assets/sir.webp"
+import sir2 from "../../../src/assets/sir3.webp"
  
 
 const Library = () => {
@@ -45,34 +49,34 @@ const Library = () => {
     },
     {
       id: 5,
-      title: "Pride and Prejudice",
-      author: "Jane Austen",
-      year: 1813,
-      image: "https://via.placeholder.com/150",
+      title: "The Odyssey ",
+      author: "Jof Homer",
+       
+      image: robin5,
       href: "/book/5",
     },
     {
       id: 6,
-      title: "The Great Gatsby",
-      author: "F. Scott Fitzgerald",
-      year: 1925,
-      image: "https://via.placeholder.com/150",
+      title: "Treasure Island ",
+      author: "Robert Louis Stevenson",
+     
+      image: robin6,
       href: "/book/6",
     },
     {
       id: 7,
-      title: "One Hundred Years of Solitude",
-      author: "Gabriel García Márquez",
-      year: 1967,
-      image: "https://via.placeholder.com/150",
+      title: "Sherlock Holmes - The Complete Collection",
+      author: "Conan Doyle",
+      
+      image: sir,
       href: "/book/7",
     },
     {
       id: 8,
-      title: "The Catcher in the Rye",
-      author: "J.D. Salinger",
-      year: 1951,
-      image: "https://via.placeholder.com/150",
+      title: "The Hound of the Baskervilles",
+      author: "Conan Doyle",
+      
+      image: sir2,
       href: "/book/8",
     },
     {
