@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import mathe from "../../../src/assets/math.webp";
 
 const Mentorship = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -12,7 +13,8 @@ const Mentorship = () => {
       subject: "Mathematics",
       position: "Professor, Dhaka University",
       rating: "★★★★★",
-      image: "https://images.pexels.com/photos/4144222/pexels-photo-4144222.jpeg"
+      image:
+        "https://images.pexels.com/photos/4144222/pexels-photo-4144222.jpeg",
     },
     {
       id: 2,
@@ -20,7 +22,8 @@ const Mentorship = () => {
       subject: "English",
       position: "Professor, Dhaka University",
       rating: "★★★★★",
-      image: "https://images.pexels.com/photos/3777946/pexels-photo-3777946.jpeg"
+      image:
+        "https://images.pexels.com/photos/3777946/pexels-photo-3777946.jpeg",
     },
     {
       id: 3,
@@ -28,7 +31,8 @@ const Mentorship = () => {
       subject: "Science",
       position: "Professor, Dhaka University",
       rating: "★★★★★",
-      image: "https://images.pexels.com/photos/8460398/pexels-photo-8460398.jpeg"
+      image:
+        "https://images.pexels.com/photos/8460398/pexels-photo-8460398.jpeg",
     },
     {
       id: 4,
@@ -36,7 +40,8 @@ const Mentorship = () => {
       subject: "IT, Technology",
       position: "Professor, Dhaka University",
       rating: "★★★★★",
-      image: "https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg"
+      image:
+        "https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg",
     },
     {
       id: 5,
@@ -44,15 +49,17 @@ const Mentorship = () => {
       subject: "Accounting",
       position: "Professor, Dhaka University",
       rating: "★★★★★",
-      image: "https://images.pexels.com/photos/1181398/pexels-photo-1181398.jpeg"
-    }
+      image:
+        "https://images.pexels.com/photos/1181398/pexels-photo-1181398.jpeg",
+    },
   ];
 
   // Filter mentors based on search term
-  const filteredMentors = mentors.filter(mentor =>
-    mentor.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    mentor.subject.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    mentor.position.toLowerCase().includes(searchTerm.toLowerCase())
+  const filteredMentors = mentors.filter(
+    (mentor) =>
+      mentor.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      mentor.subject.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      mentor.position.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
@@ -96,7 +103,10 @@ const Mentorship = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {filteredMentors.length > 0 ? (
               filteredMentors.map((mentor) => (
-                <div key={mentor.id} className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                <div
+                  key={mentor.id}
+                  className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+                >
                   <img
                     className="w-full h-56 object-cover"
                     src={mentor.image}
@@ -112,10 +122,33 @@ const Mentorship = () => {
               ))
             ) : (
               <div className="col-span-full text-center py-8">
-                <p className="text-gray-600">No mentors found matching your search.</p>
+                <p className="text-gray-600">
+                  No mentors found matching your search.
+                </p>
               </div>
             )}
           </div>
+        </div>
+      </div>
+      {/* 2nd div */}
+      <div class="max-w-xl mx-auto bg-white rounded-xl shadow-md p-6 space-y-4">
+        <div class="flex items-center space-x-4">
+          <img
+            src="profile.jpg"
+            alt="User"
+            class="w-10 h-10 rounded-full"
+          ></img>
+          <div>
+            <h2 class="text-sm font-semibold">শ্যামলা রহমান</h2>
+            <p class="text-gray-500 text-xs">Problem-Solving Hub</p>
+          </div>
+        </div>
+
+        <p class="text-lg font-semibold text-gray-800">
+          লগারিদমিক পার্থকের একটি সাধারণ সূত্র কী হতে পারে?
+        </p>
+        <div>
+          <img src={mathe} alt="" />
         </div>
       </div>
     </div>
