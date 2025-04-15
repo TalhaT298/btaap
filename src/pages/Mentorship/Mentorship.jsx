@@ -69,8 +69,17 @@ const Mentorship = () => {
         <div className="max-w-7xl mx-auto p-4">
           {/* Header */}
           <div className="text-center py-6">
-            <h1 className="text-3xl font-bold text-[#396b3c]">Mentorship</h1>
-            <p className="text-sm text-gray-700 mt-1">Problem-Solving Hub</p>
+            <h1 className="text-3xl font-bold text-[#396b3c] pb-5">Mentorship</h1>
+            {/* <div class="h-1 w-full bg-gradient-to-r from-purple-500 via-blue-600 to-green-500 rounded-full"></div> */}
+        <div class="flex items-center justify-center mb-4 mt-2">
+          <button class="border border-[#355937] text-[#97ce9b] rounded-full px-6 py-2 bg-white shadow-sm hover:bg-blue-50">
+            Problem-Solving Hub
+          </button>
+
+          <span class="text-[#3d6340] font-semibold text-xl px-20">Mentor</span>
+        </div>
+
+        <div class="h-1 w-full bg-gradient-to-r from-purple-500 via-blue-600 to-green-500 rounded-full"></div>
           </div>
 
           {/* Mentor Filter & Search */}
@@ -131,13 +140,17 @@ const Mentorship = () => {
         </div>
       </div>
       {/* 2nd div */}
-      <div class="bg-gradient-to-r from-green-100 via-blue-100 to-blue-300 p-4">
-        <div class="flex items-center justify-between mb-2">
-          <button class="border border-blue-400 text-blue-700 rounded-full px-4 py-1 bg-white shadow-sm hover:bg-blue-50">
+      <div
+        class="bg-gradient-to-r from-green-100 via-blue-100 to-blue-300 p-4"
+        style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
+      >
+        <div class="h-1 w-full bg-gradient-to-r from-purple-500 via-blue-600 to-green-500 rounded-full"></div>
+        <div class="flex items-center justify-center mb-2 mt-2">
+          <button class="border border-[#355937] text-[#97ce9b] rounded-full px-4 py-1 bg-white shadow-sm hover:bg-blue-50">
             Problem-Solving Hub
           </button>
 
-          <span class="text-blue-700 font-medium">Mentor</span>
+          <span class="text-[#3d6340] font-medium px-10">Mentor</span>
         </div>
 
         <div class="h-1 w-full bg-gradient-to-r from-purple-500 via-blue-600 to-green-500 rounded-full"></div>
