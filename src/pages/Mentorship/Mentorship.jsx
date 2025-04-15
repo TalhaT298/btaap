@@ -69,17 +69,21 @@ const Mentorship = () => {
         <div className="max-w-7xl mx-auto p-4">
           {/* Header */}
           <div className="text-center py-6">
-            <h1 className="text-3xl font-bold text-[#396b3c] pb-5">Mentorship</h1>
+            <h1 className="text-3xl font-bold text-[#396b3c] pb-5">
+              Mentorship
+            </h1>
             {/* <div class="h-1 w-full bg-gradient-to-r from-purple-500 via-blue-600 to-green-500 rounded-full"></div> */}
-        <div class="flex items-center justify-center mb-4 mt-2">
-          <button class="border border-[#355937] text-[#97ce9b] rounded-full px-6 py-2 bg-white shadow-sm hover:bg-blue-50">
-            Problem-Solving Hub
-          </button>
+            <div class="flex items-center justify-center mb-4 mt-2">
+              <button class="border border-[#355937] text-[#97ce9b] rounded-full px-6 py-2 bg-white shadow-sm hover:bg-blue-50">
+                Problem-Solving Hub
+              </button>
 
-          <span class="text-[#3d6340] font-semibold text-xl px-20">Mentor</span>
-        </div>
+              <span class="text-[#3d6340] font-semibold text-xl px-20">
+                Mentor
+              </span>
+            </div>
 
-        <div class="h-1 w-full bg-gradient-to-r from-purple-500 via-blue-600 to-green-500 rounded-full"></div>
+            <div class="h-1 w-full bg-gradient-to-r from-purple-500 via-blue-600 to-green-500 rounded-full"></div>
           </div>
 
           {/* Mentor Filter & Search */}
@@ -140,7 +144,7 @@ const Mentorship = () => {
         </div>
       </div>
       {/* 2nd div */}
-      <div
+      {/* <div
         class="bg-gradient-to-r from-green-100 via-blue-100 to-blue-300 p-4"
         style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 400 }}
       >
@@ -154,8 +158,10 @@ const Mentorship = () => {
         </div>
 
         <div class="h-1 w-full bg-gradient-to-r from-purple-500 via-blue-600 to-green-500 rounded-full"></div>
-      </div>
-
+      </div> */}
+      {/* <div>
+    <p>Upload your question to get an answer</p>
+</div> */}
       <div class="max-w-xl mx-auto bg-white rounded-xl shadow-md p-6 space-y-4">
         <div class="flex items-center space-x-4">
           <img
@@ -174,6 +180,19 @@ const Mentorship = () => {
         </p>
         <div>
           <img src={mathe} alt="" />
+        </div>
+        <div class="flex flex-col items-center justify-center border-2 border-dashed border-gray-300 p-6 rounded-xl w-80 bg-white shadow">
+          <p class="mb-4 text-gray-700 text-center">
+            Upload your question to get an answer
+          </p>
+
+          <input type="file" id="file-upload" class="hidden" />
+          <label
+            for="file-upload"
+            class="cursor-pointer bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+          >
+            Choose File
+          </label>
         </div>
       </div>
     </div>
