@@ -162,13 +162,13 @@ const Mentorship = () => {
       {/* <div>
     <p>Upload your question to get an answer</p>
 </div> */}
-      <div class="max-w-2xl mx-auto bg-white rounded-xl shadow-md p-6 space-y-4">
+      <div class="max-w-2xl mx-auto bg-white rounded-xl shadow-md p-6 space-y-4 pt-8">
         <div class="flex items-center space-x-4">
-          <img
+          {/* <img
             src="profile.jpg"
             alt="User"
             class="w-10 h-10 rounded-full"
-          ></img>
+          ></img> */}
           <div>
             <h2 class="text-sm font-semibold">শ্যামলা রহমান</h2>
             <p class="text-gray-500 text-xs">Problem-Solving Hub</p>
