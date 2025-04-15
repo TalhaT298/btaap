@@ -131,6 +131,18 @@ const Mentorship = () => {
         </div>
       </div>
       {/* 2nd div */}
+      <div class="bg-gradient-to-r from-green-100 via-blue-100 to-blue-300 p-4">
+        <div class="flex items-center justify-between mb-2">
+          <button class="border border-blue-400 text-blue-700 rounded-full px-4 py-1 bg-white shadow-sm hover:bg-blue-50">
+            Problem-Solving Hub
+          </button>
+
+          <span class="text-blue-700 font-medium">Mentor</span>
+        </div>
+
+        <div class="h-1 w-full bg-gradient-to-r from-purple-500 via-blue-600 to-green-500 rounded-full"></div>
+      </div>
+
       <div class="max-w-xl mx-auto bg-white rounded-xl shadow-md p-6 space-y-4">
         <div class="flex items-center space-x-4">
           <img
