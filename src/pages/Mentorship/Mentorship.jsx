@@ -162,7 +162,7 @@ const Mentorship = () => {
       {/* <div>
     <p>Upload your question to get an answer</p>
 </div> */}
-      <div class="max-w-xl mx-auto bg-white rounded-xl shadow-md p-6 space-y-4">
+      <div class="max-w-2xl mx-auto bg-white rounded-xl shadow-md p-6 space-y-4">
         <div class="flex items-center space-x-4">
           <img
             src="profile.jpg"
@@ -181,7 +181,7 @@ const Mentorship = () => {
         <div>
           <img src={mathe} alt="" />
         </div>
-        <div class="flex flex-col items-center justify-center border-2 border-dashed border-gray-300 p-6 rounded-xl w-80 bg-white shadow">
+        <div class="flex flex-col items-center justify-center border-2 border-dashed border-gray-300 p-6 ml-16 rounded-xl w-10/12 bg-white shadow">
           <p class="mb-4 text-gray-700 text-center">
             Upload your question to get an answer
           </p>
@@ -189,7 +189,7 @@ const Mentorship = () => {
           <input type="file" id="file-upload" class="hidden" />
           <label
             for="file-upload"
-            class="cursor-pointer bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+            class="cursor-pointer bg-[#97ce9b] text-white px-4 py-2 rounded hover:bg[#97ce8b] transition"
           >
             Choose File
           </label>
