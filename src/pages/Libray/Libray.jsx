@@ -21,7 +21,6 @@ import thomas from "../../../src/assets/thomsa.webp"
 import jan from "../../../src/assets/jan.webp"
 import prd from "../../../src/assets/prd.webp"
 import apa from "../../../src/assets/april.webp"
- 
 
 
 const Library = () => {
@@ -35,7 +34,7 @@ const Library = () => {
       author: "Huawei Technologies Co., Ltd.",
       year: 2023,
       image: robin2,
-      href: "https://github.com/TalhaT298/importantBook/blob/main/Artificial%20Intelligence%20Technology.pdf",
+      href: "https://drive.google.com/file/d/1dVQesvXGZfEVfJGxkhoeiWzcCs7lAopr/preview?embedded=true",
     },
     {
       id: 2,
