@@ -83,7 +83,7 @@ const Mentorship = () => {
           </div>
 
           {/* Mentor Filter & Search */}
-          <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-6">
+          <div className="flex flex-col md:flex-row justify-end items-end gap-4 mb-6">
             <div className="relative">
               <input
                 type="text"
