@@ -19,6 +19,7 @@ import Transport from "../pages/Transport/Transport";
 import Libray from "../pages/Libray/Libray";
 import ZegoLive from "../pages/ZegoLive/ZegoLive";
 import Classic from "../pages/Classic/Classic";
+import Mentorship from "../pages/Mentorship/Mentorship";
  
 
   
@@ -86,6 +87,10 @@ import Classic from "../pages/Classic/Classic";
         {
             path:'/classic',
             element: <Classic></Classic>
+        },
+        {
+            path:'/mentor',
+            element: <Mentorship></Mentorship>
         },
          
 
