@@ -16,10 +16,10 @@ const Mentorship = () => {
 
           {/* Mentor Filter & Search */}
           <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-6">
-            <select className="px-4 py-2 rounded-full border border-gray-300 shadow-sm focus:outline-none">
+            {/* <select className="px-4 py-2 rounded-full border border-gray-300 shadow-sm focus:outline-none">
               <option>Mentor</option>
               <option>Teacher</option>
-            </select>
+            </select> */}
 
             <div className="relative">
               <input
@@ -63,22 +63,19 @@ const Mentorship = () => {
             </div>
 
             {/* Card 2 (with hover buttons) */}
-            <div className="bg-white rounded-xl shadow-md overflow-hidden relative group">
+            <div className="bg-white rounded-xl shadow-md overflow-hidden">
               <img
                 className="w-full h-56 object-cover"
-                src="https://images.pexels.com/photos/7988489/pexels-photo-7988489.jpeg"
-                alt="Michael"
+                src="https://images.pexels.com/photos/4144222/pexels-photo-4144222.jpeg"
+                alt="Mary"
               />
-              <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                <button className="bg-white text-sm px-4 py-1 rounded-full mb-2">
-                  View Profile
-                </button>
-                <button className="bg-white text-sm px-4 py-1 rounded-full mb-2">
-                  Add to List
-                </button>
-                <button className="bg-white text-sm px-4 py-1 rounded-full">
-                  Message
-                </button>
+              <div className="p-4">
+                <h2 className="text-lg font-semibold">Mary</h2>
+                <p className="text-sm text-gray-600">Mathematics</p>
+                <p className="text-sm text-gray-600">
+                  Professor, Dhaka University
+                </p>
+                <div className="mt-2 text-yellow-400">★★★★★</div>
               </div>
             </div>
 
