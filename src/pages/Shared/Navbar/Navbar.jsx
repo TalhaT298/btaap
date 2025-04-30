@@ -271,27 +271,41 @@ const Navbar = () => {
                       </a>
                     </li>
                   </Link>
-                  <Link to="/communication">
+                  <Link to="/service">
+                    <li>
+                      <a href="#service" className="hover:bg-[#97ce9b]">
+                      Mentorship
+                      </a>
+                    </li>
+                  </Link>
+                  <Link to="/service">
+                    <li>
+                      <a href="#service" className="hover:bg-[#97ce9b]">
+                      Community
+                      </a>
+                    </li>
+                  </Link>
+                  {/* <Link to="/communication">
                     <li>
                       <a href="communication" className="hover:bg-[#97ce9b]">
                         Communication
                       </a>
                     </li>
-                  </Link>
-                  <Link to="/business">
+                  </Link> */}
+                  {/* <Link to="/business">
                     <li>
                       <a href="#business" className="hover:bg-[#97ce9b]">
                         Business
                       </a>
                     </li>
-                  </Link>
-                  <Link to="/entertainment">
+                  </Link> */}
+                  {/* <Link to="/entertainment">
                     <li>
                       <a href="#entertainment" className="hover:bg-[#97ce9b]">
                         Entertainment
                       </a>
                     </li>
-                  </Link>
+                  </Link> */}
                 </ul>
               </div>
             </div>
