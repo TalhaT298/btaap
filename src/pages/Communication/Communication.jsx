@@ -101,7 +101,7 @@ const Communication = () => {
                   style={{ fontSize: "24px", height: "24px", width: "24px" }}
                 />
                 <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
-                  Communication
+                elibrary
                 </span>
               </div>
               <span className="text-2xl px-2">⫶</span>
@@ -110,8 +110,7 @@ const Communication = () => {
               className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
             >
-              Btaap, where people <br />
-              and the world come to ge...
+              E-Library Discover the Power of Reading
             </h2>
             <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
               <div className="navbar-end">
@@ -139,7 +138,7 @@ const Communication = () => {
                   style={{ fontSize: "24px", height: "24px", width: "24px" }}
                 />
                 <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
-                  Communication
+                mentorship
                 </span>
               </div>
               <span className="text-2xl px-2">⫶</span>
@@ -148,10 +147,10 @@ const Communication = () => {
               className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
             >
-              We all have our own Story
+              Mentorship-In learning,you will teach,and in teaching you will learn
             </h2>
             <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
-              <span>#brunchstory</span>
+              <span>#mentorship</span>
               <span>#contents</span>
               <span>#btaapstory...</span>
             </div>
@@ -173,7 +172,7 @@ const Communication = () => {
                   style={{ fontSize: "24px", height: "24px", width: "24px" }}
                 />
                 <span className="text-sm font-extralight bg-white text-black px-5 py-2 rounded-lg">
-                  Communication
+                community
                 </span>
               </div>
               <span className="text-2xl px-2">⫶</span>
@@ -182,12 +181,10 @@ const Communication = () => {
               className="text-3xl sm:text-2xl font-semibold mt-4 flex-grow"
               style={{ fontFamily: "Ubuntu, sans-serif", fontWeight: 600 }}
             >
-              Chat with your voice in <br />
-              Open Chat, <br />
-              Voice Room
+              Community-Learn and grow as knowledge flows throughout Bangladesh
             </h2>
             <div className="mt-4 flex flex-wrap gap-2 text-xl text-gray-600">
-              <span>#openchat</span>
+              <span>#community</span>
               <span>#voiceroom</span>
             </div>
           </div>
@@ -200,8 +197,8 @@ const Communication = () => {
       </div>
       {/* card end */}
       {/* ====================================================card start 2=========================================*/}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 justify-center p-4 max-w-7xl mx-auto">
-        {/* Card 1 */}
+      {/* <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 justify-center p-4 max-w-7xl mx-auto">
+        
         <div className="bg-gray-100 rounded-2xl shadow-md overflow-hidden flex flex-col h-full">
           <div className="p-4 flex-grow flex flex-col">
             <div className="flex items-center justify-between w-full">
@@ -236,7 +233,7 @@ const Communication = () => {
           />
         </div>
 
-        {/* Card 2 */}
+        
         <div className="bg-gray-100 rounded-2xl shadow-md overflow-hidden flex flex-col h-full">
           <div className="p-4 flex-grow flex flex-col">
             <div className="flex items-center justify-between w-full">
@@ -271,7 +268,7 @@ const Communication = () => {
           />
         </div>
 
-        {/* Card 3 */}
+         
         <div className="bg-gray-100 rounded-2xl shadow-md overflow-hidden flex flex-col h-full">
           <div className="p-4 flex-grow flex flex-col">
             <div className="flex items-center justify-between w-full">
@@ -306,7 +303,7 @@ const Communication = () => {
             className="w-full h-56 object-cover"
           />
         </div>
-      </div>
+      </div> */}
       {/* card end */}
       <div className="flex justify-end items-end py-10">
         <div onClick={scrollToTop} className="list-none ">

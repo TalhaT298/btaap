@@ -271,7 +271,7 @@ const Navbar = () => {
                       </a>
                     </li>
                   </Link>
-                  <Link to="/service">
+                  <Link to="/mentor">
                     <li>
                       <a href="#service" className="hover:bg-[#97ce9b]">
                       Mentorship
