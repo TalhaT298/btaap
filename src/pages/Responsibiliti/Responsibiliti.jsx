@@ -75,7 +75,7 @@ const Responsibiliti = () => {
       <div className="flex justify-center items-center py-6">
         <img src={eco} alt="" />
       </div>
-      {/* 2nd section finishcc */}
+      {/* 2nd section finishc */}
       {/* 3rd section start */}
       <div>
         <div className="flex justify-center items-center">
