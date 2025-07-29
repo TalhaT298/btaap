@@ -13,10 +13,10 @@ const normalizePort = (value) => {
 
   return false;
 };
-//////
+
 const port = normalizePort(process.env.PORT || "3001");
 app.set("port", port);
-//////
+
 const server = http.createServer(app);
 
 const onError = (error) => {
@@ -39,7 +39,7 @@ const onError = (error) => {
 }
 
 
-// This function starts debuger
+
 const onListening = () => {
     const address = server.address();
     const bind = typeof address === 'string' ? 
